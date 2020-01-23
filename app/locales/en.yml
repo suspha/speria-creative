@@ -1,0 +1,158 @@
+# Title and Meta description
+# INDEX
+index_meta: We develop websites focused on increasing your SEO ranking.
+index_title: Speria Creative | User Friendly and Responsive Web Design and Web Development, SEO and Marketing, Hosting in Oslo, affordable and low price.
+
+# OM OSS
+om-oss_meta: "We specialize in small, medium and startups. All websites we create are user friendly, responsive and search engine optimized"
+om-oss_title: About Us | Speria Creative - Web Design and Web Development, SEO and Marketing. Hosting. Oslo, Norway
+
+# DESIGN & UTVIKLING
+design_meta: "We create mobile responsive and user-friendly websites with high quality and maximum speed and stability."
+design_title: Design &amp; Development | Speria Creative - User-friendly, mobile responsive and high speed
+
+# SEO & MARKEDSFØRING
+seo_meta: We are experts in search engine optimization (SEO), link building to your site, social media, innovation methods and we can help you write good texts."
+seo_title: SEO &amp; Marketing | Speria Creative
+
+# HOSTING & DRIFT
+host_meta: "We are experts in SSL and the domain, and we offer hosting in Norway and follow-up at very low prices."
+host_title: Hosting &amp; Support| Speria Creative
+
+# PROSJEKTER
+prosjekt_meta: "Have a look at our latest projects"
+prosjekt_title: Projects | Speria Creative
+
+# KONTAKT
+kontakt_meta: "Email us: post@speria.no"
+kontakt_title: Contact | Speria Creative
+
+# Bekreftelse
+bekreftelse_tittel: Thank you!
+bekreftelse_text1: "We will contact you within 24 hours."
+
+# Mail
+email_phone: Telephone number
+
+# Error Message app.rb
+correct_errors: Please correct the errors below
+error_name: "At least 3 letters"
+error_phone: "At least 8 digits"
+error_subject: "Choose a subject"
+error_email: "Invalid email"
+
+#boot.rb
+#Subjects
+subjects_price: "Price Inquiry"
+subjects_questions: "Questions about our services"
+subjects_marketing: "Marketing and Content writing"
+subjects_design: "Design and Development"
+subjects_hosting: "Hosting and Support"
+subjects_other: "Other"
+
+#layout.erb
+#NAV
+nav1: "Home"
+nav2: "Our Services"
+nav3: "About Us"
+nav4: "Projects"
+nav5: "Contact"
+
+nav_tjenester1: "Design &amp; Development"
+nav_tjenester2: "SEO &amp; Marketing"
+nav_tjenester3: "Hosting &amp; Support"
+
+# Root
+# INDEX
+index_undertittel_bilde: "We think out of the box and build Web Sites with personality"
+
+index_om_oss_tittel: "About Us"
+index_om_oss1: "Speria Creative was established in 2017. We are today a small dedicated team of two permanent employees, and a network of creative freelancers that we connect to our projects when needed."
+index_om_oss2: "We are genuinely committed to deliver good solutions to our customers, and we specialize in small, medium and start-ups businesses. All the websites we build are user friendly, responsive and search engine optimized (SEO)."
+
+index_les_mer: "Read more"
+
+index_tjenester_tittel: "Our Services"
+index_tjenester: "Speria Creative delivers customized web design at affordable prices. <br> Check out what we have to offer and why you should choose us."
+
+index_design_tittel: "Design &amp; Development"
+index_design: "We are creative web designers who create unique designs from scratch."
+
+index_seo_tittel: "Marketing &amp; SEO"
+index_seo: "We are marketing experts and help you become more visible online."
+
+index_hosting_tittel: "Hosting &amp; Support"
+index_hosting: "We have follow-up guarantee and help you with hosting."
+
+index_prosjekter: "Recent Projects"
+
+index_kontakt_tittel: "Contact Us"
+index_kontakt1: "Fill in the contact form or send an email, and we will respond as soon as possible."
+index_kontakt2: "We are looking forward to working with you."
+index_nor: "Norway"
+index_kontakt_form1: "Name / Company"
+index_kontakt_form2: "Telephone"
+index_kontakt_form3: "Email"
+index_kontakt_form4: "Subject"
+index_kontakt_form5: "Message"
+
+# OM OSS
+om_oss_undertittel_bilde: "Our Team and our Vision"
+om_oss_tittel: "About Us"
+om_oss_tekst1: "Speria Creative was established in 2017. We are today a small dedicated team of two permanent employees, and a network of creative freelancers that we connect to our projects when needed."
+om_oss_tekst2: "We are genuinely committed to deliver good solutions to our customers, and we specialize in small, medium and startup businesses. All the websites we build are user-friendly, responsive and search engine optimized (SEO)."
+om_oss_tekst3: "There are many companies that do the same as us, but we want you to work with us based on who we are. Through hard work we can offer so much more than just a nice website to look at."
+om_oss_tittel1: "Why should you choose us?"
+om_oss_tekst4: "We focus and set our high standard on marketing. Driving traffic to your site is the most important of all. It does not help with a nice page if no one finds it. If you choose us, it's an investment where our goal is to increase your income."
+om_oss_tekst5: "We are a small company, and therefore we manage to work very closely with our customers. We don't say yes to every projects because we want each of our customer to be 100% prioritized."
+om_oss_tekst6: "We don't set up multiple meetings to preach about things, because we don't want to waste your time. You'll meet the people who do the job for you and who actually know your needs."
+om_oss_tekst7: "Our prices are more reasonable compare to many of our competitors. We offer both hourly rate and package price which are very reasonable. Newly established companies will also receive a 10% discount."
+om_oss_tekst8: "We have quick response time and short work processes. Therefore, the results are faster. As a small supplier, we depend that you as a customer succeed, otherwise we do not do it well ourselves."
+om_oss_tekst9: "Our vision is simple: We are passionate about creating good results. On the way there we will show that you can get good marketing while delivering a good web design without having to pay a lot of money. "
+om_oss_tekst10: "Feel free to contact us if you want to learn more about us!"
+
+# DESIGN OG UTVIKLING
+design_tittel_bilde: "Why is good design important?"
+design_undertittel_bilde: "We make professional websites based on your needs"
+design_tittel: "Design &amp; Development"
+design_tekst1: "When we develop a design, we constantly focus on user-friendly and promotional content for your website."
+design_tekst2: "Unlike many other web design companies, we create creative and unique design from scratch, and we will never deliver the same design to our customers. We are very engaged to deliver a high quality websites. One big advantage is that we are experienced developers and follow the trend in the market,  we know what it takes to create good web design."
+design_tekst3: "Designers who have no knowledge of how to make a user- friendly interface can create a website that looks good, but the design is not optimized for web and the website becomes difficult to use. We make neat codes so your website works in the most widely used browsers and is also optimized for maximum speed and stability."
+design_tittel1: "Responsive Design"
+design_tekst4: "All our web pages are customized for all screen sizes. This means that the content and design of your website will be automatically customized by your device, regardless of the screen size."
+design_tittel2: "Web Development"
+design_tekst5: "We make your website with standard HTML, CSS and Javascript. We stitch it all together with Ruby programming language, which is a modern, quick and flexible language that makes it easy to make your site dynamic."
+design_tittel3: "Testing"
+design_tekst6: "We will not deliver the product until it has been tested. We will run thorough test on your website and test it in the most widely used browsers. We can guarantee that you as a customer will receive a flawless product that is of the highest quality. If you find an error, we will fix it immediately for free."
+design_tekst7: "Do you want to learn about what we have to offer in design and development?"
+design_tekst8: "Contact us"
+
+# SEO OG MARKEDSFØRING
+seo_tekst_bilde: "We help you become more visible online!"
+seo_undertittel_bilde: "We have a strong focus on search engine optimization"
+seo_tittel: "SEO &amp; Marketing"
+seo_tekst1: "We are experts on Online marketing! We can help you with link building to your site, content marketing, social media, innovation methods and much more."
+seo_tittel1: "Search Engine Optimization"
+seo_tekst2: "Search engine optimization today is without doubt the most effective form of online marketing, since it's all about click and conversion. Based on our experience and knowledge, we have found the optimal SEO solution that is completely free!"
+seo_tekst3: "We will analyze your website, and with the help of our optimized code and technical solution, we will also go through the use of text and content to reveal important and relevant search terms that fit your profile."
+seo_tekst4: "Good search engine optimization assumes that you can write well. By writing good texts with proper structure of criteria, you will eventually drive relevant traffic to your website. Google will then place your site higher on the results list for the topics your web site addresses."
+seo_tekst5: "We provide thorough SEO reports to our customers, which provide detailed analysis of the website to uncover all the improvement opportunities. We then build strategies for future goals for your business to succeed."
+seo_tittel2: "Content Writer"
+seo_tekst6: "We write texts for all types of blogs and websites. We cover all topics aimed at the general public. Our authors are routine writers, and we have contacts that can be retracted as needed."
+seo_tekst7: "Our goal is to achieve high ranking on current searches, more visitors to your blog or website, or more subscribed to newsletters. More hits are the same as more sales."
+seo_tekst8: "We always seek to concretize the goals of the texts based on relevant keywords and key phrases. The articles are designed so that they are search engine optimized using proven techniques. Length may vary, but usually they are around 500 words."
+seo_tekst9: "We can suggest topics, or we can base it on your wishes. We can also advise on current criteria to achieve as many hits as possible."
+seo_tekst10: "Do you need help with marketing?"
+seo_tekst11: "Send us a request"
+
+# HOSTING OG DRIFT
+hosting_tekst_bilde: "What happens after launching?"
+hosting_undertittel_bilde: "We give you a follow-up guarantee for free"
+hosting_tittel: "Hosting &amp; Support"
+hosting_tekst1: "As a customer of us, you can get free hosting on our high-speed servers in Norway for a year. We distribute your site to our existing servers so you do not have to think about it."
+hosting_tittel1: "Domain"
+hosting_tekst2: "We are experts in networking and security, and can give you advice on how to set up your domain name, email and SSL certificate."
+hosting_tittel2: "Follow-up and support"
+hosting_tekst3: "We don't stop when we have delivered a solution. We also help you after launching. Our follow-up guarantee will help ensure you get paid for your investment and we can offer you very good support agreements. We will also fix bugs for free for a whole year! You will not get a better deal anywhere else!"
+hosting_tekst4: "Do you want to know more about follow-up and hosting?"
+hosting_tekst5: "Contact us for special offers"

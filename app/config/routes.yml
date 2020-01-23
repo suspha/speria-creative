@@ -1,0 +1,18 @@
+pretty: true
+compile: true
+routemap:
+  # Home page
+  /:
+    page: index
+    lang: no
+  /en/:
+    page: index
+    lang: en
+
+  # About page
+  /about.html:
+    page: about
+    lang: en
+  /no/om-oss.html:
+    page: about
+    lang: no
