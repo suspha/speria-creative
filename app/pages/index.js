@@ -2,9 +2,6 @@ module.exports = async function($) {
   $.page.description = $.t('index_meta')
   $.page.title = $.t('index_title')
 
-  console.log({ lang: $.lang })
-
-
   return /* html */`
     <div class="head-image">
       <h1>Speria Creative</h1>
