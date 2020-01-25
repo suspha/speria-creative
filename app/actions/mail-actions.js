@@ -6,7 +6,7 @@ actions.sendEmail = {
     const { email, subject, content } = $.params.data
 
     // Send the email and return the result
-    return await $.app.mailer('support-mail', { subject, from: email }, { content })
+    return await $.app.mailer('contact-mail', { subject, from: email }, { content })
   }
 }
 

@@ -41,7 +41,6 @@ error_phone: "Minst 8 siffer"
 error_subject: "Velg et emne"
 error_email: "Ugyldig epost"
 
-#boot.rb
 #Subjects
 subjects_price: "Prisforespørsel"
 subjects_questions: "Spørsmål om våre tjenester"
