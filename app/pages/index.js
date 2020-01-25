@@ -12,16 +12,15 @@ module.exports = async function($) {
       <div class="head-image-speria">
         <img src="/images/speria_creative_frontpage.svg" alt="image">
       </div>
-      <hr style="width:6%; margin-left: 42%;">
+      <hr style="width:6%;margin-left:42%">
       <blockquote>&rdquo; ${ $.t('index_undertittel_bilde') } &rdquo;</blockquote>
-      <hr style="width:5%; margin-left: 28%;"><hr style="width:3%; margin-left: 62%;">
+      <hr style="width:5%;margin-left:28%">
+      <hr style="width:3%;margin-left:62%">
     </div>
-
     ${ await about($) }
     ${ await services($) }
     ${ await projects($) }
     ${ await contact($) }
-
   `
 }
 

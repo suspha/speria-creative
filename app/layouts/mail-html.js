@@ -4,7 +4,7 @@ module.exports = async function(mail, data) {
     <html>
       <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
-        <title>${ mail.options.subject || 'Waveorb support' }</title>
+        <title>${ mail.options.subject || 'Speria kontakt' }</title>
         <style>
           body {
             background-color: gold;

@@ -3,8 +3,33 @@ const subjects = ['price', 'questions', 'marketing', 'design', 'hosting', 'other
 module.exports = async function($) {
 
   // Methods
-  function sendEmail(form) {
+  function clearField(el) {
+    console.log(el)
+    var field = q('span.form-error', el.parentNode)
+    console.log(field)
+    text(field, '')
+  }
+
+  async function sendEmail(form) {
     console.log(form)
+    var data = serialize(form)
+    console.log(data)
+    const result = await api.fetch({ path: 'sendEmail', data })
+    console.log(result)
+    if (result.error) {
+      console.log('ERROR')
+      css('.message.error', 'opacity: 1')
+      window.location = '#kontakt'
+
+      Object.keys(result.error.data).forEach(function(key) {
+        var values = result.error.data[key]
+        console.log(values)
+        text(`.${key}-error`, values.join(', '))
+      })
+    } else {
+      console.log('OK')
+      window.location = $.link('bekreftelse')
+    }
   }
 
   // Components
@@ -28,7 +53,7 @@ module.exports = async function($) {
             <p><span>&#8858;&nbsp;</span>&nbsp; Oslo, ${ $.t('index_nor') }</p>
           </div>
           <div class="col col-8">
-            <div class="message error" data-component="message">
+            <div class="message error">
               ${ $.t('correct_errors') }
               <span class="close small"></span>
             </div>
@@ -37,13 +62,15 @@ module.exports = async function($) {
                 <div class="col col-6">
                   <div class="form-item">
                     <label>${ $.t('index_kontakt_form1') }<span class="req">*</span></label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" onfocus="clearField(this)">
+                    <span class="form-error name-error"></span>
                   </div>
                 </div>
                 <div class="col col-6">
                   <div class="form-item">
                     <label>${ $.t('index_kontakt_form2') }</label>
-                    <input type="text" name="phone">
+                    <input type="text" name="phone" onfocus="clearField(this)">
+                    <span class="form-error phone-error"></span>
                   </div>
                 </div>
               </div>
@@ -52,6 +79,7 @@ module.exports = async function($) {
                   <div class="form-item">
                     <label>${ $.t('index_kontakt_form3') }<span class="req">*</span></label>
                     <input type="text" name="email">
+                    <span class="form-error email-error"></span>
                   </div>
                 </div>
                 <div class="col col-6">
@@ -61,12 +89,14 @@ module.exports = async function($) {
                       <option value="">---</option>
                       ${ renderSubjectOptions() }
                     </select>
+                    <span class="form-error subject-error"></span>
                   </div>
                 </div>
               </div>
               <div class="form-item">
                 <label>${ $.t('index_kontakt_form5') }</label>
                 <textarea rows="6" name="message"></textarea>
+                <span class="form-error message-error"></span>
               </div>
               <div class="form-item">
                 <button class="w100 button-style">Send</button>
@@ -76,6 +106,6 @@ module.exports = async function($) {
         </div>
       </div>
     </div>
-    <script>${ sendEmail }</script>
+    <script>${ sendEmail };${ clearField }</script>
   `
 }
