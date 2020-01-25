@@ -10,4 +10,4 @@ actions.sendEmail = {
   }
 }
 
-module.exports = {}
+module.exports = actions

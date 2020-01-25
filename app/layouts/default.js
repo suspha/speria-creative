@@ -1,4 +1,8 @@
 module.exports = async function($) {
+  const host = process.env.NODE_ENV === 'development'
+    ? 'http://localhost:5000'
+    : 'https://speria.no'
+
   function init() {
     document.querySelectorAll('nav a').forEach(function(a) {
       if (a.pathname == location.pathname) {
@@ -20,6 +24,7 @@ module.exports = async function($) {
         <link href="/images/speria_favicon.png" rel="shortcut icon">
         <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:200,300,400" rel="stylesheet">
         ${ $.script('/bundle.js') }
+        <script>window.api = waveorb('${ host }')</script>
       </head>
       <body>
         <div class="top">
