@@ -26,7 +26,7 @@ module.exports = async function($) {
       <h3>${ $.t('design_tittel3') }</h3>
       <p><${ $.t('design_tekst6') }</p><br>
       <p>${ $.t('design_tekst7') }</p><br>
-      <a href="${ pad }?subject=design#kontakt" class="button small" role="button">${ $.t('design_tekst8') }</a>
+      <a href="?subject=design#kontakt" class="button small" role="button">${ $.t('design_tekst8') }</a>
     </div>
   </div>
 

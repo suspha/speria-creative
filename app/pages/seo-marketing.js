@@ -22,7 +22,7 @@ module.exports = async function($) {
       <p>${ $.t('seo_tekst8') }</p>
       <p>${ $.t('seo_tekst9') }</p>
       <p>${ $.t('seo_tekst10') }</p><br>
-      <a href="${ pad }?subject=marketing#kontakt" class="button small" role="button">${ $.t('seo_tekst11') }</a>
+      <a href="?subject=marketing#kontakt" class="button small" role="button">${ $.t('seo_tekst11') }</a>
     </div>
   </div>
   `

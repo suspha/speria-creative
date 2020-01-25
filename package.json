@@ -1,11 +1,15 @@
 {
   "name": "speria",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Speria Creative",
   "main": "index.js",
   "scripts": {
+    "serve": "nodemon -e js,json,yml -x waveorb serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Susana Pham",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "wmail": "^0.6.1"
+  }
 }

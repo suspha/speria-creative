@@ -1,8 +1,10 @@
 module.exports = async function($) {
+
   $.page.description = $.t('host_meta')
   $.page.title = $.t('host_title')
+
   return /* html */`
-  <div class="header-hosting">
+    <div class="header-hosting">
       <h1>${ $.t('hosting_tekst_bilde') }</h1>
       <h2>${ $.t('hosting_undertittel_bilde') }</h2>
     </div>

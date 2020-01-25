@@ -8,18 +8,18 @@ module.exports = async function($) {
   }
 
   return /* html */`
-  <!DOCTYPE html>
-    <html lang="en">
+    <!doctype html>
+    <html lang="${ $.lang }">
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="msvalidate.01" content="4ABA947BA0D78F4F16C67C0B46BB917E" />
+        <meta name="msvalidate.01" content="4ABA947BA0D78F4F16C67C0B46BB917E">
         <meta name="description" content="Profesjonell Webdesign og webutvikling, SEO Søkemotoroptimalisering og Markedsføring, billig og rimelig Hosting og Drift">
-        <title>Speria Creative</title>
-        <link href="/css/app.css" type="text/css" rel="stylesheet">
+        <title>${ $.page.title || 'Speria Creative' }</title>
+        ${ $.style('/bundle.css') }
         <link href="/images/speria_favicon.png" rel="shortcut icon">
         <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:200,300,400" rel="stylesheet">
-        <script src="/js/lib/jquery-3.2.1.min.js"></script>
+        ${ $.script('/bundle.js') }
       </head>
       <body>
         <div class="top">
@@ -31,10 +31,10 @@ module.exports = async function($) {
             <a href="#" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
               <li><a href="${ $.link('index') }">${ $.t('nav1') }</a></li>
-              <li><a href="${ $.link('design_utvikling') }">${ $.t('nav_tjenester1') }</a></li>
-              <li><a href="${ $.link('seo_marketing') }">${ $.t('nav_tjenester2') }</a></li>
-              <li><a href="${ $.link('hosting_drift') }">${ $.t('nav_tjenester3') }</a></li>
-              <li><a href="${ $.link('om_oss') }">${ $.t('nav3') }</a></li>
+              <li><a href="${ $.link('design-utvikling') }">${ $.t('nav_tjenester1') }</a></li>
+              <li><a href="${ $.link('seo-marketing') }">${ $.t('nav_tjenester2') }</a></li>
+              <li><a href="${ $.link('hosting-drift') }">${ $.t('nav_tjenester3') }</a></li>
+              <li><a href="${ $.link('om-oss') }">${ $.t('nav3') }</a></li>
               <li><a href="#prosjekter">${ $.t('nav4') }</a></li>
               <li><a href="#kontakt">${ $.t('nav5') }</a></li>
             </ul>
@@ -73,17 +73,17 @@ module.exports = async function($) {
                 </a>
               </li>
               <li class="">
-                <a href="${ $.link('om_oss') }">${ $.t('nav3') } &nbsp; &vert;</a>
+                <a href="${ $.link('om-oss') }">${ $.t('nav3') } &nbsp; &vert;</a>
               </li>
-              <li><a id="prosjekt-link" href="#prosjekter">${ $.t('nav4') } &nbsp; &vert;</a></li>
-              <li><a id="kontakt-link" href="#kontakt">${ $.t('nav5') }</a></li>
+              <li><a id="prosjekt-link" href="${ $.link('index') }#prosjekter">${ $.t('nav4') } &nbsp; &vert;</a></li>
+              <li><a id="kontakt-link" href="${ $.link('index') }#kontakt">${ $.t('nav5') }</a></li>
             </ul>
           </nav>
           <div class="dropdown hide" id="dropdown-fixed">
             <ul>
-              <li><a href="${ $.link('design_utvikling') }">${ $.t('nav_tjenester1') }</a></li>
-              <li><a href="${ $.link('seo_marketing') }">${ $.t('nav_tjenester2') }</a></li>
-              <li><a href="${ $.link('hosting_drift') }">${ $.t('nav_tjenester3') }</a></li>
+              <li><a href="${ $.link('design-utvikling') }">${ $.t('nav_tjenester1') }</a></li>
+              <li><a href="${ $.link('seo-marketing') }">${ $.t('nav_tjenester2') }</a></li>
+              <li><a href="${ $.link('hosting-drift') }">${ $.t('nav_tjenester3') }</a></li>
             </ul>
           </div>
         </div>
@@ -93,9 +93,6 @@ module.exports = async function($) {
         <footer>
           <p>2017 Design and code by Speria Creative</p>
         </footer>
-        <script src="/js/app.js"></script>
-        <script src="/js/haka-min.js"></script>
-
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -10,9 +10,41 @@ routemap:
     lang: en
 
   # About page
-  /about.html:
-    page: about
-    lang: en
-  /no/om-oss.html:
-    page: about
+  /om-oss.html:
+    page: om-oss
     lang: no
+  /en/about-us.html:
+    page: om-oss
+    lang: en
+
+  # Confirm page
+  /bekreftelse.html:
+    page: bekreftelse
+    lang: no
+  /en/confirmation.html:
+    page: bekreftelse
+    lang: en
+
+  # Design and development
+  /design-utvikling.html:
+    page: design-utvikling
+    lang: no
+  /en/design-development.html:
+    page: design-utvikling
+    lang: en
+
+  # SEO and marketing page
+  /seo-marketing.html:
+    page: seo-marketing
+    lang: no
+  /en/seo-marketing.html:
+    page: seo-marketing
+    lang: en
+
+  # Hosting and management page
+  /hosting-drift.html:
+    page: hosting-drift
+    lang: no
+  /en/hosting-management.html:
+    page: hosting-drift
+    lang: en
