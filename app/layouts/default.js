@@ -29,7 +29,9 @@ module.exports = async function($) {
       <body>
         <div class="top">
           <div class="speria-logo">
-            <a href="${ $.link('index') }"><img class="speria-logo" src="/images/speria_logo_stor1_web.png" srcset="/images/speria_logo_stor1_web@2x.png 2x" alt="logo"></a>
+            <a href="${ $.link('index') }">
+              <img class="speria-logo" src="/images/speria_logo.svg" alt="logo">
+            </a>
           </div>
 
           <nav role="navigation" id="navi-mob">
@@ -96,7 +98,7 @@ module.exports = async function($) {
         ${ $.page.content }
 
         <footer>
-          <p>2017 Design and code by Speria Creative</p>
+          <p>2020 Design and code by Speria Creative</p>
         </footer>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

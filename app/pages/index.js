@@ -4,7 +4,9 @@ module.exports = async function($) {
 
   return /* html */`
     <div class="head-image">
-      <h1>Speria Creative</h1>
+      <div class="head-image-speria">
+        <img src="/images/speria_creative_frontpage.svg" alt="image">
+      </div>
       <hr style="width:6%; margin-left: 42%;">
       <blockquote><p>"${ $.t('index_undertittel_bilde') }"</p></blockquote>
       <hr style="width:5%; margin-left: 28%;"><hr style="width:3%; margin-left: 62%;">

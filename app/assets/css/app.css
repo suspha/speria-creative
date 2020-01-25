@@ -8,7 +8,8 @@
   text-transform: none;
   text-decoration: none;
   background-color: transparent;
-  color: #f4586e
+  font-weight: bold;
+  color: #AF3F4F;
 }
 
 .tabs li em, .tabs li.active {
@@ -17,29 +18,30 @@
 
 .tabs li em, .tabs li.active a{
   border: none;
-  color: #f4586e;
+  color: #AF3F4F;
   cursor: pointer;
 }
 
 .tabs a{
-  color: rgba(0, 0, 0, .8);
+  color: #425564;
+  font-size: 18px;
 }
 
 .tabs{
   padding-top: 5px;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.2);
+  color: #425564;
   letter-spacing: 1px;
 }
 
 .tabs ul{
   border-bottom: none;
   float: right;
-  margin-top: 2em;
+  margin-top: 1rem;
 }
 
 button:hover,.button:hover {
-  background-color: #f4586e;
+  background-color: #AF3F4F;
 }
 
 .button{
@@ -49,6 +51,7 @@ button:hover,.button:hover {
 .message.error{
  font-family: 'Raleway', sans-serif;
  font-size: 1em;
+ opacity: 0;
 }
 
 /*Main styles*/
@@ -81,6 +84,11 @@ body, h1, h2, h3, h4, h5, h6 {
   padding-top: 3em;
 }
 
+a:focus {
+  border: 1px solid #AF3F4F;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 1180px) {
   .inner-width {
     margin-left: 2em;
@@ -104,54 +112,57 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 3px solid #f4586e;
+  border-top: 3px solid #AF3F4F;
   margin-top: 1.618em;
 }
 
 .top {
   position: relative;
-  height: 130px;
+  height: 106px;
 }
 
 .speria-logo {
-  width: 140px;
-  margin: 0.618em;
+  width: 190px;
+  margin: 0 0.618rem;
   position: absolute;
   left: 0;
-  top: 0;
+  top: 6px;
+  width: 301;
+  height: 135;
 }
 
 @media only screen and (max-width: 650px) {
   .speria-logo {
-    max-width: 110px;
-    margin-top: 20px;
+    max-width: 200px;
   }
 }
 
 .lang-switch {
   text-align: right;
-  margin:0 2em 0 2em;
-  padding-top: 1em;
+  margin:0 2em 0 2rem;
+  padding-top: 1rem;
   color: #fdfdfd;
 }
 
 .lang-switch a{
-  color: #4a5f70;
+  color: #425564;
   font-size: 14px;
 }
 
 .lang-switch a.active-lang {
   text-decoration: underline;
-  color: #f4586e;
+  color: #AF3F4F;
 }
 
 .lang-switch span{
-  color: #4a5f70;
+  color: #425564;
 }
 
 .about-us-intro a {
-  color: #f4586e;
-  text-decoration: none;
+  color: #AF3F4F;
+  text-decoration: underline;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 .head-image {
@@ -162,6 +173,10 @@ hr {
   background-position: center center;
   background-image:
     -webkit-image-set(url("/images/susph_image_web.jpg") 1x, url("/images/susph_image_web@2x.jpg") 2x);
+}
+
+.head-image-speria {
+  padding-top: 10rem;
 }
 
 @media only screen and (max-width: 550px) {
@@ -196,7 +211,8 @@ hr {
 .head-image blockquote {
   padding-top: 1em;
   color: #fdfdfd;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 550px) {
@@ -296,7 +312,7 @@ hr {
 .intro-design-utvikling h2, .intro-seo h2, .intro-hosting h2, .intro-om-oss h2{
   font-size: 42px;
   text-align: center;
-  color: #4a5f70;
+  color: #425564;
   padding-bottom: 1.618em;
   font-weight: 200;
 }
@@ -313,7 +329,7 @@ hr {
   font-size: 22px;
   margin-top: 2em;
   font-weight: 300;
-  color: #4a5f70;
+  color: #425564;
 }
 
 @media only screen and (max-width: 560px) {
@@ -324,9 +340,9 @@ hr {
 
 .button.small{
   text-decoration: none;
-  color :#f4586e;
+  color :#AF3F4F;
   background-color: #fff;
-  border: 2px solid #f4586e;
+  border: 2px solid #AF3F4F;
   margin-bottom: 2em;
   font-size: 18px;
   line-height: 1.5em;
@@ -341,7 +357,7 @@ hr {
 }
 
 .intro-om-oss span{
-  color: #f4586e;
+  color: #AF3F4F;
   font-size: 40px;
 }
 
@@ -350,9 +366,9 @@ hr {
 }
 
 h2{
-  color: #4a5f70;
+  color: #425564;
   font-size: 36px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 650px) {
@@ -362,9 +378,9 @@ h2{
 }
 
 h3{
-  color: #4a5f70;
+  color: #425564;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .border-row{
@@ -413,6 +429,9 @@ h3{
 
 .ta-kontakt p a{
   text-decoration: underline;
+  font-weight: 600;
+  color: #AF3F4F;
+  letter-spacing: .8px;
 }
 
 .ta-kontakt p:nth-last-child(-n+3) {
@@ -420,16 +439,18 @@ h3{
 }
 
 .paragraph a{
-  color: #f4586e;
-  text-decoration: none;
+  color: #AF3F4F;
+  text-decoration: underline;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 .paragraph a:hover{
-  font-weight: bold;
+  font-size: 18px;
 }
 
 .about-us a:hover{
-  font-weight: bold;
+  font-size: 18px;
  }
 
 .title-space{
@@ -437,8 +458,10 @@ h3{
 }
 
 .w100,.button-style{
- background-color: #f4586e;
- border: 1px solid #aaa;
+  font-family: 'Raleway', sans-serif;
+  background-color: #425564;
+  border: 1px solid #aaa;
+  font-weight: 600;
 }
 
 .dark-background{
@@ -593,12 +616,16 @@ figure {
   z-index: 100
 }
 
+.go-top img:hover {
+  border: 1px solid pink;
+  border-bottom: 0;
+}
 /* Footer*/
 footer{
   height: 5em;
   background-color:#eaf2f8;
   height: 90px;
-  color: #4a5f70;
+  color: #425564;
   font-size: 13px;
   padding-top: 40px;
   padding-left: 10px;
@@ -614,7 +641,7 @@ a {
 }
 
 a:hover {
-  color: #f4586e;
+  color: #AF3F4F;
 }
 
 #navi-mob {
@@ -629,7 +656,7 @@ a:hover {
 }
 
 #navi-mob i.active {
-  color: #4a5f70;
+  color: #425564;
 }
 
 #menu{
@@ -661,7 +688,7 @@ a:hover {
 
 .error-message{
   font-size: 11pt;
-  color: #f4586e;
+  color: #AF3F4F;
 }
 
 .bekreftelse {
@@ -671,6 +698,6 @@ a:hover {
 }
 
 .bekreftelse h1{
-  color: #4a5f70;
+  color: #425564;
   font-size: 45px;
 }
