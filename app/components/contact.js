@@ -11,23 +11,24 @@ module.exports = async function($) {
   }
 
   async function sendEmail(form) {
-    console.log(form)
+    var button =  q('.form-button')
+    button.disabled = true
+    var buttonHTML = html(button)
+    html(button, '...')
     var data = serialize(form)
-    console.log(data)
     const result = await api.fetch({ path: 'sendEmail', data })
-    console.log(result)
+
     if (result.error) {
-      console.log('ERROR')
       css('.message.error', 'opacity: 1')
       window.location = '#kontakt'
 
       Object.keys(result.error.data).forEach(function(key) {
-        var values = result.error.data[key]
-        console.log(values)
-        text(`.${key}-error`, values.join(', '))
+        text(`.${key}-error`, result.error.data[key].join(', '))
       })
+      button.disabled = false
+      html(button, buttonHTML)
     } else {
-      console.log('OK')
+      form.reset()
       window.location = $.link('bekreftelse')
     }
   }
@@ -99,7 +100,7 @@ module.exports = async function($) {
                 <span class="form-error message-error"></span>
               </div>
               <div class="form-item">
-                <button class="w100 button-style">Send</button>
+                <button class="form-button w100 button-style">Send</button>
               </div>
             </form>
           </div>
