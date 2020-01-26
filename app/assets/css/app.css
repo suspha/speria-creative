@@ -49,17 +49,17 @@ button:hover,.button:hover {
 }
 
 .message.error{
- font-family: 'Raleway', sans-serif;
- font-size: 1em;
- opacity: 0;
- transition: all 0.3s ease;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  opacity: 0;
+  transition: all 0.3s ease;
 }
 
 /*Main styles*/
 html, body {
-   margin: 0;
-   overflow-x: hidden;
-   padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
 *,
@@ -688,16 +688,36 @@ a:hover {
 
 .error-message{
   font-size: 11pt;
-  color: #AF3F4F;
+  color: #F03C69;
+  font-weight: 600;
 }
 
 .bekreftelse {
   padding-top: 5em;
   min-height: 500px;
-  text-align:center;
+  text-align: center;
 }
 
 .bekreftelse h1{
   color: #425564;
   font-size: 45px;
+}
+
+/* Disabled button spinner  */
+.form-button img {
+  display: none;
+  height: 10px;
+}
+
+.form-button:disabled {
+  background-color: #888;
+  color: #666;
+}
+
+.form-button:disabled img {
+  display: inline;
+}
+
+.form-button:disabled span {
+  display: none;
 }
