@@ -1,11 +1,5 @@
 const mailer = require('wmail')
 
-// This config can also be added to app/config/mail.yml
-const config = {
-  domain: 'speria.no',
-  key: 'key-your-mailgun-key'
-}
-
 // Default options
 const options = {
   subject: 'Henvendelse',
