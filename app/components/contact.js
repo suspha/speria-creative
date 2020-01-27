@@ -27,8 +27,8 @@ module.exports = async function($) {
       })
       button.disabled = false
     } else {
-      // form.reset()
-      // window.location = $.link('bekreftelse')
+      form.reset()
+      window.location = $.link('bekreftelse')
     }
   }
 
