@@ -17,14 +17,11 @@ module.exports = async function($) {
         <p>${ $.t('design_tekst4') }</p>
         <h3>${ $.t('design_tittel2') }</h3>
         <p>${ $.t('design_tekst5') }</p>
-        <h3>Publiseringssystem</h3>
-        <p>
-          Vi har laget en publiseringsløsning som er lett å bruke.
-          Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst.
-          Vi har utviklet et eget publiseringssystem (CMS), hvor du kan enkelt administrere innholdet selv. For å ikke skape mye krøll, har vi lagt vekt på at du som administrator skal være trygg og at det skal være lekende lett. Det er ingen krav om tekniske forkunnskaper.
-        </p>
+        <h3>${ $.t('design_tittel4') }</h3>
+        <p>${ $.t('design_tekst9') }</p>
+
         <h3>${ $.t('design_tittel3') }</h3>
-        <p><${ $.t('design_tekst6') }</p><br>
+        <p>${ $.t('design_tekst6') }</p><br>
         <p>${ $.t('design_tekst7') }</p><br>
         <a href="${ $.link('index') }?subject=design#kontakt" class="button small" role="button">${ $.t('design_tekst8') }</a>
       </div>
