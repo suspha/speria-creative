@@ -12,13 +12,12 @@ module.exports = async function($) {
       <div class="intro-hosting inner-width">
         <h2>${ $.t('hosting_tittel') }</h2><hr style="width:5%; margin-left: 5px;">
         <p>${ $.t('hosting_tekst1') }</p>
-
         <h3>${ $.t('hosting_tittel1') }</h3>
         <p>${ $.t('hosting_tekst2') }</p>
         <h3>${ $.t('hosting_tittel2') }</h3>
         <p>${ $.t('hosting_tekst3') }</p><br>
         <p>${ $.t('hosting_tekst4') }</p><br>
-        <a href="${ $.t('pad') }?subject=hosting#kontakt" class="button small" role="button">${ $.t('hosting_tekst5') }</a>
+        <a href="${ $.link('index') }?subject=hosting#kontakt" class="button small" role="button">${ $.t('hosting_tekst5') }</a>
       </div>
     </div>
   `

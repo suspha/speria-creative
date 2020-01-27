@@ -36,7 +36,8 @@ module.exports = async function($) {
   function renderSubjectOptions() {
     return subjects.map(function(subject) {
       var value = $.t(`subjects_${ subject }`)
-      return `<option value="${ subject }">${ value }</option>`
+      var selected = $.query.subject && subject === $.query.subject ? 'selected' : ''
+      return `<option value="${ subject }" ${ selected }>${ value }</option>`
     }).join('')
   }
 
