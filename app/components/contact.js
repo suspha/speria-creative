@@ -14,8 +14,8 @@ module.exports = async function($) {
     var button =  q('.form-button')
     button.disabled = true
 
-  // Sleep 2 seconds
-  await new Promise(r => setTimeout(r, 1000))
+    // Sleep
+    // await new Promise(r => setTimeout(r, 1000))
 
     const result = await api.fetch({ action: 'sendEmail', data: serialize(form) })
 
