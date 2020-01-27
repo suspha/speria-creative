@@ -1,4 +1,4 @@
-module.exports = async function(mail, data) {
+module.exports = async function(mail, $, data) {
   return /* html */`
     <!doctype html>
     <html>

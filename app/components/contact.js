@@ -17,18 +17,18 @@ module.exports = async function($) {
   // Sleep 2 seconds
   await new Promise(r => setTimeout(r, 1000))
 
-    const result = await api.fetch({ path: 'sendEmail', data: serialize(form) })
+    const result = await api.fetch({ action: 'sendEmail', data: serialize(form) })
 
     if (result.error) {
       css('.message.error', 'opacity: 1')
       window.location = '#kontakt'
-      Object.keys(result.error.data).forEach(function(key) {
-        text(`.${key}-error`, result.error.data[key].join(', '))
+      Object.keys(result.data).forEach(function(key) {
+        text(`.${key}-error`, result.data[key].join(', '))
       })
       button.disabled = false
     } else {
-      form.reset()
-      window.location = $.link('bekreftelse')
+      // form.reset()
+      // window.location = $.link('bekreftelse')
     }
   }
 
