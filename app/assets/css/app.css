@@ -348,8 +348,9 @@ hr {
   font-size: 18px;
   line-height: 1.5em;
   text-align: center;
-  font-weight: 300;
+  font-weight: 600;
 }
+
 
 @media only screen and (max-width: 550px) {
   .button.small{
@@ -363,7 +364,9 @@ hr {
 }
 
 .intro-om-oss a{
-  color: #0091ea;
+  color: #0065a3;
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 h2{
@@ -640,9 +643,6 @@ a {
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: #AF3F4F;
-}
 
 #navi-mob {
   display: none;
