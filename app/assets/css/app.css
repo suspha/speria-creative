@@ -166,6 +166,18 @@ hr {
   line-height: 18px;
 }
 
+.about-us-image {
+  margin-top: 2.2rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .about-us-image {
+    margin-top: 0;
+  }
+
+}
+
+
 .head-image {
   height: 550px;
   text-align: center;
@@ -386,6 +398,11 @@ h3{
   margin:0;
 }
 
+@media only screen and (max-width: 550px) {
+  .border-row{
+    padding-bottom: 0;
+  }
+}
 .space-between{
   text-align: center;
 }

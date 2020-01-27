@@ -6,7 +6,7 @@ return /* html */ `
       <div class="row gutters">
         <div class="col col-6 about-us-intro">
           <h2>${ $.t('index_om_oss_tittel') }</h2>
-          <hr style="width:6%; margin-top: -12px;">
+          <hr style="width:6%; margin-top: -12px; padding-bottom: 1rem;">
           <p>${ $.t('index_om_oss1') }</p>
           <p>${ $.t('index_om_oss2') }</p>
           <a href="${ $.link('om_oss') }">${ $.t('index_les_mer') }</a>

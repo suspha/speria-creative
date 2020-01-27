@@ -47,7 +47,7 @@ module.exports = async function($) {
         <div class="row gutters">
           <div class="col col-4 ta-kontakt" id="kontakt">
             <h2>${ $.t('index_kontakt_tittel') }</h2>
-            <hr style="width:10%; margin-top: -12px;  margin-left: 3em;">
+            <hr style="width:10%; margin-top: -12px;  margin-left: 3em; padding-bottom: 1rem;">
             <p>${ $.t('index_kontakt1') }</p>
             <p>${ $.t('index_kontakt2') }</p><br>
             <p><span>&#9993;&nbsp;</span>&nbsp;<a href="mailto:post@speria.no">post@speria.no</a></p>
