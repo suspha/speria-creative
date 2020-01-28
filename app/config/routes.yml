@@ -1,50 +1,15 @@
 pretty: true
 compile: true
 routemap:
-  # Home page
-  /:
-    page: index
-    lang: no
-  /en/:
-    page: index
-    lang: en
-
-  # About page
-  /om-oss.html:
-    page: om-oss
-    lang: no
-  /en/about-us.html:
-    page: om-oss
-    lang: en
-
-  # Confirm page
-  /bekreftelse.html:
-    page: bekreftelse
-    lang: no
-  /en/confirmation.html:
-    page: bekreftelse
-    lang: en
-
-  # Design and development
-  /design-utvikling.html:
-    page: design-utvikling
-    lang: no
-  /en/design-development.html:
-    page: design-utvikling
-    lang: en
-
-  # SEO and marketing page
-  /seo-marketing.html:
-    page: seo-marketing
-    lang: no
-  /en/seo-marketing.html:
-    page: seo-marketing
-    lang: en
-
-  # Hosting and management page
-  /hosting-drift.html:
-    page: hosting-drift
-    lang: no
-  /en/hosting-management.html:
-    page: hosting-drift
-    lang: en
+  /: no#index
+  /en/: en#index
+  /om-oss.html: no#om-oss
+  /en/about-us.html: en#om-oss
+  /bekreftelse.html: no#bekreftelse
+  /en/confirmation.html: en#bekreftelse
+  /design-utvikling.html: no#design-utvikling
+  /en/design-development.html: en#design-utvikling
+  /seo-marketing.html: no#seo-marketing
+  /en/seo-marketing.html: en#seo-marketing
+  /hosting-drift.html: no#hosting-drift
+  /en/hosting-management.html: en#hosting-drift

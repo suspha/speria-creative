@@ -42,8 +42,8 @@ module.exports = async function($) {
               <li><a href="${ $.link('seo-marketing') }">${ $.t('nav_tjenester2') }</a></li>
               <li><a href="${ $.link('hosting-drift') }">${ $.t('nav_tjenester3') }</a></li>
               <li><a href="${ $.link('om-oss') }">${ $.t('nav3') }</a></li>
-              <li><a href="#prosjekter">${ $.t('nav4') }</a></li>
-              <li><a href="#kontakt">${ $.t('nav5') }</a></li>
+              <li><a href="${ $.link('index') }#prosjekter">${ $.t('nav4') }</a></li>
+              <li><a href="${ $.link('index') }#kontakt">${ $.t('nav5') }</a></li>
             </ul>
           </nav>
           <script>
@@ -64,9 +64,9 @@ module.exports = async function($) {
           </script>
 
           <div class="lang-switch">
-            <a class="langlink" href="${ $.link($.page.name, { lang: 'en' }) }" onclick="window.cookie('lang', 'en')">EN</a>
+            <a class="langlink" href="${ $.link(`en#${ $.page.name }`) }" onclick="window.cookie('lang', 'en')">EN</a>
             <span class="split">/</span>
-            <a class="langlink" href="${ $.link($.page.name, { lang: 'no' }) }" onclick="window.cookie('lang', 'no')">NO</a>
+            <a class="langlink" href="${ $.link(`no#${ $.page.name }`) }" onclick="window.cookie('lang', 'no')">NO</a>
           </div>
           <nav class="tabs" id="navi">
             <ul>
