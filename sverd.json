@@ -1,0 +1,23 @@
+{
+  "domain": "speria.no",
+  "label": "speria",
+  "hostname": "speria",
+  "api": "VULTR_API_KEY",
+  "os": 352,
+  "region": 7,
+  "plan": 201,
+  "ssh": "5ba4f7cab05d7",
+  "desc": "Speria server",
+  "names": "speria.no www.speria.no",
+  "dir": "/var/www/speria",
+  "exec": "server-linux",
+  "pass": "http://localhost",
+  "port": 4000,
+  "cert": "/etc/letsencrypt/live/speria.no/fullchain.pem",
+  "key": "/etc/letsencrypt/live/speria.no/privkey.pem",
+  "email": "post@speria.no",
+  "domains": [
+    "speria.no",
+    "www.speria.no"
+  ]
+}
