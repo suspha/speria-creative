@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "wmail": "^0.6.2"
+  },
+  "devDependencies": {
+    "conficurse": "^0.1.0"
   }
 }

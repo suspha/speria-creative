@@ -11,6 +11,8 @@ selenium-debug.log
 server-macos
 server-linux
 server-windows
+.sverd
+dist
 
 # Editor directories and files
 .idea
