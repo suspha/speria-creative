@@ -12,8 +12,9 @@ module.exports = async function($) {
     var button =  q('.form-button')
     button.disabled = true
 
-    // Sleep: await new Promise(r => setTimeout(r, 1000))
-    const result = await api.fetch({ action: 'sendEmail', data: serialize(form) })
+    // Sleep:
+    await new Promise(r => setTimeout(r, 500))
+    const result = await api.fetch({ action: 'sendEmail', lang: cookie('lang'), data: serialize(form) })
 
     if (result.error) {
       css('.message.error', 'opacity: 1')
