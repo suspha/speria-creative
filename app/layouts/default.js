@@ -1,6 +1,6 @@
 module.exports = async function($) {
   const host = $.req.headers['x-waveorb']
-    ? 'https://speria.no'
+    ? 'https://speria.no/api'
     : 'http://localhost:5000'
 
   function init() {
