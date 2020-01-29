@@ -94,7 +94,7 @@ module.exports = async function($) {
               </div>
               <div class="form-item">
                 <label>${ $.t('index_kontakt_form5') }</label>
-                <textarea rows="6" name="message" placeholder="Skriv beskjed her" onfocus="clearField(this)"></textarea>
+                <textarea rows="6" name="message" placeholder="${ $.t('index_kontakt_form_write') }" onfocus="clearField(this)"></textarea>
                 <span class="form-error message-error error-message"></span>
               </div>
               <div class="form-item">

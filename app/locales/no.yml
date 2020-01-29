@@ -94,6 +94,7 @@ index_kontakt_form2: "Telefon"
 index_kontakt_form3: "Epost"
 index_kontakt_form4: "Emne"
 index_kontakt_form5: "Beskjed"
+index_kontakt_form_write: Skriv beskjed her
 
 # OM OSS
 om_oss_undertittel_bilde: "Vårt team og vår visjon"
@@ -160,8 +161,8 @@ hosting_tekst5: "Ta kontakt for tilbud"
 
 # errors
 validation:
-  error: validation failed
-  required: is required
+  error: Validering feilet
+  required: er påkrevd
   # eq: must be equal to %s
   # ne: must not be equal to %s
   # gt: must be greater than %s
@@ -171,7 +172,7 @@ validation:
   in: Velg et alternativ
   # nin: must not be one of %s
   # length: length must be %s
-  minlength: Minimum lengde må være %s
+  minlength: Minimum lengde er %s
   # maxlength: maximum length is %s
   # $boolean: must be true or false
   # $string: must be a string
