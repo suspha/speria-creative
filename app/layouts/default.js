@@ -1,7 +1,7 @@
 module.exports = async function($) {
-  const host = process.env.NODE_ENV === 'development'
-    ? 'http://localhost:5000'
-    : 'https://speria.no'
+  const host = $.req.headers['x-waveorb']
+    ? 'https://speria.no'
+    : 'http://localhost:5000'
 
   function init() {
     document.querySelectorAll('nav a').forEach(function(a) {
