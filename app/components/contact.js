@@ -4,9 +4,7 @@ module.exports = async function($) {
 
   // Methods
   function clearField(el) {
-    console.log(el)
     var field = q('span.form-error', el.parentNode)
-    console.log(field)
     text(field, '')
   }
 
@@ -22,9 +20,11 @@ module.exports = async function($) {
     if (result.error) {
       css('.message.error', 'opacity: 1')
       window.location = '#kontakt'
-      Object.keys(result.data).forEach(function(key) {
-        text(`.${key}-error`, result.data[key].join(', '))
-      })
+      if (result.data) {
+        Object.keys(result.data).forEach(function(key) {
+          text(`.${key}-error`, result.data[key].join(', '))
+        })
+      }
       button.disabled = false
     } else {
       form.reset()

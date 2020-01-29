@@ -4,7 +4,7 @@
   "description": "Speria Creative",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon -e js,json,yml -x waveorb serve",
+    "serve": "nodemon -e js,json,yml -i ./dist -x waveorb serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Susana Pham",
