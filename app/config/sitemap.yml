@@ -1,0 +1,44 @@
+hostname: https://speria.no
+urls:
+  - url: /
+    lastmodfile: dist/index.html
+    changefreq: always
+    priority: 1.0
+    links:
+      - url: /en/
+        lang: en
+  - url: /om-oss.html
+    lastmodfile: dist/index.html
+    changefreq: weekly
+    priority: 0.5
+    links:
+      - url: /en/about-us.html
+        lang: en
+  - url: /bekreftelse.html
+    lastmodfile: dist/index.html
+    changefreq: weekly
+    priority: 0.5
+    links:
+      - url: /en/confirmation.html
+        lang: en
+  - url: /design-utvikling.html
+    lastmodfile: dist/index.html
+    changefreq: weekly
+    priority: 0.5
+    links:
+      - url: /en/design-development.html
+        lang: en
+  - url: /seo-marketing.html
+    lastmodfile: dist/index.html
+    changefreq: weekly
+    priority: 0.5
+    links:
+      - url: /en/seo-marketing.html
+        lang: en
+  - url: /hosting-drift.html
+    lastmodfile: dist/index.html
+    changefreq: weekly
+    priority: 0.5
+    links:
+      - url: /en/hosting-support.html
+        lang: en
