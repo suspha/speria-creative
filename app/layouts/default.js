@@ -100,6 +100,7 @@ module.exports = async function($) {
         <footer>
           <p>2020 Design and code by Speria Creative</p>
         </footer>
+        <script>cookie('lang', '${ $.lang }')</script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -108,7 +109,6 @@ module.exports = async function($) {
 
           ga('create', 'UA-100485356-1', 'auto');
           ga('send', 'pageview');
-
         </script>
       </body>
     </html>
