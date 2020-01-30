@@ -57,7 +57,7 @@ module.exports = async function($) {
               ${ $.t('correct_errors') }
               <span class="close small" onclick="this.parentNode.style.display='none'"></span>
             </div>
-            <form action="${ $.link('index') }" method="post" class="form" onsubmit="sendEmail(this); return false">
+            <form action="${ $.link('index') }" method="post" class="form" autocomplete="off" onsubmit="sendEmail(this); return false">
               <div class="row gutters">
                 <div class="col col-6">
                   <div class="form-item">
