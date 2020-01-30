@@ -19,7 +19,7 @@ module.exports = async function($) {
       <p><span>&ulcorn;</span>${ $.t('om_oss_tekst6') }</p>
       <p><span>&ulcorn;</span>${ $.t('om_oss_tekst7') }</p>
       <p><span>&ulcorn;</span>${ $.t('om_oss_tekst8') }</p>
-      <p>${ $.t('om_oss_tekst9') }<a href="/#kontakt"> ${ $.t('om_oss_tekst10') }</a></p>
+      <p>${ $.t('om_oss_tekst9') }<a href="${ $.link('index') }#kontakt"> ${ $.t('om_oss_tekst10') }</a></p>
     </div>
   </div>
 
