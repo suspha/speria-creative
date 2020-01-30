@@ -19,7 +19,7 @@ module.exports = async function($) {
             <div class="vertical-line">
             <h3>${ $.t('index_design_tittel') }</h3>
             <p>${ $.t('index_design') }</p>
-            <a href="${ $.link('design_utvikling') }">${ $.t('index_les_mer') }</a>
+            <a href="${ $.link('design-utvikling') }">${ $.t('index_les_mer') }</a>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ module.exports = async function($) {
             <div class="vertical-line">
             <h3>${ $.t('index_seo_tittel') }</h3>
             <p>${ $.t('index_seo') }</p>
-            <a href="${ $.link('seo_marketing') }">${ $.t('index_les_mer') }</a>
+            <a href="${ $.link('seo-marketing') }">${ $.t('index_les_mer') }</a>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ module.exports = async function($) {
             </div>
             <h3>${ $.t('index_hosting_tittel') }</h3>
             <p>${ $.t('index_hosting') }</p>
-            <a href="${ $.link('hosting_drift') }">${ $.t('index_les_mer') }</a>
+            <a href="${ $.link('hosting-drift') }">${ $.t('index_les_mer') }</a>
           </div>
         </div>
       </div>

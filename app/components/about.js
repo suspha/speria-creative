@@ -9,7 +9,7 @@ return /* html */ `
           <hr style="width:6%; margin-top: -12px; padding-bottom: 1rem;">
           <p>${ $.t('index_om_oss1') }</p>
           <p>${ $.t('index_om_oss2') }</p>
-          <a href="${ $.link('om_oss') }">${ $.t('index_les_mer') }</a>
+          <a href="${ $.link('om-oss') }">${ $.t('index_les_mer') }</a>
         </div>
         <div class="col col-6 about-us-image">
           <img src="/images/screen_demo.jpeg" alt="image">
