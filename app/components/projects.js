@@ -13,27 +13,27 @@ module.exports = async function($) {
           <div class="slideshow-container">
             <div class="mySlides fade">
               <img src="/images/asylet.png" alt="portfolie_asylet">
-              <div class="text-slider"><h4><a href="https://asylet.no" target="_blank">Kafé Asylet</a></h4></div>
+              <div class="text-slider"><h4><a href="https://asylet.no" target="_blank" rel="noopener">Kafé Asylet</a></h4></div>
             </div>
 
             <div class="mySlides fade">
               <img src="/images/vdb-autoshine.png" alt="portfolie_VDB Autoshine">
-              <div class="text-slider"><h4><a href=" https://vdbautoshine.no" target="_blank">VDB Autoshine nettbutikk</a></h4></div>
+              <div class="text-slider"><h4><a href=" https://vdbautoshine.no" target="_blank" rel="noopener">VDB Autoshine nettbutikk</a></h4></div>
             </div>
 
             <div class="mySlides fade">
               <img src="/images/tabibito.jpg" alt="portfolie_tabibito">
-              <div class="text-slider"><h4><a href="http://tabibito.no" target="_blank">Tabibito Asian Fusion Restaurant</a></h4></div>
+              <div class="text-slider"><h4><a href="http://tabibito.no" target="_blank" rel="noopener">Tabibito Asian Fusion Restaurant</a></h4></div>
             </div>
 
             <div class="mySlides fade">
               <img src="/images/crowdfundhq.jpeg" alt="portfolie_crowdfundhq">
-              <div class="text-slider"><h4><a href="https://crowdfundhq.com" target="_blank">CrowdfundHQ - Create your own site</a></h4></div>
+              <div class="text-slider"><h4><a href="https://crowdfundhq.com" target="_blank" rel="noopener">CrowdfundHQ - Create your own site</a></h4></div>
             </div>
 
             <div class="mySlides fade">
               <img src="/images/waveorb.jpeg" alt="portfolie_waveorb">
-              <div class="text-slider"><h4><a href="https://waveorb.com" target="_blank">Waveorb - Personal, marketing and support emails</a></h4></div>
+              <div class="text-slider"><h4><a href="https://waveorb.com" target="_blank" rel="noopener">Waveorb - Personal, marketing and support emails</a></h4></div>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
