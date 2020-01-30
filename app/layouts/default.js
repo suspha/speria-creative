@@ -35,7 +35,7 @@ module.exports = async function($) {
           </div>
 
           <nav role="navigation" id="navi-mob">
-            <a href="#" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
+            <a href="#" aria-label="menu" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
               <li><a href="${ $.link('index') }">${ $.t('nav1') }</a></li>
               <li><a href="${ $.link('design-utvikling') }">${ $.t('nav_tjenester1') }</a></li>
