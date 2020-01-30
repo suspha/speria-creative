@@ -61,15 +61,15 @@ module.exports = async function($) {
               <div class="row gutters">
                 <div class="col col-6">
                   <div class="form-item">
-                    <label>${ $.t('index_kontakt_form1') }<span class="req">*</span></label>
-                    <input type="text" name="name" placeholder="Hans Hansen" onfocus="clearField(this)">
+                    <label for="input-name">${ $.t('index_kontakt_form1') }<span class="req">*</span></label>
+                    <input id="input-name" type="text" name="name" placeholder="Hans Hansen" onfocus="clearField(this)">
                     <span class="form-error name-error error-message"></span>
                   </div>
                 </div>
                 <div class="col col-6">
                   <div class="form-item">
-                    <label>${ $.t('index_kontakt_form2') }</label>
-                    <input type="text" name="phone" placeholder="22222222" onfocus="clearField(this)">
+                    <label for="input-phone">${ $.t('index_kontakt_form2') }</label>
+                    <input id="input-phone" type="text" name="phone" placeholder="22222222" onfocus="clearField(this)">
                     <span class="form-error phone-error error-message"></span>
                   </div>
                 </div>
@@ -77,15 +77,15 @@ module.exports = async function($) {
               <div class="row gutters">
                 <div class="col col-6">
                   <div class="form-item">
-                    <label>${ $.t('index_kontakt_form3') }<span class="req">*</span></label>
-                    <input type="text" name="email" placeholder="mail@example.com" onfocus="clearField(this)">
+                    <label for="input-email">${ $.t('index_kontakt_form3') }<span class="req">*</span></label>
+                    <input id="input-email" type="text" name="email" placeholder="mail@example.com" onfocus="clearField(this)">
                     <span class="form-error email-error error-message"></span>
                   </div>
                 </div>
                 <div class="col col-6">
                   <div class="form-item">
-                    <label>${ $.t('index_kontakt_form4') }<span class="req">*</span></label>
-                    <select name="subject" onfocus="clearField(this)">
+                    <label for="input-option">${ $.t('index_kontakt_form4') }<span class="req">*</span></label>
+                    <select id="input-option" name="subject" onfocus="clearField(this)">
                       <option value="">---</option>
                       ${ renderSubjectOptions() }
                     </select>
@@ -94,8 +94,8 @@ module.exports = async function($) {
                 </div>
               </div>
               <div class="form-item">
-                <label>${ $.t('index_kontakt_form5') }</label>
-                <textarea rows="6" name="message" placeholder="${ $.t('index_kontakt_form_write') }" onfocus="clearField(this)"></textarea>
+                <label for="input-message">${ $.t('index_kontakt_form5') }</label>
+                <textarea id="input-message" rows="6" name="message" placeholder="${ $.t('index_kontakt_form_write') }" onfocus="clearField(this)"></textarea>
                 <span class="form-error message-error error-message"></span>
               </div>
               <div class="form-item">
