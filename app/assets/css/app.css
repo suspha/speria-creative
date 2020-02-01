@@ -41,7 +41,7 @@
 }
 
 button:hover,.button:hover {
-  background-color: #AF3F4F;
+  background-color: #425564;
 }
 
 .button{
@@ -142,7 +142,7 @@ hr {
   text-align: right;
   margin:0 2em 0 2rem;
   padding-top: 1rem;
-  color: #fdfdfd;
+  color: #f5f5f5;
 }
 
 .lang-switch a{
@@ -472,7 +472,7 @@ h3{
 
 .w100,.button-style{
   font-family: 'Raleway', sans-serif;
-  background-color: #425564;
+  background-color: #AF3F4F;
   border: 1px solid #aaa;
   font-weight: 600;
 }
@@ -635,14 +635,14 @@ figure {
 /* Footer*/
 footer{
   height: 5em;
-  background-color:#eaf2f8;
+  background-color:#425564;
   height: 90px;
-  color: #425564;
+  color: #fff;
   font-size: 13px;
   padding-top: 40px;
   padding-left: 10px;
   text-align: center;
-  border-top: 1px dotted #eee;
+  border-top: 1px solid #eee;
 }
 
 /* Menu mobile */
@@ -720,7 +720,7 @@ a {
 
 .form-button:disabled {
   background-color: #888;
-  color: #666;
+  opacity: .5
 }
 
 .form-button:disabled img {

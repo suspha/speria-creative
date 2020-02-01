@@ -14,7 +14,8 @@ module.exports = async function($) {
 
     // Sleep:
     await new Promise(r => setTimeout(r, 500))
-    const result = await api.fetch({ action: 'sendEmail', data: serialize(form) })
+    var data = serialize(form)
+    const result = await api.action('sendEmail', { data })
 
     if (result.error) {
       css('.message.error', 'opacity: 1')

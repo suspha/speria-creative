@@ -1,10 +1,11 @@
-js:
-  - /js/lib/jquery-3.4.1.min.js
-  - /js/lib/kube.min.js
-  - /js/app.js
-  - /js/haka-min.js
-  - /js/waveorb-min.js
+bundle:
+  js:
+    - /js/lib/jquery-3.4.1.min.js
+    - /js/lib/kube.min.js
+    - /js/app.js
+    - /js/haka-min.js
+    - /js/waveorb-min.js
 
-css:
-  - /css/lib/kube.min.css
-  - /css/app.css
+  css:
+    - /css/lib/kube.min.css
+    - /css/app.css
