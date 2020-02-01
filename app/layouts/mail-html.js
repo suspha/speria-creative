@@ -7,7 +7,7 @@ module.exports = async function(mail, $, data) {
         <title>${ mail.options.subject || 'Speria kontakt' }</title>
         <style>
           body {
-            background-color: gold;
+            background-color: white;
           }
         </style>
       </head>
