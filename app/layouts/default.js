@@ -21,7 +21,7 @@ module.exports = async function($) {
         <meta name="description" content="Profesjonell Webdesign og webutvikling, SEO Søkemotoroptimalisering og Markedsføring, billig og rimelig Hosting og Drift">
         <title>${ $.page.title || 'Speria Creative' }</title>
         ${ $.style('/bundle.css') }
-        <link href="/images/speria-favicon.jpg" rel="shortcut icon">
+        <link href="/images/favicon.png" rel="shortcut icon">
         <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:200,300,400" rel="stylesheet">
         ${ $.script('/bundle.js') }
         <script>window.api = waveorb('${ host }')</script>
