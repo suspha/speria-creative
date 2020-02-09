@@ -632,6 +632,7 @@ figure {
   border: 1px solid pink;
   border-bottom: 0;
 }
+
 /* Footer*/
 footer{
   height: 5em;
@@ -651,7 +652,6 @@ a {
   color: #333331;
   transition: color 0.3s ease;
 }
-
 
 #navi-mob {
   display: none;
