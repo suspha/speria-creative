@@ -4,7 +4,8 @@ module.exports = async function($) {
     : 'http://localhost:5000'
 
   function init() {
-    document.querySelectorAll('nav a').forEach(function(a) {
+    var links = document.querySelectorAll('a.langlink')
+    links.forEach(function(a) {
       if (a.pathname == location.pathname) {
         a.classList.add('active-link')
       }
@@ -34,7 +35,7 @@ module.exports = async function($) {
             </a>
           </div>
 
-          <nav role="navigation" id="navi-mob">
+          <nav id="navi-mob">
             <a href="#" aria-label="menu" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
               <li><a href="${ $.link('index') }">${ $.t('nav1') }</a></li>
@@ -46,6 +47,7 @@ module.exports = async function($) {
               <li><a href="${ $.link('index') }#kontakt">${ $.t('nav5') }</a></li>
             </ul>
           </nav>
+
           <script>
             function toggleMenu(a) {
               var menu = $('#menu'), timer = 500, icon = a.querySelector('i');
@@ -70,22 +72,23 @@ module.exports = async function($) {
           </div>
           <nav class="tabs" id="navi">
             <ul>
-              <li class="">
+              <li>
                 <a href="${ $.link('index') }">${ $.t('nav1') } &nbsp; &vert;</a>
               </li>
-              <li class="">
+              <li>
                 <a href="" data-component="dropdown" data-target="#dropdown-fixed">
                   ${ $.t('nav2') }
                   <span class="caret down">&nbsp; &vert;</span>
                 </a>
               </li>
-              <li class="">
+              <li>
                 <a href="${ $.link('om-oss') }">${ $.t('nav3') } &nbsp; &vert;</a>
               </li>
               <li><a id="prosjekt-link" href="${ $.link('index') }#prosjekter">${ $.t('nav4') } &nbsp; &vert;</a></li>
               <li><a id="kontakt-link" href="${ $.link('index') }#kontakt">${ $.t('nav5') }</a></li>
             </ul>
           </nav>
+          <script>${init}; init();</script>
           <div class="dropdown hide" id="dropdown-fixed">
             <ul>
               <li><a href="${ $.link('design-utvikling') }">${ $.t('nav_tjenester1') }</a></li>

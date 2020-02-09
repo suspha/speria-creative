@@ -150,7 +150,7 @@ hr {
   font-size: 14px;
 }
 
-.lang-switch a.active-lang {
+.lang-switch a.active-link {
   text-decoration: underline;
   color: #AF3F4F;
 }
@@ -673,7 +673,7 @@ a {
   position: absolute;
   background: #fff;
   width: 200px;
-  top: 120px;
+  top: 105px;
   right: -200px;
   padding: 1em;
   opacity: 0;
