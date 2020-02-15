@@ -1,15 +1,15 @@
 pretty: true
 compile: true
 routemap:
-  /: no#index
-  /en/: en#index
-  /om-oss.html: no#om-oss
-  /en/about-us.html: en#om-oss
-  /bekreftelse.html: no#bekreftelse
-  /en/confirmation.html: en#bekreftelse
-  /design-utvikling.html: no#design-utvikling
-  /en/design-development.html: en#design-utvikling
-  /seo-marketing.html: no#seo-marketing
-  /en/seo-marketing.html: en#seo-marketing
-  /hosting-drift.html: no#hosting-drift
-  /en/hosting-support.html: en#hosting-drift
+  /: no@index
+  /en/: en@index
+  /om-oss.html: no@om-oss
+  /en/about-us.html: en@om-oss
+  /bekreftelse.html: no@bekreftelse
+  /en/confirmation.html: en@bekreftelse
+  /design-utvikling.html: no@design-utvikling
+  /en/design-development.html: en@design-utvikling
+  /seo-marketing.html: no@seo-marketing
+  /en/seo-marketing.html: en@seo-marketing
+  /hosting-drift.html: no@hosting-drift
+  /en/hosting-support.html: en@hosting-drift
