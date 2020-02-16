@@ -66,9 +66,9 @@ module.exports = async function($) {
           </script>
 
           <div class="lang-switch">
-            <a class="langlink" href="${ $.link(`en#${ $.page.name }`) }" onclick="window.cookie('lang', 'en')">EN</a>
+            <a class="langlink" href="${ $.link(`en@${ $.page.name }`) }" onclick="window.cookie('lang', 'en')">EN</a>
             <span class="split">/</span>
-            <a class="langlink" href="${ $.link(`no#${ $.page.name }`) }" onclick="window.cookie('lang', 'no')">NO</a>
+            <a class="langlink" href="${ $.link(`no@${ $.page.name }`) }" onclick="window.cookie('lang', 'no')">NO</a>
           </div>
           <nav class="tabs" id="navi">
             <ul>
