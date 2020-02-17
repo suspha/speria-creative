@@ -9,7 +9,7 @@ module.exports = async function($) {
     </div>
     <div class="full-width border-row light-background">
       <div class="intro-design-utvikling inner-width">
-        <h2>${ $.t('design_tittel') }</h2><hr style="width:5%; margin-left: 5px;">
+        <h2>${ $.t('design_tittel') }</h2><hr style="width:5%; position: relative; bottom: 1rem; left: 8rem">
         <p>${ $.t('design_tekst1') }</p>
         <p>${ $.t('design_tekst2') }</p>
         <p>${ $.t('design_tekst3') }</p>

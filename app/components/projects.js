@@ -2,13 +2,13 @@ module.exports = async function($) {
 
   return /* html */`
     <div class="full-width border-row light-background">
-      <div class="inner-width">
+      <div class="inner-width-full">
         <div class="portfolio">
           <h2 id="prosjekter">${ $.t('index_prosjekter') }</h2>
           <hr style="width:5%; margin-top: -12px; margin-left: 3em;">
         </div>
       </div>
-      <div class="inner-width fade">
+      <div class="fade">
         <figure>
           <div class="slideshow-container">
             <div class="mySlides fade">

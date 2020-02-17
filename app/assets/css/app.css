@@ -75,14 +75,33 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #333331;
 }
 
+blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid #AF3F4F;
+  font-style: normal;
+  color: #333331;
+  font-size: 18px;
+  margin: 1.5rem 0;
+}
+
+p {
+  font-size: 18px;
+}
+
 .full-width {
   max-width: 100%;
 }
 
 .inner-width{
-  max-width: 1096px;
+  max-width: 860px;
   margin: 0 auto;
-  padding-top: 3em;
+  padding: 3rem;
+}
+
+.inner-width-full {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem;
 }
 
 a:focus {
@@ -90,23 +109,10 @@ a:focus {
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 1180px) {
-  .inner-width {
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-}
-
 .inner-width.fade {
   max-width: 860px;
   margin: 0 auto;
-  padding-top: 3em;
-}
-
-@media only screen and (max-width: 650px) {
-  h2 {
-    font-size: 28px;
-  }
+  padding-top: 0;
 }
 
 hr {
@@ -114,7 +120,7 @@ hr {
   height: 1px;
   border: 0;
   border-top: 3px solid #AF3F4F;
-  margin-top: 1.618em;
+  margin-top: 1rem;
 }
 
 .top {
@@ -135,6 +141,9 @@ hr {
 @media only screen and (max-width: 650px) {
   .speria-logo {
     max-width: 200px;
+  }
+  .go-top img{
+    display: none;
   }
 }
 
@@ -285,17 +294,11 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1 {
-    padding-top: 4em;
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .new-line {
     display: block;
-  }
-
-  .header-seo h1{
-    padding-top: 3.2em;
-    font-size: 26px;
   }
 }
 
@@ -309,37 +312,39 @@ hr {
 
 @media only screen and (max-width: 560px) {
   .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.3em;
+    font-weight: normal;
   }
 }
 
 .intro-design-utvikling h2, .intro-seo h2, .intro-hosting h2, .intro-om-oss h2{
-  font-size: 42px;
-  text-align: center;
+  font-size: 44px;
+  text-align: left;
   color: #425564;
-  padding-bottom: 1.618em;
+  padding-bottom: 2.5rem;
   font-weight: 400;
 }
 
 @media only screen and (max-width: 560px) {
   .intro-design-utvikling h2, .intro-seo h2, .intro-hosting h2, .intro-om-oss h2{
-    font-size: 25px;
+    font-size: 30px;
     padding-bottom: 0;
   }
 }
 
 .intro-design-utvikling h3, .intro-hosting h3, .intro-seo h3, .intro-om-oss h3{
   letter-spacing: 2px;
-  font-size: 22px;
-  margin-top: 2em;
-  font-weight: 300;
+  font-size: 30px;
+  margin-top: 2rem;
   color: #425564;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 560px) {
   .intro-design-utvikling h3, .intro-hosting h3, .intro-seo h3, .intro-om-oss h3{
-    font-size: 18px;
+    font-size: 25px;
+    word-break: break-word;
   }
 }
 
@@ -368,7 +373,7 @@ hr {
 }
 
 .intro-om-oss a{
-  color: #0065a3;
+  color: #AF3F4F;
   text-decoration: underline;
   font-weight: 600;
 }
@@ -376,18 +381,6 @@ hr {
 h2{
   color: #425564;
   font-size: 36px;
-  font-weight: 400;
-}
-
-@media only screen and (max-width: 650px) {
-  h2 {
-    font-size: 28px;
-  }
-}
-
-h3{
-  color: #425564;
-  font-size: 20px;
   font-weight: 400;
 }
 
@@ -431,14 +424,33 @@ h3{
   border-right: 2px solid #efefef;
 }
 
+.paragraph h3{
+  color: #425564;
+  font-size: 22px;
+  font-weight: 400;
+}
+
 .paragraph p, .ta-kontakt{
-  font-size: 15px;
-  padding-right: 10px;
+  font-size: 16px;
+  padding: 0 10px;
 }
 
 .ta-kontakt span a{
   font-size: 22px;
 }
+
+.paragraph a{
+  color: #AF3F4F;
+  text-decoration: underline;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 18px;
+}
+
+.paragraph a:hover{
+  font-size: 18px;
+}
+
 
 .ta-kontakt p a{
   text-decoration: underline;
@@ -449,17 +461,6 @@ h3{
 
 .ta-kontakt p:nth-last-child(-n+3) {
   font-size: 16px;
-}
-
-.paragraph a{
-  color: #AF3F4F;
-  text-decoration: underline;
-  font-weight: 600;
-  line-height: 18px;
-}
-
-.paragraph a:hover{
-  font-size: 18px;
 }
 
 .about-us a:hover{
@@ -488,22 +489,23 @@ h3{
 /*Image slider*/
 figure {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 660px;
   position: relative;
-  margin-left: 8em;
 }
 
-@media only screen and (max-width: 850px) {
-  .slideshow-container {
-    margin-left: 1em;
-    margin-right: 1em;
+
+@media (max-width: 768px) {
+.row.gutters .col {
+    margin-bottom: 0;
   }
 }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -541,6 +543,7 @@ figure {
 @media only screen and (max-width: 550px) {
   .mySlides {
     height: 100%;
+    border:none;
   }
 }
 
@@ -639,11 +642,14 @@ footer{
   background-color:#425564;
   height: 90px;
   color: #fff;
-  font-size: 13px;
   padding-top: 40px;
   padding-left: 10px;
   text-align: center;
   border-top: 1px solid #eee;
+}
+
+footer p {
+  font-size: 13px;
 }
 
 /* Menu mobile */
@@ -680,7 +686,7 @@ a {
 }
 
 #menu li {
-  padding: 10px 0;
+  padding: 8px 0;
   font-size: 12pt;
   white-space: nowrap;
 }
@@ -709,7 +715,7 @@ a {
 
 .bekreftelse h1{
   color: #425564;
-  font-size: 45px;
+  font-size: 46px;
 }
 
 /* Disabled button spinner  */
@@ -730,3 +736,4 @@ a {
 .form-button:disabled span {
   display: none;
 }
+
