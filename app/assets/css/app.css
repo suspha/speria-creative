@@ -322,7 +322,7 @@ hr {
   font-size: 44px;
   text-align: left;
   color: #425564;
-  padding: 2rem 0;
+  padding-bottom: 2rem;
   font-weight: 400;
 }
 
@@ -500,12 +500,6 @@ figure {
   position: relative;
 }
 
-
-@media (max-width: 768px) {
-.row.gutters .col {
-    margin-bottom: 0;
-  }
-}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
