@@ -93,12 +93,12 @@ p {
 }
 
 .inner-width{
-  max-width: 860px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 3rem;
 }
 
-.inner-width-full {
+.inner-width-wide {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem;
@@ -322,7 +322,7 @@ hr {
   font-size: 44px;
   text-align: left;
   color: #425564;
-  padding-bottom: 2.5rem;
+  padding: 2rem 0;
   font-weight: 400;
 }
 
@@ -353,9 +353,9 @@ hr {
   color :#AF3F4F;
   background-color: #fff;
   border: 2px solid #AF3F4F;
-  margin-bottom: 2em;
+  margin-top: 1rem;
   font-size: 18px;
-  line-height: 1.5em;
+  line-height: 1.5rem;
   text-align: center;
   font-weight: 600;
 }

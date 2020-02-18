@@ -43,7 +43,7 @@ module.exports = async function($) {
 
   return /* html */`
     <div class="full-width border-row dark-background">
-      <div class="contact-form inner-width-full">
+      <div class="contact-form inner-width-wide">
         <div class="row gutters">
           <div class="col col-4 ta-kontakt" id="kontakt">
             <h2>${ $.t('index_kontakt_tittel') }</h2>
