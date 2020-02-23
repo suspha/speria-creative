@@ -12,36 +12,38 @@ module.exports = async function($) {
         </div>
 
         <div class="row gutters paragraph">
-          <div class="col col-4 space-between">
+          <a href="${ $.link('design-utvikling') }" class="col col-4 space-between light-background">
             <div class="circle">
               <img class="img-circle" src="/images/design_icon.png" alt="icon">
             </div>
-            <div class="vertical-line">
-            <h3>${ $.t('index_design_tittel') }</h3>
-            <p>${ $.t('index_design') }</p>
-            <a href="${ $.link('design-utvikling') }">${ $.t('index_les_mer') }</a>
+            <div class="service-text">
+              <h3>${ $.t('index_design_tittel') }</h3>
+              <p>${ $.t('index_design') }</p>
+              <span>${ $.t('index_les_mer') }</span>
             </div>
-          </div>
+          </a>
 
-          <div class="col col-4 space-between">
+          <a href="${ $.link('seo-marketing') }" class="col col-4 space-between light-background">
             <div class="circle">
               <img class="img-circle" src="/images/seo_icon.png" alt="icon">
             </div>
-            <div class="vertical-line">
+            <div class="service-text">
             <h3>${ $.t('index_seo_tittel') }</h3>
-            <p>${ $.t('index_seo') }</p>
-            <a href="${ $.link('seo-marketing') }">${ $.t('index_les_mer') }</a>
+              <p>${ $.t('index_seo') }</p>
+              <span>${ $.t('index_les_mer') }</span>
             </div>
-          </div>
+          </a>
 
-          <div class="col col-4 space-between">
+          <a href="${ $.link('hosting-drift') }" class="col col-4 space-between light-background">
             <div class="circle">
               <img class="img-circle" src="/images/hosting_icon.png" alt="icon">
             </div>
+            <div class="service-text">
             <h3>${ $.t('index_hosting_tittel') }</h3>
-            <p>${ $.t('index_hosting') }</p>
-            <a href="${ $.link('hosting-drift') }">${ $.t('index_les_mer') }</a>
-          </div>
+              <p>${ $.t('index_hosting') }</p>
+              <span>${ $.t('index_les_mer') }</span>
+            </div>
+          </a>
         </div>
       </div>
     </div>
