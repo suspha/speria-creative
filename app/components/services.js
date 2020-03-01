@@ -12,7 +12,7 @@ module.exports = async function($) {
         </div>
 
         <div class="row gutters paragraph">
-          <a href="${ $.link('design-utvikling') }" class="col col-4 space-between light-background">
+          <a href="${ $.link('design-utvikling') }" class="col col-4 service-card light-background">
             <div class="circle">
               <img class="img-circle" src="/images/design_icon.png" alt="icon">
             </div>
@@ -23,7 +23,7 @@ module.exports = async function($) {
             </div>
           </a>
 
-          <a href="${ $.link('seo-marketing') }" class="col col-4 space-between light-background">
+          <a href="${ $.link('seo-marketing') }" class="col col-4 service-card light-background">
             <div class="circle">
               <img class="img-circle" src="/images/seo_icon.png" alt="icon">
             </div>
@@ -34,7 +34,7 @@ module.exports = async function($) {
             </div>
           </a>
 
-          <a href="${ $.link('hosting-drift') }" class="col col-4 space-between light-background">
+          <a href="${ $.link('hosting-drift') }" class="col col-4 service-card light-background">
             <div class="circle">
               <img class="img-circle" src="/images/hosting_icon.png" alt="icon">
             </div>

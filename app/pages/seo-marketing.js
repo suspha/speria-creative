@@ -3,13 +3,24 @@ module.exports = async function($) {
   $.page.title = $.t('om-oss_title')
 
   return /* html */`
-    <div class="header-seo">
-      <h1>${ $.t('seo_tekst_bilde') }</h1>
-      <h2>${ $.t('seo_undertittel_bilde') }</h2>
+    <div class="top-wrapper">
+      <div class="top-row">
+        <div class="top-column image">
+          <div class="top-image">
+            <img src="/images/speria-creative-seo-marketing-opt.svg" alt="image">
+          </div>
+        </div>
+        <div class="top-column text">
+          <div class="top-text">
+            <h1>${ $.t('seo_tittel') }</h1><hr style="width:16%; position: relative; left: -5rem">
+            <p>&rdquo; ${ $.t('seo_undertittel_bilde') } &rdquo;</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="full-width border-row light-background">
       <div class="intro-seo inner-width">
-        <h2>${ $.t('seo_tittel') }</h2><hr style="width:8%; position: relative; bottom: 1rem; left: 3rem">
+        <h2>${ $.t('seo_tekst_bilde') }</h2>
         <p>${ $.t('seo_tekst1') }</p>
         <h3>${ $.t('seo_tittel1') }</h3>
         <p>${ $.t('seo_tekst2') }</p>

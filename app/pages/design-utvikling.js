@@ -3,13 +3,24 @@ module.exports = async function($) {
   $.page.title = $.t('design_title')
 
   return /* html */`
-    <div class="header-design">
-      <h1>${ $.t('design_tittel_bilde') }</h1>
-      <h2>${ $.t('design_undertittel_bilde') }</h2>
+    <div class="top-wrapper">
+      <div class="top-row">
+        <div class="top-column image">
+          <div class="top-image">
+            <img src="/images/speria-creative-design-development-opt.svg" alt="image">
+          </div>
+        </div>
+        <div class="top-column text">
+          <div class="top-text">
+            <h1>${ $.t('design_tittel') }</h1><hr style="width:8%; position: relative; left: 6rem">
+            <p>&rdquo; ${ $.t('design_undertittel_bilde') } &rdquo;</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="full-width border-row light-background">
       <div class="intro-design-utvikling inner-width">
-        <h2>${ $.t('design_tittel') }</h2><hr style="width:5%; position: relative; bottom: 1rem; left: 8rem">
+        <h2>${ $.t('design_tittel_bilde') }</h2>
         <p>${ $.t('design_tekst1') }</p>
         <p>${ $.t('design_tekst2') }</p>
         <p>${ $.t('design_tekst3') }</p>

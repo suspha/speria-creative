@@ -3,13 +3,24 @@ module.exports = async function($) {
   $.page.title = $.t('om-oss_title')
 
   return /* html */`
-  <div class="header-om-oss">
-    <h1>We don't work to live - <span class="new-line">We live to work</span></h1>
-    <h2>${ $.t('om_oss_undertittel_bilde') }</h2>
+  <div class="top-wrapper">
+    <div class="top-row">
+      <div class="top-column image">
+        <div class="top-image">
+          <img src="/images/speria-creative-about-opt.svg" alt="image">
+        </div>
+      </div>
+      <div class="top-column text">
+        <div class="top-text">
+          <h1>${ $.t('om_oss_tittel') }</h1><hr style="width:12%; position: relative; left: -2rem">
+          <p>&rdquo; ${ $.t('om_oss_undertittel_bilde') } &rdquo;</p>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="full-width border-row light-background">
     <div class="intro-om-oss inner-width">
-      <h2>${ $.t('om_oss_tittel') }</h2><hr style="width:10%; position: relative; bottom: 1rem; left: 3rem;">
+      <h2>We don't work to live - We live to work</span></h2>
       <p>${ $.t('om_oss_tekst1') }</p>
       <p>${ $.t('om_oss_tekst2') }</p>
       <p>${ $.t('om_oss_tekst3') }</p>

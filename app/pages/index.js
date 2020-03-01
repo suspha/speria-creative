@@ -11,17 +11,16 @@ module.exports = async function($) {
     <div class="top-wrapper">
       <div class="top-row">
         <div class="top-column image">
-          <div class="top-image">
-            <img src="/images/main-speria.jpg" alt="image">
+          <div class="top-image frontpage">
+            <img src="/images/speria-creative-main-opt.svg" alt="image">
           </div>
         </div>
         <div class="top-column text">
-          <div class="top-text">
+          <div class="top-text main">
             <h1>Speria Creative</h1>
-            <hr style="width:3%;margin-left:62%">
-            <hr style="width:6%;margin-left:42%">
+            <hr style="width:6%;">
             <p>&rdquo; ${ $.t('index_undertittel_bilde') } &rdquo;</p>
-            <hr style="width:5%;margin-left:28%">
+            <hr style="width:5%;margin-left:-28%">
           </div>
         </div>
       </div>

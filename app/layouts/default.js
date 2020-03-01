@@ -28,7 +28,7 @@ module.exports = async function($) {
         <script>window.api = waveorb('${ host }')</script>
       </head>
       <body>
-        <div class="top">
+        <div class="top-nav">
           <div class="speria-logo">
             <a href="${ $.link('index') }">
               <img class="speria-logo" src="/images/speria-logo.svg" alt="logo">
