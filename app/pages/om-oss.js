@@ -13,7 +13,7 @@ module.exports = async function($) {
       <div class="top-column text">
         <div class="top-text">
           <h1>${ $.t('om_oss_tittel') }</h1><hr style="width:12%; position: relative; left: -2rem">
-          <p>&rdquo; ${ $.t('om_oss_undertittel_bilde') } &rdquo;</p>
+          <p>&ldquo; ${ $.t('om_oss_undertittel_bilde') } &rdquo;</p>
         </div>
       </div>
     </div>

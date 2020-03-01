@@ -14,7 +14,7 @@ module.exports = async function($) {
         <div class="top-column text">
           <div class="top-text">
             <h1>${ $.t('hosting_tittel') }</h1><hr style="width:14%; position: relative; left: 2rem">
-            <p>&rdquo; ${ $.t('hosting_undertittel_bilde') } &rdquo;</p>
+            <p>&ldquo; ${ $.t('hosting_undertittel_bilde') } &rdquo;</p>
           </div>
         </div>
       </div>

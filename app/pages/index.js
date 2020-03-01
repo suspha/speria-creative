@@ -19,7 +19,7 @@ module.exports = async function($) {
           <div class="top-text main">
             <h1>Speria Creative</h1>
             <hr style="width:6%;">
-            <p>&rdquo; ${ $.t('index_undertittel_bilde') } &rdquo;</p>
+            <p>&ldquo; ${ $.t('index_undertittel_bilde') } &rdquo;</p>
             <hr style="width:5%;margin-left:-28%">
           </div>
         </div>
