@@ -37,7 +37,7 @@
 .tabs ul{
   border-bottom: none;
   float: right;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 button:hover,.button:hover {
@@ -135,7 +135,7 @@ hr {
   margin: 0 0.618rem;
   position: absolute;
   left: 0;
-  top: 24px;
+  top: 26px;
   width: 301;
   height: 135;
 }
