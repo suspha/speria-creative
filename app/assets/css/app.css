@@ -108,7 +108,7 @@ p {
 .inner-width-wide {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
 }
 
 a:focus {
