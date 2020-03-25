@@ -8,7 +8,7 @@ module.exports = async function($) {
   $.page.title = $.t('index_title')
 
   return /* html */`
-    <div class="top-wrapper">
+    <div class="top-wrapper dark-background">
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image frontpage">
