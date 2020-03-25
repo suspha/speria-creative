@@ -76,6 +76,12 @@ body, h1, h2, h3, h4, h5, h6 {
   color: #333331;
 }
 
+h2{
+  color: #425564;
+  font-size: 34px;
+  font-weight: bold;
+}
+
 blockquote {
   padding-left: 1rem;
   border-left: 3px solid #425564;
@@ -370,12 +376,6 @@ hr {
   color: #AF3F4F;
   text-decoration: underline;
   font-weight: 600;
-}
-
-h2{
-  color: #425564;
-  font-size: 40px;
-  font-weight: bold;
 }
 
 .border-row{
