@@ -8,7 +8,6 @@
   text-transform: none;
   text-decoration: none;
   background-color: transparent;
-  font-weight: bold;
   color: #AF3F4F;
 }
 
@@ -31,7 +30,6 @@
   padding-top: 5px;
   font-size: 16px;
   color: #425564;
-  letter-spacing: 1px;
 }
 
 .tabs ul{
@@ -243,7 +241,6 @@ hr {
 
   .top-text h1 {
     font-size: 34px;
-    letter-spacing: 0;
   }
 
   .top-column {
@@ -310,7 +307,6 @@ hr {
 }
 
 .header-design h2, .header-seo h2, .header-hosting h2, .header-om-oss h2{
-  letter-spacing: 2px;
   color: #fdfdfd;
   font-size: 28px;
   text-shadow: 0 3px 2px rgba(0, 0, 0, .5);
@@ -461,7 +457,6 @@ a.service-card:hover {
   text-decoration: underline;
   font-weight: 600;
   color: #AF3F4F;
-  letter-spacing: .8px;
 }
 
 .ta-kontakt p:nth-last-child(-n+3) {
@@ -570,7 +565,6 @@ figure {
   top: 40%;
   color: white;
   font-size: 30px;
-  letter-spacing: 2px;
   font-weight: 600;
 }
 
