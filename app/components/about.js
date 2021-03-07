@@ -12,11 +12,10 @@ return /* html */ `
           <a href="${ $.link('om-oss') }">${ $.t('index_les_mer') }</a>
         </div>
         <div class="col col-6 about-us-image">
-          <img src="/images/screen_demo.jpeg" alt="image">
+          <img src="/img/screen_demo.jpeg" alt="image">
         </div>
       </div>
     </div>
   </div>
-
   `
 }

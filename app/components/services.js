@@ -14,7 +14,7 @@ module.exports = async function($) {
         <div class="row gutters paragraph">
           <a href="${ $.link('design-utvikling') }" class="col col-4 service-card light-background">
             <div class="circle">
-              <img class="img-circle" src="/images/design_icon.png" alt="icon">
+              <img class="img-circle" src="/img/design_icon.png" alt="icon">
             </div>
             <div class="service-text">
               <h3>${ $.t('index_design_tittel') }</h3>
@@ -25,7 +25,7 @@ module.exports = async function($) {
 
           <a href="${ $.link('seo-marketing') }" class="col col-4 service-card light-background">
             <div class="circle">
-              <img class="img-circle" src="/images/seo_icon.png" alt="icon">
+              <img class="img-circle" src="/img/seo_icon.png" alt="icon">
             </div>
             <div class="service-text">
             <h3>${ $.t('index_seo_tittel') }</h3>
@@ -36,7 +36,7 @@ module.exports = async function($) {
 
           <a href="${ $.link('hosting-drift') }" class="col col-4 service-card light-background">
             <div class="circle">
-              <img class="img-circle" src="/images/hosting_icon.png" alt="icon">
+              <img class="img-circle" src="/img/hosting_icon.png" alt="icon">
             </div>
             <div class="service-text">
             <h3>${ $.t('index_hosting_tittel') }</h3>

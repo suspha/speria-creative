@@ -1,5 +1,5 @@
 module.exports = async function($) {
-  const host = $.req.headers['x-waveorb-build']
+  const host = process.env.NODE_ENV == 'production'
     ? 'https://speria.no/api'
     : 'http://localhost:5000'
 
@@ -22,7 +22,7 @@ module.exports = async function($) {
         <meta name="description" content="Profesjonell Webdesign og webutvikling, SEO Søkemotoroptimalisering og Markedsføring, billig og rimelig Hosting og Drift">
         <title>${ $.page.title || 'Speria Creative' }</title>
         ${ $.style('/bundle.css') }
-        <link href="/images/favicon.png" rel="shortcut icon">
+        <link href="/img/favicon.png" rel="shortcut icon">
         <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:200,300,400" rel="stylesheet">
         ${ $.script('/bundle.js') }
         <script>window.api = waveorb('${ host }')</script>
@@ -31,7 +31,7 @@ module.exports = async function($) {
         <div class="top-nav">
           <div class="speria-logo">
             <a href="${ $.link('index') }">
-              <img class="speria-logo" src="/images/speria-logo.svg" alt="logo">
+              <img class="speria-logo" src="/img/speria-logo.svg" alt="logo">
             </a>
           </div>
 

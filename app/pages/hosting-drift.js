@@ -8,7 +8,7 @@ module.exports = async function($) {
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image">
-            <img src="/images/speria-creative-hosting-support-opt.svg" alt="image">
+            <img src="/img/speria-creative-hosting-support-opt.svg" alt="image">
           </div>
         </div>
         <div class="top-column text">

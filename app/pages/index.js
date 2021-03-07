@@ -12,7 +12,7 @@ module.exports = async function($) {
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image frontpage">
-            <img src="/images/speria-creative-main-opt.svg" alt="image">
+            <img src="/img/speria-creative-main-opt.svg" alt="image">
           </div>
         </div>
         <div class="top-column text">

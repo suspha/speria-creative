@@ -12,27 +12,27 @@ module.exports = async function($) {
         <figure>
           <div class="slideshow-container">
             <div class="mySlides fade">
-              <img src="/images/asylet.png" alt="portfolie_asylet">
+              <img src="/img/asylet.png" alt="portfolie_asylet">
               <div class="text-slider"><h4><a href="https://asylet.no" target="_blank" rel="noopener">Kafé Asylet</a></h4></div>
             </div>
 
             <div class="mySlides fade">
-              <img src="/images/vdb-autoshine.png" alt="portfolie_VDB Autoshine">
+              <img src="/img/vdb-autoshine.png" alt="portfolie_VDB Autoshine">
               <div class="text-slider"><h4><a href=" https://vdbautoshine.no" target="_blank" rel="noopener">VDB Autoshine nettbutikk</a></h4></div>
             </div>
 
             <div class="mySlides fade">
-              <img src="/images/tabibito.jpg" alt="portfolie_tabibito">
+              <img src="/img/tabibito.jpg" alt="portfolie_tabibito">
               <div class="text-slider"><h4><a href="http://tabibito.no" target="_blank" rel="noopener">Tabibito Asian Fusion Restaurant</a></h4></div>
             </div>
 
             <div class="mySlides fade">
-              <img src="/images/crowdfundhq.jpeg" alt="portfolie_crowdfundhq">
+              <img src="/img/crowdfundhq.jpeg" alt="portfolie_crowdfundhq">
               <div class="text-slider"><h4><a href="https://crowdfundhq.com" target="_blank" rel="noopener">CrowdfundHQ - Create your own site</a></h4></div>
             </div>
 
             <div class="mySlides fade">
-              <img src="/images/waveorb.jpeg" alt="portfolie_waveorb">
+              <img src="/img/waveorb.jpeg" alt="portfolie_waveorb">
               <div class="text-slider"><h4><a href="https://waveorb.com" target="_blank" rel="noopener">Waveorb - Personal, marketing and support emails</a></h4></div>
             </div>
 
@@ -43,7 +43,7 @@ module.exports = async function($) {
       </div>
     </div>
     <div class="go-top">
-      <a id="arrow-up" href="javascript:void(0)"><img src="/images/arrow_up.png" alt="arrow_up"></a>
+      <a id="arrow-up" href="javascript:void(0)"><img src="/img/arrow_up.png" alt="arrow_up"></a>
     </div>
 
     <script>
