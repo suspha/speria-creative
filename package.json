@@ -24,7 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "sass": "^1.32.8",
-    "waveorb": "^0.14.8",
+    "waveorb": "^0.14.9",
     "wmail": "^0.11.1"
   },
   "devDependencies": {
