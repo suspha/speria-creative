@@ -1,4 +1,6 @@
 {
   "proxy": "http://localhost:33000",
-  "domains": "speria.no www.speria.no"
+  "domains": "speria.no www.speria.no",
+  "sitemap": true,
+  "ping": true
 }
