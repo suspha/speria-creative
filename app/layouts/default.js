@@ -26,6 +26,7 @@ module.exports = async function($) {
         <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:200,300,400" rel="stylesheet">
         ${ $.script('/bundle.js') }
         <script>window.api = waveorb('${ host }')</script>
+        <script async defer data-domain="speria.no" src="https://plausible.io/js/plausible.js"></script>
       </head>
       <body>
         <div class="top-nav">
