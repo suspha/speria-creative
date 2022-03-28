@@ -50,8 +50,12 @@ module.exports = async function($) {
             <hr style="width:10%; margin-top: -12px;  margin-left: 3em; padding-bottom: 1rem;">
             <p>${ $.t('index_kontakt1') }</p>
             <p>${ $.t('index_kontakt2') }</p><br>
-            <p><span>&#9993;&nbsp;</span>&nbsp;<a href="mailto:post@speria.no">post@speria.no</a></p>
-            <p><span>&#8858;&nbsp;</span>&nbsp; Oslo, ${ $.t('index_nor') }</p>
+            <p>
+              <img class="icon" src="/img/envelope.svg" alt="Email icon"><a href="mailto:post@speria.no">post@speria.no</a>
+            </p>
+            <p>
+              <img class="icon" src="/img/place.svg" alt="Address icon"> Oslo, ${ $.t('index_nor') }
+            </p>
           </div>
           <div class="col col-8">
             <div class="message error">

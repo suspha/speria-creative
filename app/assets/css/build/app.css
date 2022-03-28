@@ -10,15 +10,18 @@
   text-decoration: none;
   background-color: transparent;
   color: #AF3F4F;
+  font-weight: bold;
 }
 
 .tabs li em, .tabs li.active {
   border-bottom: none;
+  font-weight: bold;
 }
 
 .tabs li em, .tabs li.active a {
   border: none;
   color: #AF3F4F;
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -78,7 +81,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 h2 {
   color: #425564;
-  font-size: 34px;
+  font-size: 38px;
   font-weight: bold;
 }
 
@@ -144,25 +147,17 @@ hr {
   top: 26px;
 }
 
-@media only screen and (max-width: 650px) {
-  .speria-logo {
-    max-width: 200px;
-  }
-
-  .go-top img {
-    display: none;
-  }
-}
 .lang-switch {
   text-align: right;
   margin: 0 2rem;
+  padding-top: 8px;
   color: #f5f5f5;
   font-weight: bold;
 }
 
 .lang-switch a {
   color: #425564;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .lang-switch a.active-link {
@@ -189,9 +184,6 @@ hr {
     margin-top: 0;
   }
 }
-/* .top-wrapper {
-  margin-bottom: 2rem;
-} */
 .top-row {
   display: flex;
   flex-direction: row;
@@ -233,13 +225,22 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
+  .speria-logo {
+    max-width: 200px;
+    left: 0;
+  }
+
+  .go-top img {
+    display: none;
+  }
+
   .top-text {
     padding: 0 15px;
     margin-top: 2rem;
   }
 
   .top-text h1 {
-    font-size: 34px;
+    font-size: 46px;
   }
 
   .top-column {
@@ -249,6 +250,15 @@ hr {
   .top-image.frontpage {
     width: 100%;
     margin: 2rem 0 0 0;
+  }
+
+  .top-row {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .inner-width-wide {
+    padding: 16px;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -383,6 +393,7 @@ hr {
   padding: 2rem;
   border-radius: 10px;
   color: #425564;
+  border: 2px solid transparent;
 }
 
 .service-text {
@@ -400,6 +411,7 @@ a.service-card:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease-out;
   transform: scale(1);
+  border: 2px solid #AF3F4F;
 }
 
 .img-circle {
@@ -436,20 +448,26 @@ a.service-card:hover {
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
+  border-bottom: 2px solid #AF3F4F;
 }
 
 .ta-kontakt span a {
   font-size: 22px;
 }
 
-.ta-kontakt p a {
-  text-decoration: underline;
+.ta-kontakt a {
+  border-bottom: 2px solid #AF3F4F;
   font-weight: 600;
+  color: #425564;
+  margin-left: 8px;
+}
+
+.ta-kontakt a:hover {
   color: #AF3F4F;
 }
 
 .ta-kontakt p:nth-last-child(-n+3) {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .title-space {
@@ -459,7 +477,8 @@ a.service-card:hover {
 .w100, .button-style {
   font-family: "Raleway", sans-serif;
   background-color: #AF3F4F;
-  border: 1px solid #aaa;
+  border: 1px solid #AF3F4F;
+  font-size: 18px;
   font-weight: 600;
 }
 
