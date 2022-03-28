@@ -102,7 +102,7 @@ module.exports = async function($) {
         ${ $.page.content }
 
         <footer>
-          <p>2021 Design and code by Speria Creative</p>
+          <p>2022 Design and code by Speria Creative</p>
         </footer>
         <script>cookie('lang', '${ $.lang }')</script>
       </body>
