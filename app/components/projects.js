@@ -43,7 +43,7 @@ module.exports = async function($) {
       </div>
     </div>
     <div class="go-top">
-      <a id="arrow-up" href="javascript:void(0)"><img src="/img/arrow_up.png" alt="arrow_up"></a>
+      <a id="arrow-up" href="javascript:void(0)"><img src="/img/arrow-up.svg" alt="arrow_up" title="Scroll to the top"></a>
     </div>
 
     <script>
