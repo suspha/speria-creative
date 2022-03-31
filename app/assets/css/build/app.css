@@ -5,35 +5,17 @@
 }
 
 /*Kube reset*/
-.tabs a:hover {
-  text-transform: none;
-  text-decoration: none;
-  background-color: transparent;
-  color: #AF3F4F;
-  font-weight: bold;
-}
-
-.tabs li em, .tabs li.active {
-  border-bottom: none;
-  font-weight: bold;
-}
-
-.tabs li em, .tabs li.active a {
-  border: none;
-  color: #AF3F4F;
-  font-weight: bold;
-  cursor: pointer;
-}
-
 .tabs a {
   color: #425564;
   font-size: 18px;
+  letter-spacing: 1.5px;
 }
 
 .tabs {
   padding-top: 5px;
   font-size: 16px;
   color: #425564;
+  font-weight: 500;
 }
 
 .tabs ul {
@@ -41,6 +23,26 @@
   float: right;
   margin-top: 2rem;
   margin-right: 2rem;
+}
+
+.tabs a:hover {
+  text-transform: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: #AF3F4F;
+  font-weight: 500;
+}
+
+.tabs li em, .tabs li.active {
+  border-bottom: none;
+  font-weight: 500;
+}
+
+.tabs li em, .tabs li.active a {
+  border: none;
+  color: #AF3F4F;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 button:hover, .button:hover {
@@ -83,7 +85,7 @@ body, h1, h2, h3, h4, h5, h6 {
 h2 {
   color: #425564;
   font-size: 38px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 blockquote {
@@ -131,13 +133,13 @@ hr {
   height: 1px;
   border: 0;
   border-top: 3px solid #AF3F4F;
-  margin-top: 1rem;
 }
 
 .top-nav {
   position: relative;
   height: 120px;
   border-bottom: 2px solid #eee;
+  background: #fefefd;
 }
 
 .speria-logo {
@@ -153,7 +155,7 @@ hr {
   margin: 0 2rem;
   padding-top: 8px;
   color: #f5f5f5;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .lang-switch a {
@@ -164,6 +166,7 @@ hr {
 .lang-switch a.active-link {
   text-decoration: underline;
   color: #AF3F4F;
+  font-weight: bold;
 }
 
 .lang-switch span {
@@ -173,7 +176,7 @@ hr {
 .about-us-intro a {
   color: #AF3F4F;
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .about-us-image {
@@ -216,7 +219,7 @@ hr {
 }
 
 .top-text h1 {
-  font-size: 60px;
+  font-size: 62px;
   color: #425564;
 }
 
@@ -298,7 +301,7 @@ hr {
   color: #fff;
   font-size: 56px;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 770px) {
@@ -356,7 +359,7 @@ hr {
   margin-top: 1rem;
   font-size: 18px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   padding: 16px;
 }
 
@@ -377,7 +380,7 @@ hr {
 .intro-om-oss a {
   color: #AF3F4F;
   text-decoration: underline;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .border-row {
@@ -439,7 +442,7 @@ a.service-card:hover {
 .paragraph h3 {
   color: #425564;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .paragraph p, .ta-kontakt {
@@ -450,9 +453,9 @@ a.service-card:hover {
 .paragraph span {
   color: #AF3F4F;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
-  border-bottom: 2px solid #AF3F4F;
+  border-bottom: 1px solid #AF3F4F;
 }
 
 .ta-kontakt span a {
@@ -461,13 +464,14 @@ a.service-card:hover {
 
 .ta-kontakt a {
   border-bottom: 2px solid #AF3F4F;
-  font-weight: 600;
+  font-weight: 500;
   color: #425564;
   margin-left: 8px;
 }
 
 .ta-kontakt a:hover {
   color: #AF3F4F;
+  border-bottom: 2px solid #425564;
 }
 
 .ta-kontakt p:nth-last-child(-n+3) {
@@ -483,7 +487,7 @@ a.service-card:hover {
   background-color: #AF3F4F;
   border: 1px solid #AF3F4F;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .pale-background {
@@ -491,7 +495,7 @@ a.service-card:hover {
 }
 
 .light-background {
-  background-color: #fff;
+  background-color: #fefefd;
 }
 
 /*Image slider*/
@@ -575,7 +579,7 @@ figure {
   top: 40%;
   color: white;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 550px) {
@@ -706,7 +710,7 @@ a {
 .error-message {
   font-size: 11pt;
   color: #F03C69;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .bekreftelse {

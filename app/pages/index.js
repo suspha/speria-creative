@@ -18,9 +18,9 @@ module.exports = async function($) {
         <div class="top-column text">
           <div class="top-text main">
             <h1>Speria Creative</h1>
-            <hr style="width:6%;">
+            <hr style="width:14%;">
             <p>&ldquo; ${ $.t('index_undertittel_bilde') } &rdquo;</p>
-            <hr style="width:5%;margin-left:-28%">
+            <hr style="width:10%;margin-left:-28%">
           </div>
         </div>
       </div>

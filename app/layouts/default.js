@@ -23,7 +23,9 @@ module.exports = async function($) {
         <title>${ $.page.title || 'Speria Creative' }</title>
         ${ $.style('/bundle.css') }
         <link href="/img/favicon.png" rel="shortcut icon">
-        <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway:200,300,400" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
         ${ $.script('/bundle.js') }
         <script>window.api = waveorb('${ host }')</script>
         <script async defer data-domain="speria.no" src="https://plausible.io/js/plausible.js"></script>
