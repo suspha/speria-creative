@@ -147,7 +147,7 @@ hr {
   margin: 0 0.618rem;
   position: absolute;
   left: 16px;
-  top: 26px;
+  top: 31px;
 }
 
 .lang-switch {
@@ -196,6 +196,11 @@ hr {
   margin: 0 auto;
   padding: 4rem 0;
 }
+@media only screen and (max-width: 1200px) {
+  .top-row {
+    display: block;
+  }
+}
 
 .top-column {
   display: flex;
@@ -208,6 +213,11 @@ hr {
   height: 100%;
   margin-top: 2rem;
 }
+@media only screen and (max-width: 1200px) {
+  .top-image {
+    text-align: center;
+  }
+}
 
 .top-text {
   height: 100%;
@@ -217,10 +227,21 @@ hr {
   flex-direction: column;
   text-align: center;
 }
+@media only screen and (max-width: 1200px) {
+  .top-text {
+    padding: 16px;
+    margin-top: 0;
+  }
+}
 
 .top-text h1 {
   font-size: 62px;
   color: #425564;
+}
+@media only screen and (max-width: 768px) {
+  .top-text h1 {
+    font-size: 46px;
+  }
 }
 
 .top-text p {
@@ -237,15 +258,6 @@ hr {
 
   .go-top img {
     display: none;
-  }
-
-  .top-text {
-    padding: 16px;
-    margin-top: 0;
-  }
-
-  .top-text h1 {
-    font-size: 32px;
   }
 
   .top-column {
