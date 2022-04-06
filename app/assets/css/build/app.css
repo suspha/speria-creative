@@ -19,8 +19,9 @@
 }
 
 .tabs ul {
+  display: flex;
+  justify-content: flex-end;
   border-bottom: none;
-  float: right;
   margin-top: 2rem;
   margin-right: 2rem;
 }
@@ -87,6 +88,12 @@ h2 {
   font-size: 38px;
   font-weight: 500;
 }
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 30px;
+    padding: 1.2rem;
+  }
+}
 
 blockquote {
   padding-left: 1rem;
@@ -108,13 +115,13 @@ p {
 .inner-width {
   max-width: 800px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .inner-width-wide {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 3rem 0 3rem;
+  padding: 3rem 0;
 }
 
 a:focus {
@@ -298,7 +305,7 @@ hr {
 } */
 .header-design h1, .header-seo h1, .header-hosting h1, .header-om-oss h1 {
   padding-top: 2.8em;
-  color: #fff;
+  color: #fefefd;
   font-size: 56px;
   text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
   font-weight: 500;
@@ -354,7 +361,7 @@ hr {
 .button.small {
   text-decoration: none;
   color: #AF3F4F;
-  background-color: #fff;
+  background-color: #fefefd;
   border: 2px solid #AF3F4F;
   margin-top: 1rem;
   font-size: 18px;
@@ -447,7 +454,7 @@ a.service-card:hover {
 
 .paragraph p, .ta-kontakt {
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0 16px;
 }
 
 .paragraph span {
@@ -496,6 +503,22 @@ a.service-card:hover {
 
 .light-background {
   background-color: #fefefd;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  flex: 25%;
+  padding: 20px;
+  background: #F8F6F4;
+  justify-content: space-around;
+  text-align: center;
+  margin: 16px 16px 16px 0;
 }
 
 /*Image slider*/
@@ -556,7 +579,7 @@ figure {
 }
 
 .mySlides a:hover {
-  color: #fff;
+  color: #fefefd;
   text-decoration: underline;
 }
 
@@ -639,16 +662,11 @@ figure {
   z-index: 100;
 }
 
-.go-top img:hover {
-  border: 1px solid pink;
-  border-bottom: 0;
-}
-
 /* Footer*/
 footer {
   background-color: #425564;
   height: 90px;
-  color: #fff;
+  color: #fefefd;
   padding-top: 40px;
   padding-left: 10px;
   text-align: center;
@@ -684,7 +702,7 @@ a {
 #menu {
   display: none;
   position: absolute;
-  background: #fff;
+  background: #fefefd;
   width: 200px;
   top: 105px;
   right: -200px;
