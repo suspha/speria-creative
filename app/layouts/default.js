@@ -1,39 +1,41 @@
-module.exports = async function($) {
-  const host = process.env.NODE_ENV == 'production'
-    ? 'https://speria.no/api'
-    : 'http://localhost:5000'
+module.exports = async function ($) {
+  const host =
+    process.env.NODE_ENV == 'production'
+      ? 'https://speria.no/api'
+      : 'http://localhost:5000'
 
   function init() {
     var links = document.querySelectorAll('a.langlink')
-    links.forEach(function(a) {
+    links.forEach(function (a) {
       if (a.pathname == location.pathname) {
         a.classList.add('active-link')
       }
     })
   }
 
-  return /* html */`
+  return /* html */ `
     <!doctype html>
-    <html lang="${ $.lang }">
+    <html lang="${$.lang}">
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="msvalidate.01" content="4ABA947BA0D78F4F16C67C0B46BB917E">
         <meta name="description" content="Profesjonell Webdesign og webutvikling, SEO Søkemotoroptimalisering og Markedsføring, billig og rimelig Hosting og Drift">
-        <title>${ $.page.title || 'Speria Creative' }</title>
-        ${ $.style('/bundle.css') }
+        <title>${$.page.title || 'Speria Creative'}</title>
+        ${$.style('/bundle.css')}
         <link href="/img/favicon.png" rel="shortcut icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
-        ${ $.script('/bundle.js') }
-        <script>window.api = waveorb('${ host }')</script>
+        ${$.script('/bundle.js')}
+        <script>window.api = waveorb('${host}')</script>
         <script async defer data-domain="speria.no" src="https://plausible.io/js/plausible.js"></script>
+        <script defer data-domain="speria.no" src="https://tactility.no/js/tactility.js"></script>
       </head>
       <body>
         <div class="top-nav">
           <div class="speria-logo">
-            <a href="${ $.link('index') }">
+            <a href="${$.link('index')}">
               <img class="speria-logo" src="/img/speria-logo.svg" alt="logo">
             </a>
           </div>
@@ -41,13 +43,21 @@ module.exports = async function($) {
           <nav id="navi-mob">
             <a href="#" aria-label="menu" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
-              <li><a href="${ $.link('index') }">${ $.t('nav1') }</a></li>
-              <li><a href="${ $.link('design-utvikling') }">${ $.t('nav_tjenester1') }</a></li>
-              <li><a href="${ $.link('seo-marketing') }">${ $.t('nav_tjenester2') }</a></li>
-              <li><a href="${ $.link('hosting-drift') }">${ $.t('nav_tjenester3') }</a></li>
-              <li><a href="${ $.link('om-oss') }">${ $.t('nav3') }</a></li>
-              <li><a href="${ $.link('index') }#prosjekter">${ $.t('nav4') }</a></li>
-              <li><a href="${ $.link('index') }#kontakt">${ $.t('nav5') }</a></li>
+              <li><a href="${$.link('index')}">${$.t('nav1')}</a></li>
+              <li><a href="${$.link('design-utvikling')}">${$.t(
+    'nav_tjenester1'
+  )}</a></li>
+              <li><a href="${$.link('seo-marketing')}">${$.t(
+    'nav_tjenester2'
+  )}</a></li>
+              <li><a href="${$.link('hosting-drift')}">${$.t(
+    'nav_tjenester3'
+  )}</a></li>
+              <li><a href="${$.link('om-oss')}">${$.t('nav3')}</a></li>
+              <li><a href="${$.link('index')}#prosjekter">${$.t(
+    'nav4'
+  )}</a></li>
+              <li><a href="${$.link('index')}#kontakt">${$.t('nav5')}</a></li>
             </ul>
           </nav>
 
@@ -69,48 +79,60 @@ module.exports = async function($) {
           </script>
 
           <div class="lang-switch">
-            <a class="langlink" href="${ $.link(`en@${ $.page.name }`) }" onclick="window.cookie('lang', 'en')">EN</a>
+            <a class="langlink" href="${$.link(
+              `en@${$.page.name}`
+            )}" onclick="window.cookie('lang', 'en')">EN</a>
             <span class="split">/</span>
-            <a class="langlink" href="${ $.link(`no@${ $.page.name }`) }" onclick="window.cookie('lang', 'no')">NO</a>
+            <a class="langlink" href="${$.link(
+              `no@${$.page.name}`
+            )}" onclick="window.cookie('lang', 'no')">NO</a>
           </div>
           <nav class="tabs" id="navi">
             <ul>
               <li>
-                <a href="${ $.link('index') }">${ $.t('nav1') } &nbsp; &vert;</a>
+                <a href="${$.link('index')}">${$.t('nav1')} &nbsp; &vert;</a>
               </li>
               <li>
                 <a href="" data-component="dropdown" data-target="#dropdown-fixed">
-                  ${ $.t('nav2') }
+                  ${$.t('nav2')}
                   <span class="caret down">&nbsp; &vert;</span>
                 </a>
               </li>
               <li>
-                <a href="${ $.link('om-oss') }">${ $.t('nav3') } &nbsp; &vert;</a>
+                <a href="${$.link('om-oss')}">${$.t('nav3')} &nbsp; &vert;</a>
               </li>
-              <li><a id="prosjekt-link" href="${ $.link('index') }#prosjekter">${ $.t('nav4') } &nbsp; &vert;</a></li>
-              <li><a id="kontakt-link" href="${ $.link('index') }#kontakt">${ $.t('nav5') }</a></li>
+              <li><a id="prosjekt-link" href="${$.link(
+                'index'
+              )}#prosjekter">${$.t('nav4')} &nbsp; &vert;</a></li>
+              <li><a id="kontakt-link" href="${$.link('index')}#kontakt">${$.t(
+    'nav5'
+  )}</a></li>
             </ul>
           </nav>
           <script>${init}; init();</script>
           <div class="dropdown hide" id="dropdown-fixed">
             <ul>
-              <li><a href="${ $.link('design-utvikling') }">${ $.t('nav_tjenester1') }</a></li>
-              <li><a href="${ $.link('seo-marketing') }">${ $.t('nav_tjenester2') }</a></li>
-              <li><a href="${ $.link('hosting-drift') }">${ $.t('nav_tjenester3') }</a></li>
+              <li><a href="${$.link('design-utvikling')}">${$.t(
+    'nav_tjenester1'
+  )}</a></li>
+              <li><a href="${$.link('seo-marketing')}">${$.t(
+    'nav_tjenester2'
+  )}</a></li>
+              <li><a href="${$.link('hosting-drift')}">${$.t(
+    'nav_tjenester3'
+  )}</a></li>
             </ul>
           </div>
         </div>
 
-        ${ $.page.content }
+        ${$.page.content}
 
         <footer>
           <p>2022 Design and code by Speria Creative</p>
         </footer>
-        <script>cookie('lang', '${ $.lang }')</script>
+        <script>cookie('lang', '${$.lang}')</script>
       </body>
     </html>
 
   `
 }
-
-
