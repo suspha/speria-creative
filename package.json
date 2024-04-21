@@ -4,7 +4,7 @@
   "description": "Speria Creative",
   "scripts": {
     "dev": "npm run clear:css && npm run build:css && concurrently -n 🔥,💗 \"npm run watch:app\" \"npm run watch:css\"",
-    "watch:app": "nodemon -e js,mjs,json,yml,css,md -i dist -x waveorb serve",
+    "watch:app": "WAVEORB_PORT=5711 nodemon -e '*' -i dist -x waveorb serve",
     "watch:css": "sass --watch app/assets/scss/app.scss app/assets/css/build/app.css",
     "build:css": "sass app/assets/scss/app.scss app/assets/css/build/app.css",
     "build:css:min": "sass --style compressed --no-source-map app/assets/scss/app.scss app/assets/css/build/app.css",
@@ -22,11 +22,11 @@
   "author": "Susana Pham",
   "license": "MIT",
   "dependencies": {
-    "sass": "^1.32.8",
-    "waveorb": "^0.14.11",
-    "wmail": "^0.11.1"
+    "sass": "^1.75.0",
+    "waveorb": "^0.42.4",
+    "wmail": "^0.11.2"
   },
   "devDependencies": {
-    "concurrently": "^6.0.1"
+    "concurrently": "^8.2.2"
   }
 }

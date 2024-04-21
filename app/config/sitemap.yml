@@ -7,7 +7,7 @@ urls:
     links:
       - url: /en/
         lang: en
-  - url: /om-oss.html
+  - url: /om-meg.html
     lastmodfile: app/pages/index.js
     changefreq: weekly
     priority: 0.5
@@ -21,24 +21,31 @@ urls:
     links:
       - url: /en/confirmation.html
         lang: en
-  - url: /design-utvikling.html
+  - url: /ux-design.html
     lastmodfile: app/pages/index.js
     changefreq: weekly
     priority: 0.5
     links:
-      - url: /en/design-development.html
+      - url: /en/ux-design.html
         lang: en
-  - url: /seo-marketing.html
+  - url: /frontend.html
     lastmodfile: app/pages/index.js
     changefreq: weekly
     priority: 0.5
     links:
-      - url: /en/seo-marketing.html
+      - url: /en/frontend.html
         lang: en
-  - url: /hosting-drift.html
-    lastmodfile: app/pages/index.js
-    changefreq: weekly
-    priority: 0.5
-    links:
-      - url: /en/hosting-support.html
-        lang: en
+  # - url: /seo-marketing.html
+  #   lastmodfile: app/pages/index.js
+  #   changefreq: weekly
+  #   priority: 0.5
+  #   links:
+  #     - url: /en/seo-marketing.html
+  #       lang: en
+  # - url: /hosting-drift.html
+  #   lastmodfile: app/pages/index.js
+  #   changefreq: weekly
+  #   priority: 0.5
+  #   links:
+  #     - url: /en/hosting-support.html
+  #       lang: en

@@ -1,163 +1,172 @@
 # Title and Meta description
 # INDEX
-index_meta: Vi utvikler hjemmesider med fokus på å øke din Søkemotoroptimalisering SEO rangering.
-index_title: Speria Creative | Brukervennlig responsiv Webdesign og Webutvikling, SEO og Markedsføring, Hosting og Drift, Oslo, rimelig og lav pris.
+index_meta: Jeg utvikler hjemmesider med fokus på å øke din Søkemotoroptimalisering SEO rangering.
+index_title: Speria Creative | Brukervennlig responsiv Webdesign og Webutvikling, Norge, rimelig og lav pris.
 
-# OM OSS
-om-oss_meta: Vi spesialiserer oss innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene vi lager er brukervennlige, responsive og søkemotoroptimaliserte.
-om-oss_title: Om Oss | Speria Creative - Webdesign og Webutvikling, SEO og Markedsføring, Hosting og Drift Oslo
+# OM MEG
+om_meg_meta: Jeg spesialiserer meg innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene jeg lager er brukervennlige, responsive og søkemotoroptimaliserte.
+om_meg_title: Om meg | Speria Creative - Webdesign og Webutvikling
 
-# DESIGN & UTVIKLING
-design_meta: Vi lager kreative, mobil responsiv og brukervennlige hjemmesider med høy kvalitet og maksimal hastighet og stabilitet.
-design_title: Design &amp; Utvikling | Speria Creative - Brukervennlig, mobilvennlig og høy hastighet
+# UX-DESIGN
+design_meta: Jeg lager kreative, mobil responsiv og brukervennlige hjemmesider med høy kvalitet og maksimal hastighet og stabilitet.
+design_title: UX-design | Speria Creative - Brukervennlig, mobilvennlig og høy hastighet
+
+# FRONTEND
+frontend_meta: 'Jeg lager kreative, mobil responsiv og brukervennlige hjemmesider med høy kvalitet og maksimal hastighet og stabilitet.'
+frontend_title: Frontend Utvikling | Speria Creative - Brukervennlig, mobilvennlig og høy hastighet
 
 # SEO & MARKEDSFØRING
-seo_meta: Vi er eksperter på søkemotoroptimalisering, lenkebygging inn til siden din, sosiale medier, innovasjonsmetoder og vi kan hjelpe deg med å skrive gode tekster.
-seo_title: Søkemotoroptimalisering, SEO &amp; Markedsføring | Speria Creative - Billige og flinke tekstforfattere og markedsførere for din nettside
+# seo_meta: Vi er eksperter på søkemotoroptimalisering, lenkebygging inn til siden din, sosiale medier, innovasjonsmetoder og vi kan hjelpe deg med å skrive gode tekster.
+# seo_title: Søkemotoroptimalisering, SEO &amp; Markedsføring | Speria Creative - Billige og flinke tekstforfattere og markedsførere for din nettside
 
 # HOSTING & DRIFT
-host_meta: Vi er eksperter på SSL og domene, og vi tilbyr hosting i Norge og oppfølging til veldig lave priser. Som kunde hos oss får du gratis hosting i 1 år.
-host_title: Hosting &amp; Drift | Speria Creative - Billig webhosting og serverdrift i Norge
+# host_meta: Vi er eksperter på SSL og domene, og vi tilbyr hosting i Norge og oppfølging til veldig lave priser. Som kunde hos oss får du gratis hosting i 1 år.
+# host_title: Hosting &amp; Drift | Speria Creative - Billig webhosting og serverdrift i Norge
 
 # PROSJEKTER
-prosjekt_meta: Ta et kikk på våre siste Prosjeketer
+prosjekt_meta: Ta et kikk på mine siste Prosjeketer
 prosjekt_title: Prosjekter | Speria Creative
 
 # KONTAKT
-kontakt_meta: "Epost: post@speria.no"
+kontakt_meta: 'Epost: post@speria.no'
 kontakt_title: Kontakt | Speria Creative
 
 # Bekreftelse
 bekreftelse_title: Takk for din henvendelse!
-bekreftelse_text1: "Vi tar kontakt fortløpende, innen 24 timer."
+bekreftelse_text1: 'Jeg tar kontakt fortløpende, innen 24 timer.'
 
 # Mail
 email_phone: Telefonnummer
 
 # Error Message app.rb
 correct_errors: Vennligst rett opp feilene nedenfor
-error_name: "Minst 3 bokstaver"
-error_phone: "Minst 8 siffer"
-error_subject: "Velg et emne"
-error_email: "Ugyldig epost"
+error_name: 'Minst 3 bokstaver'
+error_phone: 'Minst 8 siffer'
+error_subject: 'Velg et emne'
+error_email: 'Ugyldig epost'
 
 #Subjects
-subjects_price: "Prisforespørsel"
-subjects_questions: "Spørsmål om våre tjenester"
-subjects_marketing: "Tekst og Markedsføring"
-subjects_design: "Design og Utvikling"
-subjects_hosting: "Hosting og Drift"
-subjects_other: "Annet"
+subjects_price: 'Prisforespørsel'
+subjects_questions: 'Spørsmål om mine tjenester'
+# subjects_marketing: 'Tekst og Markedsføring'
+subjects_development: 'Utvikling'
+subjects_design: 'UX-design'
+
+# subjects_hosting: 'Hosting og Drift'
+subjects_other: 'Annet'
 
 #layout.erb
 #NAV
-nav1: "Hjem"
-nav2: "Tjenester"
-nav3: "Om Oss"
-nav4: "Prosjekter"
-nav5: "Kontakt"
+nav1: 'Hjem'
+nav2: 'Tjenester'
+nav3: 'Om meg'
+nav4: 'Prosjekter'
+nav5: 'Kontakt'
 
-nav_tjenester1: "Design &amp; Utvikling"
-nav_tjenester2: "SEO &amp; Markedsføring"
-nav_tjenester3: "Hosting &amp; Drift"
+nav_tjenester1: 'UX-design'
+# nav_tjenester2: 'SEO &amp; Markedsføring'
+# nav_tjenester3: 'Hosting &amp; Drift'
+nav_tjenester4: 'Frontend utvikling'
 
 #root
 # INDEX
-index_undertittel_bilde: "Vi tenker ut av boksen og lager nettsider <br> med personlighet"
+index_undertittel_bilde: Webdesign, UX-design og frontend utvikling <br>laget med personlighet
 
-index_om_oss_tittel: "Om Oss"
-index_om_oss1: "Speria Creative ble etablert i 2017. Vi er idag et lite dedikert team med to fast ansatte, og et nettverk av freelancere som vi kobler inn i flere av våre prosjekter."
-index_om_oss2: "Vi er genuint opptatt av å levere gode løsninger for våre kunder, og spesialiserer oss innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene vi bygger er brukervennlige, responsive og søkemotoroptimaliserte."
+index_om_meg_tittel: 'Om Meg'
+index_om_meg1: 'Speria Creative ble etablert i 2017 av Susana Pham.'
+index_om_meg2: 'Jeg er genuint opptatt av å levere gode løsninger for mine kunder, og spesialiserer meg innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene jeg bygger er brukervennlige, responsive og søkemotoroptimaliserte.'
 
-index_les_mer: "Les mer"
+index_les_mer: 'Les mer'
 
-index_tjenester_tittel: "Tjenester"
-index_tjenester: "Speria Creative leverer skreddersydd webdesign til hyggelige priser.<br>Sjekk hva vi har å tilby og hvorfor du skal velge nettopp oss."
+index_tjenester_tittel: 'Tjenester'
+index_tjenester: 'Speria Creative leverer skreddersydd webdesign til hyggelige priser.<br>Sjekk hva jeg har å tilby og hvorfor du skal velge nettopp meg.'
 
-index_design_tittel: "Design &amp; Utvikling"
-index_design: "Vi er kreative webdesignere som lager unike design fra scratch."
+index_design_tittel: 'UX-design'
+index_design: 'Jeg er kreative webdesigner som lager unike design fra scratch.'
 
-index_seo_tittel: "Markedsføring &amp; SEO"
-index_seo: "Vi er eksperter på markedsføring, og hjelper deg med å bli synlig på nettet."
+index_dev_tittel: 'Frontend utvikling'
+index_dev: ''
 
-index_hosting_tittel: Hosting &amp; Drift
-index_hosting: "Vi har oppfølgingsgaranti og hjelper deg med hosting."
+# index_seo_tittel: 'Markedsføring &amp; SEO'
+# index_seo: 'Vi er eksperter på markedsføring, og hjelper deg med å bli synlig på nettet.'
 
-index_prosjekter: "Siste Prosjekter"
+# index_hosting_tittel: Hosting &amp; Drift
+# index_hosting: 'Vi har oppfølgingsgaranti og hjelper deg med hosting.'
 
-index_kontakt_tittel: "Ta Kontakt"
-index_kontakt1: "Fyll ut kontaktskjemaet eller send en epost, så svarer vi så fort vi kan."
-index_kontakt2: "Vi ser frem til å kunne samarbeide med deg."
-index_nor: "Norge"
-index_kontakt_form1: "Navn / Firma"
-index_kontakt_form2: "Telefon"
-index_kontakt_form3: "Epost"
-index_kontakt_form4: "Emne"
-index_kontakt_form5: "Beskjed"
+index_prosjekter: 'Prosjekter'
+
+index_kontakt_tittel: 'Ta Kontakt'
+index_kontakt1: 'Fyll ut kontaktskjemaet eller send en epost, så svarer jeg så fort jeg kan.'
+index_nor: 'Norge'
+index_kontakt_form1: 'Navn / Firma'
+index_kontakt_form2: 'Telefon'
+index_kontakt_form3: 'Epost'
+index_kontakt_form4: 'Emne'
+index_kontakt_form5: 'Beskjed'
 index_kontakt_form_write: Skriv beskjed her
 
 # OM OSS
-om_oss_undertittel_bilde: "Vårt team og vår visjon"
-om_oss_tittel: "Om Oss"
-om_oss_tekst1: "Speria Creative ble etablert i 2017. Vi er idag et lite dedikert team med to fast ansatte, og et nettverk av kreative freelancere som vi kobler inn i våre prosjekter når det trengs."
-om_oss_tekst2: "Vi er genuint opptatt av å levere gode løsninger for våre kunder, og spesialiserer oss innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene vi bygger er brukervennlige, responsive og søkemotoroptimaliserte."
-om_oss_tekst3: "Det er mange selskaper som gjør det samme som oss, men vi vil at du skal jobbe med oss ut fra hvem vi er. Gjennom hardt arbeid kan vi tilby så mye mer enn bare en fin hjemmeside å se på."
-om_oss_tittel1: "Hvorfor bør du velge oss?"
-om_oss_tekst4: "Vi setter markedsføring i fokus. Å drive trafikk inn på siden din er det viktigste av alt. Det hjelper ikke med en fin side hvis ingen finner den. Velger du oss er det en investering der vårt mål er å øke dine inntekter."
-om_oss_tekst5: "Vi er ikke store, og derfor klarer vi å jobbe veldig tett med kundene våre. Vi sier ikke ja til alle oppdrag, fordi vi vil at du som kunde blir 100% prioritert."
-om_oss_tekst6: "Vi prater deg ikke trill rundt og sitter ikke i flere møter for å preike om ditt og datt. Vi kaster ikke bort tiden din og går rett på sak. Du møter oss som gjør jobben for deg, og som faktisk kjenner til behovene dine."
-om_oss_tekst7: "Våre priser er mye rimeligere enn hos mange av våre konkurrenter. Vi tilbyr både timepris og pakkepris som er svært gunstige. Nyetablerte firmaer får dessuten 10% rabatt."
-om_oss_tekst8: "Vi har lynkjapp responstid og korte arbeidsprosesser. Derfor kommer resultatene raskere. Som en liten leverandør er vi avhengig av at du som kunde lykkes, ellers gjør vi ikke det bra selv."
-om_oss_tekst9: "<b>Vår visjon er enkel:</b> Vi er lidenskapelig opptatt av å skape gode resultater. På veien dit skal vi vise at det går an å få til god markedsføring, og samtidig levere et godt webdesign uten at du må betale mye penger."
-om_oss_tekst10: "Ta kontakt for å bli bedre kjent med oss!"
+om_meg_undertittel_bilde: 'Min visjon'
+om_meg_tittel: 'Om meg'
+om_meg_tekst1: 'Speria Creative ble etablert i 2017 av Susana Pham.'
+om_meg_tekst2: 'Jeg er genuint opptatt av å levere gode løsninger for min kunder, og spesialiserer meg innen små, mellomstore og nyoppstartede bedrifter. Alle hjemmesidene jeg bygger er brukervennlige, responsive og søkemotoroptimaliserte.'
+om_meg_tekst3: 'Det er mange som gjør det samme som meg, men jeg vil at du skal jobbe med meg ut fra hvordan jeg jobber og hva jeg leverer. Gjennom hardt arbeid kan jeg tilby så mye mer enn bare en fin hjemmeside å se på.'
+om_meg_tittel1: 'Hvorfor bør du velge meg?'
+om_meg_tekst4: 'Jeg setter brukeropplevelse i fokus. Å drive trafikk inn på siden din er det viktigste av alt. Det hjelper ikke med en fin side hvis ingen finner den. Velger du meg er det en investering der mitt mål er å lage "eye catching" nettiside, samtidig øke synlighet.'
+om_meg_tekst5: 'Jeg er opptatt av å jobbe tett med kundene mine. Jeg sier ikke ja til alle oppdrag, fordi jeg vil at du som kunde blir 100% prioritert.'
+om_meg_tekst6: 'Jeg prater deg ikke trill rundt og sitter ikke i flere møter for å preike om ditt og datt. Jeg kaster ikke bort tiden din og går heller rett på sak. Du møter faktisk meg som gjør jobben for deg, og som faktisk kjenner til behovene dine.'
+om_meg_tekst7: 'Mine priser er mye rimeligere enn hos mange av mine konkurrenter. Jeg tilbyr både timepris og pakkepris som er svært gunstige. Nyetablerte firmaer får dessuten 10% rabatt.'
+om_meg_tekst8: 'Jeg har lynkjapp responstid og korte arbeidsprosesser. Derfor kommer resultatene raskere. Som en liten leverandør er jeg avhengig av at du som kunde lykkes, ellers gjør jeg ikke det bra selv.'
+om_meg_tekst9: '<b>Min visjon er enkel:</b> Jeg er lidenskapelig opptatt av å skape gode resultater. På veien dit skal jeg vise at det går an å få til god markedsføring, og samtidig levere et godt webdesign uten at du må betale mye penger.'
+om_meg_tekst10: 'Ta kontakt for å bli bedre kjent med meg!'
 
-# DESIGN OG UTVIKLING
-design_tittel_bilde: "Hvorfor er et godt design viktig?"
-design_undertittel_bilde: "Vi lager profesjonelle websider tilpasset ditt behov"
-design_tittel: "Design &amp; Utvikling"
-design_tekst1: "Når vi utvikler et design har vi hele tiden fokus på at det skal forbedre brukervennligheten og fremme innholdet."
-design_tekst2: "I motsetning til mange andre webdesignfirmaer lager vi kreative og unike design fra scratch, og vi vil aldri levere fra oss lik webdesign til flere kunder. Vi er svært opptatt av høy kvalitet på det vi leverer. En stor fordel er at vi er erfarne og følger trenden i markedet, da vet vi hva som må til for å lage god webdesign."
-design_tekst3: "Designere som ikke har kunnskap om brukervennlighet kan lage et nettside som ser bra ut, men designet er ikke optimalisert for web og nettsiden bli vanskelig å bruke. Vi lager ryddig kode slik at hjemmesiden din fungerer i de mest brukte nettleserne, og i tillegg er optimalisert for maksimal hastighet og stabilitet."
-design_tittel1: "Responsivt Design"
-design_tekst4: "Alle våre nettsider er tilpasset alle skjermstørrelser. Det betyr at innholdet og designet på nettsiden din blir automatisk tilpasset etter din enhet, uansett skjermstørrelse."
-design_tittel2: "Webutvikling"
-design_tekst5: "Vi lager nettsiden din med standard HTML, CSS og Javascript som er et moderne, kjapt og fleksibelt språk som gjør det lett å gjøre siden din dynamisk."
-design_tittel3: "Testing"
-design_tekst6: "Vi leverer ikke produktet før det er ferdig testet. Vi vil kjøre en grundig test på hjemmesiden din og teste den i de mest brukte nettleserne. Vi garanterer at du som kunde vil få et feilfritt produkt som er av høyeste kvalitet. Finner du feil fikser vi det umiddelbart helt gratis."
-design_tekst7: "Vil du vite mer om hva vi har å tilby innen design og utvikling?"
-design_tekst8: "Ta kontakt så hjelper vi deg"
-design_tittel4: "Publiseringssystem"
-design_tekst9: "Vi har laget en publiseringsløsning som er lett å bruke. Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst. Vi har utviklet et eget publiseringssystem (CMS), hvor du kan enkelt administrere innholdet selv. For å ikke skape mye krøll, har vi lagt vekt på at du som administrator skal være trygg og at det skal være lekende lett. Det er ingen krav om tekniske forkunnskaper."
+# DESIGN
+design_tittel_bilde: 'Hvorfor er et godt design viktig?'
+design_undertittel_bilde: 'Jeg lager profesjonelle websider tilpasset ditt behov'
+design_tittel: 'UX-design'
+design_tekst1: 'Når jeg utvikler et design har jeg hele tiden fokus på at det skal forbedre brukervennligheten og fremme innholdet.'
+design_tekst2: 'I motsetning til mange andre webdesignfirmaer lager jeg kreative og unike design fra scratch, og jeg vil aldri levere fra meg lik webdesign til flere kunder. Jeg er svært opptatt av høy kvalitet på det jeg leverer. En stor fordel er at jeg er erfaren og følger trenden i markedet, da vet jeg hva som må til for å lage god webdesign.'
+design_tekst3: 'Designere som ikke har kunnskap om brukervennlighet kan lage et nettside som ser bra ut, men designet er ikke optimalisert for web og nettsiden bli vanskelig å bruke. Jeg lager ryddig kode slik at hjemmesiden din fungerer i de mest brukte nettleserne, og i tillegg er optimalisert for maksimal hastighet og stabilitet.'
+design_tittel1: 'Responsivt Design'
+design_tekst4: 'Alle nettsider jeg lager er tilpasset alle skjermstørrelser. Det betyr at innholdet og designet på nettsiden din blir automatisk tilpasset etter din enhet, uansett skjermstørrelse.'
+design_tittel2: 'Webutvikling'
+design_tekst5: 'Jeg lager nettsiden din med standard HTML, CSS og Javascript som er et moderne, kjapt og fleksibelt språk som gjør det lett å gjøre siden din dynamisk.'
+design_tittel3: 'Testing'
+design_tekst6: 'Jeg leverer ikke produktet før det er ferdig testet. Jeg vil kjøre en grundig test på hjemmesiden din og teste den i de mest brukte nettleserne. Jeg garanterer at du som kunde vil få et feilfritt produkt som er av høyeste kvalitet. Finner du feil fikser jeg det umiddelbart.'
+design_tekst7: 'Vil du vite mer om hva jeg har å tilby innen design og utvikling?'
+design_tekst8: 'Ta kontakt så hjelper jeg deg'
+design_tittel4: 'Publiseringssystem'
+design_tekst9: 'Jeg har laget en publiseringsløsning som er lett å bruke. Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst. Jeg har utviklet et eget publiseringssystem (CMS), hvor du kan enkelt administrere innholdet selv. For å ikke skape mye krøll, har jeg lagt vekt på at du som administrator skal være trygg og at det skal være lekende lett. Det er ingen krav om tekniske forkunnskaper.'
 
 # SEO OG MARKEDSFØRING
-seo_tekst_bilde: "Vi hjelper deg med å bli mer synlig på nettet!"
-seo_undertittel_bilde: "Vi har sterkt fokus på søkemotoroptimalisering"
-seo_tittel: "SEO &amp; Markedsføring"
-seo_tekst1: "Online markedsføring er noe vi kan! Vi kan hjelpe deg med lenkebygging inn til siden din, innholdsmarkedsføring, sosiale medier, innovasjonsmetoder og mye mer."
-seo_tittel1: "Søkemotoroptimalisering"
-seo_tekst2: "Søkemotoroptimalisering er i dag uten tvil den mest effektive formen for online markedsføring, da alt dreier seg om klikk og konvertering. Basert på våre erfaringer og kunnskap har vi funnet den optimale SEO løsningen som er helt gratis!"
-seo_tekst3: "Vi analyserer hjemmesiden din og med hjelp av vår optimaliserte kode og tekniske løsning vil vi også i tillegg gå grundig gjennom bruk av tekst og innhold for å avdekke viktige og relevante søkebegreper som passer til din profil."
-seo_tekst4: "God søkemotoroptimalisering forutsetter at man kan skrive godt. Ved å skrive gode tekster med riktig oppbygging av kriterier, vil du etter hvert drive relevant trafikk inn på nettsiden din. Google vil da plassere ditt nettsted høyere på resultatlisten for de temaene nettsiden din omhandler."
-seo_tekst5: "Vi tilbyr grundige SEO-rapporter til våre kunder, som inneholder detaljert analyse av nettsiden for å avdekke alle forbedringsmuligheter. Vi bygger deretter strategier for fremtidige mål for at din virksomhet skal lykkes."
-seo_tittel2: "Tekstforfatter"
-seo_tekst6: "Vi skriver tekster for alle typer blogger og nettsider. Vi dekker alle emner rettet mot det generelle publikum. Våre forfattere er rutinerte skribenter, og vi har kontakter som kan trekkes inn ved behov."
-seo_tekst7: "Vår målsetting er å oppnå høy rangering på aktuelle søk, flere besøkende på bloggen eller nettsiden din, eller flere påmeldte på nyhetsbrev. Flere treff er det samme som flere salg."
-seo_tekst8: "Vi søker alltid å konkretisere målene for tekstene basert på aktuelle nøkkelord og nøkkelfraser. Tekstene er utformet slik at de er søkemotor-optimalisert ved hjelp av velprøvde teknikker. Lengden kan variere, men vanligvis er de på rundt 500 ord."
-seo_tekst9: "Vi kan foreslå emner og temaer, eller vi kan basere det på ønsker fra deg. Vi kan også gi råd om aktuelle kriterier for å oppnå så mange treff som mulig."
-seo_tekst10: "Trenger du hjelp med markedsføring?"
-seo_tekst11: "Send oss en forespørsel"
+# seo_tekst_bilde: 'Vi hjelper deg med å bli mer synlig på nettet!'
+# seo_undertittel_bilde: 'Vi har sterkt fokus på søkemotoroptimalisering'
+# seo_tittel: 'SEO &amp; Markedsføring'
+# seo_tekst1: 'Online markedsføring er noe vi kan! Vi kan hjelpe deg med lenkebygging inn til siden din, innholdsmarkedsføring, sosiale medier, innovasjonsmetoder og mye mer.'
+# seo_tittel1: 'Søkemotoroptimalisering'
+# seo_tekst2: 'Søkemotoroptimalisering er i dag uten tvil den mest effektive formen for online markedsføring, da alt dreier seg om klikk og konvertering. Basert på våre erfaringer og kunnskap har vi funnet den optimale SEO løsningen som er helt gratis!'
+# seo_tekst3: 'Vi analyserer hjemmesiden din og med hjelp av vår optimaliserte kode og tekniske løsning vil vi også i tillegg gå grundig gjennom bruk av tekst og innhold for å avdekke viktige og relevante søkebegreper som passer til din profil.'
+# seo_tekst4: 'God søkemotoroptimalisering forutsetter at man kan skrive godt. Ved å skrive gode tekster med riktig oppbygging av kriterier, vil du etter hvert drive relevant trafikk inn på nettsiden din. Google vil da plassere ditt nettsted høyere på resultatlisten for de temaene nettsiden din omhandler.'
+# seo_tekst5: 'Vi tilbyr grundige SEO-rapporter til våre kunder, som inneholder detaljert analyse av nettsiden for å avdekke alle forbedringsmuligheter. Vi bygger deretter strategier for fremtidige mål for at din virksomhet skal lykkes.'
+# seo_tittel2: 'Tekstforfatter'
+# seo_tekst6: 'Vi skriver tekster for alle typer blogger og nettsider. Vi dekker alle emner rettet mot det generelle publikum. Våre forfattere er rutinerte skribenter, og vi har kontakter som kan trekkes inn ved behov.'
+# seo_tekst7: 'Vår målsetting er å oppnå høy rangering på aktuelle søk, flere besøkende på bloggen eller nettsiden din, eller flere påmeldte på nyhetsbrev. Flere treff er det samme som flere salg.'
+# seo_tekst8: 'Vi søker alltid å konkretisere målene for tekstene basert på aktuelle nøkkelord og nøkkelfraser. Tekstene er utformet slik at de er søkemotor-optimalisert ved hjelp av velprøvde teknikker. Lengden kan variere, men vanligvis er de på rundt 500 ord.'
+# seo_tekst9: 'Vi kan foreslå emner og temaer, eller vi kan basere det på ønsker fra deg. Vi kan også gi råd om aktuelle kriterier for å oppnå så mange treff som mulig.'
+# seo_tekst10: 'Trenger du hjelp med markedsføring?'
+# seo_tekst11: 'Send oss en forespørsel'
 
 # HOSTING OG DRIFT
-hosting_tekst_bilde: "Hva skjer etter lansering?"
-hosting_undertittel_bilde: "Hos oss får du oppfølgingsgaranti helt gratis"
-hosting_tittel: "Hosting &amp; Drift"
-hosting_tekst1: "Som kunde hos oss kan du få gratis hosting på våre høyhastighetsservere i Norge i et helt år. Vi distribuerer nettstedet ditt på våre eksisterende servere, slik at du slipper å tenke på det."
-hosting_tittel1: "Domenenavn"
-hosting_tekst2: "Vi er eksperter på nettverk og sikkerhet, og kan gi deg rådgivning om hvordan du setter opp ditt domenenavn, epost og SSL sertifikat."
-hosting_tittel2: "Oppfølging og support"
-hosting_tekst3: "Vi stopper ikke når vi har levert en ferdig løsning. Vi hjelper deg også etter lansering. Vår oppfølgingsgaranti skal være med på å sikre at du får betalt for din investering og vi kan tilby deg svært gode supportavtaler. Ikke nok med det vil vi fikse bugs helt gratis i et helt år! Bedre deal får du ikke andre steder!"
-hosting_tekst4: "Ønsker du å vite mer om oppfølging og hosting?"
-hosting_tekst5: "Ta kontakt for tilbud"
+# hosting_tekst_bilde: 'Hva skjer etter lansering?'
+# hosting_undertittel_bilde: 'Hos oss får du oppfølgingsgaranti helt gratis'
+# hosting_tittel: 'Hosting &amp; Drift'
+# hosting_tekst1: 'Som kunde hos oss kan du få gratis hosting på våre høyhastighetsservere i Norge i et helt år. Vi distribuerer nettstedet ditt på våre eksisterende servere, slik at du slipper å tenke på det.'
+# hosting_tittel1: 'Domenenavn'
+# hosting_tekst2: 'Vi er eksperter på nettverk og sikkerhet, og kan gi deg rådgivning om hvordan du setter opp ditt domenenavn, epost og SSL sertifikat.'
+# hosting_tittel2: 'Oppfølging og support'
+# hosting_tekst3: 'Vi stopper ikke når vi har levert en ferdig løsning. Vi hjelper deg også etter lansering. Vår oppfølgingsgaranti skal være med på å sikre at du får betalt for din investering og vi kan tilby deg svært gode supportavtaler. Ikke nok med det vil vi fikse bugs helt gratis i et helt år! Bedre deal får du ikke andre steder!'
+# hosting_tekst4: 'Ønsker du å vite mer om oppfølging og hosting?'
+# hosting_tekst5: 'Ta kontakt for tilbud'
 
 # errors
 validation:

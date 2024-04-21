@@ -1,0 +1,30 @@
+.about-intro a {
+  color: $dark;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.about-image {
+  margin-top: 2.2rem;
+}
+
+.intro-om-meg span {
+  color: $dark;
+  font-size: 40px;
+}
+
+.about-intro p {
+  font-size: 24px;
+}
+
+.intro-om-meg a {
+  color: $dark;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 650px) {
+  .about-image {
+    margin-top: 0;
+  }
+}

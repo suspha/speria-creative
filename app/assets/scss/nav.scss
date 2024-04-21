@@ -1,0 +1,73 @@
+.speria-logo {
+  width: 30px;
+  margin: 2rem;
+  position: absolute;
+}
+
+a.langlink {
+  color: $light;
+  font-size: 20px;
+  margin: 0;
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.langlink a.active-link {
+  text-decoration: none;
+  color: $dark;
+  font-weight: 600;
+  background: $beige;
+  padding: 2px 8px 5px;
+  border-radius: 6px;
+  border-bottom: none;
+}
+
+/* Menu mobile */
+a {
+  text-decoration: none;
+  color: $dark;
+  transition: color 0.3s ease;
+}
+
+#navi-mob {
+  display: none;
+}
+
+#navi-mob i {
+  position: absolute;
+  right: 22px;
+  top: 70px;
+  font-size: 22pt;
+}
+
+#navi-mob i.active {
+  color: $light;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  background: $beige;
+  color: $dark;
+  width: 200px;
+  right: -200px;
+  padding: 1em;
+  opacity: 0;
+}
+
+#menu li {
+  padding: 8px 0;
+  font-size: 12pt;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 850px) {
+  #navi {
+    display: none;
+  }
+
+  #navi-mob {
+    display: initial;
+  }
+}

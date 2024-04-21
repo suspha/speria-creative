@@ -1,0 +1,130 @@
+/*Image slider*/
+figure {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 660px;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #333331;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+.mySlides {
+  position: relative;
+  border: 1px solid #ddd;
+  height: 578px;
+}
+
+@media only screen and (max-width: 550px) {
+  .mySlides {
+    height: 100%;
+    border: none;
+  }
+}
+
+.mySlides a {
+  text-decoration: none;
+}
+
+.mySlides a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.text-slider {
+  display: none;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  opacity: 0.9;
+}
+
+.text-slider h4 {
+  position: relative;
+  top: 40%;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 550px) {
+  .text-slider h4 {
+    font-size: 14px;
+    white-space: normal;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.8s;
+  animation-name: fade;
+  animation-duration: 1.8s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,51 @@
+.how-i-work ol {
+  padding: 0;
+  position: relative;
+}
+
+.how-i-work ol:before {
+  content: '';
+  display: block;
+  height: calc(75% - 50px);
+  width: 3px;
+  background: $dark;
+  position: absolute;
+  left: 23px;
+  top: -9px;
+}
+
+.how-i-work li.text {
+  flex-grow: 1;
+}
+
+.how-i-work li h3 {
+  font-size: 34px;
+  margin-left: 4rem;
+}
+
+.how-i-work li p {
+  padding-left: 3rem;
+  margin: 1rem;
+}
+
+.how-i-work li s span:last-child {
+  border-bottom: none;
+}
+
+.how-i-work li:before {
+  content: counter(list-item);
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 46px;
+  background: $dark;
+  color: $light;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 32px;
+  box-shadow: 0 0 0 16px $light;
+  flex-shrink: 0;
+}

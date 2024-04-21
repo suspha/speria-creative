@@ -1,35 +1,26 @@
-const contact= require('../components/contact.js')
-const projects = require('../components/projects.js')
+const contact = require('../components/contact.js')
+// const projects = require('../components/projects.js')
+const customers = require('../components/customers.js')
 const services = require('../components/services.js')
 const about = require('../components/about.js')
+const work = require('../components/work.js')
 
-module.exports = async function($) {
+module.exports = async function ($) {
   $.page.description = $.t('index_meta')
   $.page.title = $.t('index_title')
 
-  return /* html */`
-    <div class="top-wrapper pale-background">
-      <div class="top-row">
-        <div class="top-column image">
-          <div class="top-image frontpage">
-            <img src="/img/speria-creative-main-opt.svg" alt="image">
-          </div>
-        </div>
-        <div class="top-column text">
-          <div class="top-text main">
-            <h1>Speria Creative</h1>
-            <hr style="width:14%;">
-            <p>&ldquo; ${ $.t('index_undertittel_bilde') } &rdquo;</p>
-            <hr style="width:10%;margin-left:-28%">
-          </div>
-        </div>
+  return /* html */ `
+    <div class="top-wrapper dark-background">
+      <div class="top-text main">
+        <h1>Speria Creative</h1>
+        <p>${$.t('index_undertittel_bilde')}</p>
       </div>
     </div>
 
-    ${ await about($) }
-    ${ await services($) }
-    ${ await projects($) }
-    ${ await contact($) }
+    ${await about($)}
+    ${await work($)}
+    ${await services($)}
+    ${await customers($)}
+    ${await contact($)}
   `
 }
-

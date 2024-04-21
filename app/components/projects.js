@@ -1,11 +1,9 @@
-module.exports = async function($) {
-
-  return /* html */`
-    <div class="full-width border-row light-background">
+module.exports = async function ($) {
+  return /* html */ `
+    <div class="full-width border-row pale-background">
       <div class="inner-width-wide">
         <div class="portfolio">
-          <h2 id="prosjekter">${ $.t('index_prosjekter') }</h2>
-          <hr style="width:5%; margin-top: -12px; margin-left: 3em;">
+          <h2 id="prosjekter">${$.t('index_prosjekter')}</h2>
         </div>
       </div>
       <div class="fade">

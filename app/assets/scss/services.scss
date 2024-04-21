@@ -1,0 +1,75 @@
+.service-card {
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+  color: $light;
+  border: 2px solid transparent;
+}
+
+.service-text {
+  color: $white;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.service-text a {
+  text-decoration: none;
+}
+
+a.service-card:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-out;
+  transform: scale(1);
+}
+
+.paragraph h3 {
+  color: $white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.paragraph p,
+.ta-kontakt {
+  padding: 0 10px;
+}
+
+.paragraph span {
+  color: $white;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid $white;
+}
+
+.ta-kontakt span a {
+  font-size: 22px;
+}
+
+.ta-kontakt a {
+  border-bottom: 2px solid $dark;
+  font-weight: 500;
+  color: $dark;
+  margin-left: 8px;
+}
+
+// .ta-kontakt p:nth-last-child(-n + 3) {
+//   font-size: 22px;
+// }
+
+.img-circle {
+  margin-bottom: 1.5rem;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 2.8rem;
+}
+
+.circle {
+  border: 1px solid $beige;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: $beige;
+  margin-bottom: 1em;
+  display: inline-block;
+}
