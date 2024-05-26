@@ -23,6 +23,15 @@ a.langlink:hover {
   border-bottom: none;
 }
 
+.top-nav {
+  position: relative;
+  height: 120px;
+  background: #272829;
+}
+.top-nav a {
+  color: #fefbf6;
+}
+
 /* Menu mobile */
 a {
   text-decoration: none;
@@ -37,8 +46,8 @@ a {
 #navi-mob i {
   position: absolute;
   right: 22px;
-  top: 70px;
-  font-size: 22pt;
+  top: 32px;
+  font-size: 38px;
 }
 
 #navi-mob i.active {
@@ -50,7 +59,8 @@ a {
   position: absolute;
   background: #f0ebe3;
   color: #272829;
-  width: 200px;
+  width: 100%;
+  height: 100vh;
   right: -200px;
   padding: 1em;
   opacity: 0;
@@ -62,12 +72,16 @@ a {
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   #navi {
     display: none;
   }
   #navi-mob {
     display: initial;
+  }
+  .top-nav a {
+    color: #272829;
+    font-size: 22px;
   }
 }
 .about-intro a {
@@ -102,7 +116,9 @@ a {
 }
 .how-i-work ol {
   padding: 0;
+  margin: 0;
   position: relative;
+  list-style: none;
 }
 
 .how-i-work ol:before {
@@ -120,14 +136,14 @@ a {
   flex-grow: 1;
 }
 
-.how-i-work li h3 {
+.how-i-work h3 {
   font-size: 34px;
   margin-left: 4rem;
 }
 
-.how-i-work li p {
-  padding-left: 3rem;
-  margin: 1rem;
+.text p {
+  padding-left: 4rem;
+  margin: 1rem 0;
 }
 
 .how-i-work li s span:last-child {
@@ -142,7 +158,7 @@ a {
   width: 50px;
   font-size: 28px;
   font-weight: bold;
-  line-height: 46px;
+  line-height: 50px;
   background: #272829;
   color: #fefbf6;
   border-radius: 50%;
@@ -389,7 +405,7 @@ html {
 
 /*Kube reset*/
 .tabs a {
-  color: #425564;
+  color: #fcfcfc;
   font-size: 22px;
   letter-spacing: 1.5px;
 }
@@ -397,7 +413,6 @@ html {
 .tabs {
   padding-top: 5px;
   font-size: 16px;
-  color: #425564;
   font-weight: 500;
 }
 
@@ -425,7 +440,7 @@ html {
 .tabs li em,
 .tabs li.active a {
   border: none;
-  color: #af3f4f;
+  color: #b3a398;
   font-weight: 500;
   cursor: pointer;
 }
@@ -436,13 +451,8 @@ button:hover,
   color: #272829;
 }
 
-.button {
-  font-family: "Raleway", sans-serif;
-}
-
 .message.error {
-  font-family: "Raleway", sans-serif;
-  font-size: 1em;
+  font-size: 18px;
   opacity: 0;
   transition: all 0.3s ease;
 }
@@ -496,7 +506,6 @@ h6 {
 }
 
 h2 {
-  color: #272829;
   font-size: 46px;
   font-weight: 500;
 }
@@ -532,7 +541,7 @@ p {
 }
 
 a:focus {
-  border: 1px solid #af3f4f;
+  border: 1px solid #b3a398;
   box-sizing: border-box;
 }
 
@@ -540,15 +549,6 @@ a:focus {
   max-width: 860px;
   margin: 0 auto;
   padding-top: 0;
-}
-
-.top-nav {
-  position: relative;
-  height: 120px;
-  background: #272829;
-}
-.top-nav a {
-  color: #fefbf6;
 }
 
 .top-row {
@@ -608,7 +608,7 @@ a:focus {
   }
 }
 
-.top-text p {
+.top-text h2 {
   font-size: 32px;
   color: #fefbf6;
   padding-top: 2rem;

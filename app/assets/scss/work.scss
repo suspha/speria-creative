@@ -1,6 +1,8 @@
 .how-i-work ol {
   padding: 0;
+  margin: 0;
   position: relative;
+  list-style: none;
 }
 
 .how-i-work ol:before {
@@ -18,14 +20,14 @@
   flex-grow: 1;
 }
 
-.how-i-work li h3 {
+.how-i-work h3 {
   font-size: 34px;
   margin-left: 4rem;
 }
 
-.how-i-work li p {
-  padding-left: 3rem;
-  margin: 1rem;
+.text p {
+  padding-left: 4rem;
+  margin: 1rem 0;
 }
 
 .how-i-work li s span:last-child {
@@ -40,7 +42,7 @@
   width: 50px;
   font-size: 28px;
   font-weight: bold;
-  line-height: 46px;
+  line-height: 50px;
   background: $dark;
   color: $light;
   border-radius: 50%;

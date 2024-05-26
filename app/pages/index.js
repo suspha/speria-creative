@@ -13,7 +13,7 @@ module.exports = async function ($) {
     <div class="top-wrapper dark-background">
       <div class="top-text main">
         <h1>Speria Creative</h1>
-        <p>${$.t('index_undertittel_bilde')}</p>
+        <h2>${$.t('index_undertittel_bilde')}</h2>
       </div>
     </div>
 

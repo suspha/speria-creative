@@ -16,7 +16,7 @@ html {
 /*Kube reset*/
 
 .tabs a {
-  color: #425564;
+  color: $white;
   font-size: 22px;
   letter-spacing: 1.5px;
 }
@@ -24,7 +24,6 @@ html {
 .tabs {
   padding-top: 5px;
   font-size: 16px;
-  color: #425564;
   font-weight: 500;
 }
 
@@ -52,7 +51,7 @@ html {
 .tabs li em,
 .tabs li.active a {
   border: none;
-  color: #af3f4f;
+  color: $tan;
   font-weight: 500;
   cursor: pointer;
 }
@@ -63,13 +62,8 @@ button:hover,
   color: $dark;
 }
 
-.button {
-  font-family: 'Raleway', sans-serif;
-}
-
 .message.error {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 18px;
   opacity: 0;
   transition: all 0.3s ease;
 }
@@ -121,7 +115,6 @@ h6 {
 }
 
 h2 {
-  color: $dark;
   font-size: 46px;
   font-weight: 500;
 }
@@ -157,7 +150,7 @@ p {
 }
 
 a:focus {
-  border: 1px solid #af3f4f;
+  border: 1px solid $tan;
   box-sizing: border-box;
 }
 
@@ -165,15 +158,6 @@ a:focus {
   max-width: 860px;
   margin: 0 auto;
   padding-top: 0;
-}
-
-.top-nav {
-  position: relative;
-  height: 120px;
-  background: $dark;
-  a {
-    color: $light;
-  }
 }
 
 .top-row {
@@ -225,7 +209,7 @@ a:focus {
   }
 }
 
-.top-text p {
+.top-text h2 {
   font-size: 32px;
   color: $light;
   padding-top: 2rem;

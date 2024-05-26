@@ -23,6 +23,15 @@ a.langlink {
   border-bottom: none;
 }
 
+.top-nav {
+  position: relative;
+  height: 120px;
+  background: $dark;
+  a {
+    color: $light;
+  }
+}
+
 /* Menu mobile */
 a {
   text-decoration: none;
@@ -37,8 +46,8 @@ a {
 #navi-mob i {
   position: absolute;
   right: 22px;
-  top: 70px;
-  font-size: 22pt;
+  top: 32px;
+  font-size: 38px;
 }
 
 #navi-mob i.active {
@@ -50,7 +59,8 @@ a {
   position: absolute;
   background: $beige;
   color: $dark;
-  width: 200px;
+  width: 100%;
+  height: 100vh;
   right: -200px;
   padding: 1em;
   opacity: 0;
@@ -62,12 +72,17 @@ a {
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
   #navi {
     display: none;
   }
 
   #navi-mob {
     display: initial;
+  }
+
+  .top-nav a {
+    color: $dark;
+    font-size: 22px;
   }
 }

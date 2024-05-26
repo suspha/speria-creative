@@ -86,6 +86,18 @@ index_design: 'I am creative web designer who create unique designs from scratch
 index_dev_tittel: 'Frontend development'
 index_dev: ''
 
+how_i_work_tittel: 'Hvordan jeg jobber'
+how_i_work1: 'Jeg mener at å jobbe sammen betyr at vi deler samme visjon. Jeg tar bare på meg prosjekter som jeg er sikker på at jeg kan levere. Prosjekter lages i fire steg:'
+how_i_work_step1_header: 'Planlegging'
+how_i_work_step1: ''
+how_i_work_step2_header: 'Produsere'
+how_i_work_step2:
+how_i_work_step3_header: 'Levering'
+how_i_work_step3:
+how_i_work_step4_header: 'Oppfølging'
+how_i_work_step4:
+how_i_work_pricing:
+
 # index_seo_tittel: 'Marketing &amp; SEO'
 # index_seo: 'We are marketing experts and help you become more visible online.'
 
@@ -95,7 +107,7 @@ index_dev: ''
 index_prosjekter: 'Projects'
 
 index_kontakt_tittel: 'Contact Me'
-index_kontakt1: 'Fill in the contact form or send an email, and I will respond as soon as possible.'
+index_kontakt1: 'Fill in the contact form, and I will respond as soon as possible.'
 index_nor: 'Norway'
 index_kontakt_form1: 'Name / Company'
 index_kontakt_form2: 'Telephone'

@@ -87,6 +87,16 @@ index_design: 'Jeg er kreative webdesigner som lager unike design fra scratch.'
 index_dev_tittel: 'Frontend utvikling'
 index_dev: ''
 
+how_i_work_tittel: 'Hvordan jeg jobber'
+how_i_work1: 'Jeg mener at å jobbe sammen betyr at vi deler samme visjon. Jeg tar bare på meg prosjekter som jeg er sikker på at jeg kan levere. Prosjekter lages i 3 steg:'
+how_i_work_step1_header: 'Behov og planlegging'
+how_i_work_step1: 'Under oppdagelsesfasen dykker jeg dypt ned i forståelsen av virksomheten din, målgruppen og prosjektmålene dine. Planleggingsfasen er kostnadsfri for deg.'
+how_i_work_step2_header: 'Utforskning og design'
+how_i_work_step2: 'Gjennom utforskningsfasen vil jeg med arbeidet mitt til vi sammen finner den rette stilen for deg.'
+how_i_work_step3_header: 'Produsere og utvikle'
+how_i_work_step3: 'Jeg bringer designen til live, og transformerer dem til funksjonelle og brukervennlige nettsider eller applikasjoner. Jeg vil også sikre at alt som blir levert er responsivt og har en optimal ytelse. Jeg kan legge ut nettsiden hvor du vil ha den, eller hoste den for deg.'
+how_i_work_pricing: 'Pris avtales per prosjekt, enten per time eller fast.'
+
 # index_seo_tittel: 'Markedsføring &amp; SEO'
 # index_seo: 'Vi er eksperter på markedsføring, og hjelper deg med å bli synlig på nettet.'
 
@@ -96,7 +106,7 @@ index_dev: ''
 index_prosjekter: 'Prosjekter'
 
 index_kontakt_tittel: 'Ta Kontakt'
-index_kontakt1: 'Fyll ut kontaktskjemaet eller send en epost, så svarer jeg så fort jeg kan.'
+index_kontakt1: 'Fyll ut kontaktskjemaet, så svarer jeg så fort jeg kan.'
 index_nor: 'Norge'
 index_kontakt_form1: 'Navn / Firma'
 index_kontakt_form2: 'Telefon'
@@ -137,6 +147,8 @@ design_tekst7: 'Vil du vite mer om hva jeg har å tilby innen design og utviklin
 design_tekst8: 'Ta kontakt så hjelper jeg deg'
 design_tittel4: 'Publiseringssystem'
 design_tekst9: 'Jeg har laget en publiseringsløsning som er lett å bruke. Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst. Jeg har utviklet et eget publiseringssystem (CMS), hvor du kan enkelt administrere innholdet selv. For å ikke skape mye krøll, har jeg lagt vekt på at du som administrator skal være trygg og at det skal være lekende lett. Det er ingen krav om tekniske forkunnskaper.'
+
+# FRONTEND
 
 # SEO OG MARKEDSFØRING
 # seo_tekst_bilde: 'Vi hjelper deg med å bli mer synlig på nettet!'

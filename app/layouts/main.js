@@ -23,7 +23,7 @@ module.exports = async function ($) {
         <meta name="description" content="UX-design, Webdesign og webutvikling i Norge">
         <title>${$.page.title || 'Speria Creative'}</title>
         ${$.style('/bundle.css')}
-        <link href="/img/favicon.png" rel="shortcut icon">
+        <link href="/img/speria-favicon.png" rel="shortcut icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -42,7 +42,6 @@ module.exports = async function ($) {
           <nav id="navi-mob">
             <a href="#" aria-label="menu" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
-              <li><a href="${$.link('index')}">${$.t('nav1')}</a></li>
               <li><a href="${$.link('ux-design')}">${$.t(
     'nav_tjenester1'
   )}</a></li>

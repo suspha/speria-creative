@@ -49,7 +49,10 @@ module.exports = async function ($) {
         <div class="row gutters">
           <div class="col col-4 ta-kontakt" id="kontakt">
             <h2>${$.t('index_kontakt_tittel')}</h2>
-            <p>${$.t('index_kontakt1')}</p><br>
+            <p>${$.t('index_kontakt1')}</p>
+
+             ${
+               '' /*
             <p>
               <img class="icon" src="/img/envelope.svg" width=30  alt="Email icon"><a href="mailto:post@speria.no">post@speria.no</a>
             </p>
@@ -58,7 +61,10 @@ module.exports = async function ($) {
                 'index_nor'
               )}
             </p>
+             */
+             }
           </div>
+
           <div class="col col-8 contact" >
             <div class="message error">
               ${$.t('correct_errors')}
