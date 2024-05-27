@@ -1,0 +1,69 @@
+.button-style {
+  background-color: $neon;
+  border: 1px solid $neon;
+  color: $forest;
+  padding: 12px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.button.small {
+  text-decoration: none;
+  color: #af3f4f;
+  background-color: #fff;
+  border: 2px solid #af3f4f;
+  margin-top: 1rem;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  padding: 16px;
+}
+
+.button.small:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+  .button.small {
+    font-size: 16px;
+  }
+}
+
+button:hover,
+.button:hover {
+  background-color: $light;
+  color: $dark;
+}
+
+.button.cta {
+  text-decoration: none;
+  color: $neon;
+  background-color: $forest;
+  border: 2px solid $forest;
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  padding: 14px 32px;
+}
+
+/* Disabled button spinner  */
+.form-button img {
+  display: none;
+  height: 10px;
+}
+
+.form-button:disabled {
+  background-color: #888;
+  opacity: 0.5;
+}
+
+.form-button:disabled img {
+  display: inline;
+}
+
+.form-button:disabled span {
+  display: none;
+}

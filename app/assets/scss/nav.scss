@@ -5,7 +5,7 @@
 }
 
 a.langlink {
-  color: $light;
+  color: $lime;
   font-size: 20px;
   margin: 0;
   &:hover {
@@ -17,7 +17,7 @@ a.langlink {
   text-decoration: none;
   color: $dark;
   font-weight: 600;
-  background: $beige;
+  background: $lime;
   padding: 2px 8px 5px;
   border-radius: 6px;
   border-bottom: none;
@@ -25,10 +25,10 @@ a.langlink {
 
 .top-nav {
   position: relative;
-  height: 120px;
+  height: 100px;
   background: $dark;
   a {
-    color: $light;
+    color: $lime;
   }
 }
 
@@ -72,7 +72,7 @@ a {
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 992px) {
   #navi {
     display: none;
   }

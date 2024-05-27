@@ -79,10 +79,10 @@ index_om_meg2: 'Jeg er genuint opptatt av å levere gode løsninger for mine kun
 index_les_mer: 'Les mer'
 
 index_tjenester_tittel: 'Tjenester'
-index_tjenester: 'Speria Creative leverer skreddersydd webdesign til hyggelige priser.<br>Sjekk hva jeg har å tilby og hvorfor du skal velge nettopp meg.'
+index_tjenester: 'Speria Creative leverer skreddersydd webdesign til hyggelige priser.<br>Sjekk hva jeg har å tilby og hvorfor du skal velge nettopp mine tjenester.'
 
 index_design_tittel: 'UX-design'
-index_design: 'Jeg er kreative webdesigner som lager unike design fra scratch.'
+index_design: 'Jeg er kreativ webdesigner som lager unike design fra scratch.'
 
 index_dev_tittel: 'Frontend utvikling'
 index_dev: ''
@@ -103,7 +103,7 @@ how_i_work_pricing: 'Pris avtales per prosjekt, enten per time eller fast.'
 # index_hosting_tittel: Hosting &amp; Drift
 # index_hosting: 'Vi har oppfølgingsgaranti og hjelper deg med hosting.'
 
-index_prosjekter: 'Prosjekter'
+index_prosjekter_tittel: 'Kunder jeg har jobbet med'
 
 index_kontakt_tittel: 'Ta Kontakt'
 index_kontakt1: 'Fyll ut kontaktskjemaet, så svarer jeg så fort jeg kan.'

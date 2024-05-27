@@ -44,7 +44,7 @@ module.exports = async function ($) {
   }
 
   return /* html */ `
-    <div class="full-width border-row light-background">
+    <div class="full-width border-row beige-background">
       <div class="contact-form inner-width-wide">
         <div class="row gutters">
           <div class="col col-4 ta-kontakt" id="kontakt">
@@ -123,8 +123,8 @@ module.exports = async function ($) {
                 )}" onfocus="clearField(this)"></textarea>
                 <span class="form-error message-error error-message"></span>
               </div>
-              <div class="form-item">
-                <button class="form-button w100 button-style">
+              <div class="form-item" style="text-align:right;">
+                <button class="form-button button-style">
                   <span>Send</span>
                   <img class="loader" src="/img/loader.svg">
                 </button>

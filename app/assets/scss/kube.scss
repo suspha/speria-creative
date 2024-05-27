@@ -1,0 +1,74 @@
+/*Kube reset*/
+
+.tabs a {
+  color: $lime;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+}
+
+.tabs {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tabs ul {
+  border-bottom: none;
+  float: right;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+
+.tabs a:hover {
+  text-transform: none;
+  text-decoration: underline;
+  background-color: transparent;
+  color: $lime;
+  font-weight: 500;
+}
+
+.tabs li em,
+.tabs li.active {
+  border-bottom: none;
+  font-weight: 500;
+}
+
+.tabs li em,
+.tabs li.active a {
+  border: none;
+  color: $beige;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.message.error {
+  font-size: 18px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.dropdown {
+  width: 200px;
+}
+
+.dropdown ul a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: $dark;
+  background: $beige;
+  font-size: 22px;
+}
+
+.dropdown ul a:hover {
+  background: $lime;
+}
+
+label {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .row.gutters .col {
+    margin-bottom: 2rem !important;
+  }
+}

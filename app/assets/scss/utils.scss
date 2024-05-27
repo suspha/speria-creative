@@ -1,0 +1,45 @@
+.title-space {
+  padding-bottom: 1.5rem;
+}
+
+.dark-background {
+  background-color: $dark;
+}
+
+.forest-background {
+  background-color: $forest;
+}
+
+.hunt-background {
+  background-color: $hunt;
+  h3,
+  span,
+  p,
+  a {
+    color: $light;
+  }
+  .circle {
+    background-color: $lime;
+  }
+}
+
+.beige-background {
+  background-color: $beige;
+}
+
+.light-background {
+  background-color: $light;
+}
+
+.lime-background {
+  background-color: $lime;
+  h3,
+  span,
+  p,
+  a {
+    color: $forest;
+  }
+  .circle {
+    background-color: $hunt;
+  }
+}

@@ -1,6 +1,6 @@
 module.exports = async function ($) {
   return /* html */ `
-    <div class="full-width border-row light-background">
+    <div class="full-width border-row beige-background">
       <div class="tjenester inner-width-wide">
         <div class="row">
           <div class="col col-12 title-space">
@@ -12,11 +12,11 @@ module.exports = async function ($) {
         <div class="row gutters paragraph">
           <a href="${$.link(
             'ux-design'
-          )}" class="col col-6 service-card dark-background">
+          )}" class="col col-6 service-card hunt-background">
             <div class="circle">
               <img class="img-circle" src="/img/design-icon.svg" alt="design icon">
             </div>
-            <div class="service-text">
+            <div class="service-text light">
               <h3>${$.t('index_design_tittel')}</h3>
               <p>${$.t('index_design')}</p>
               <span>${$.t('index_les_mer')}</span>
@@ -25,11 +25,11 @@ module.exports = async function ($) {
 
           <a href="${$.link(
             'frontend'
-          )}" class="col col-6 service-card dark-background">
+          )}" class="col col-6 service-card lime-background">
             <div class="circle">
               <img class="img-circle" src="/img/responsive_icon.png" alt="frontend icon">
             </div>
-            <div class="service-text">
+            <div class="service-text dark">
             <h3>${$.t('index_dev_tittel')}</h3>
               <p>${$.t('index_frontend')}</p>
               <span>${$.t('index_les_mer')}</span>

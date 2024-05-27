@@ -1,6 +1,6 @@
 module.exports = async function ($) {
   return /* html */ `
-  <div class="full-width border-row light-background">
+  <div class="full-width border-row lime-background">
     <div class="about inner-width-wide">
       <div class="row gutters">
         <div class="col col-6 about-intro">

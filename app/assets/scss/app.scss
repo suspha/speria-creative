@@ -6,6 +6,9 @@
 @import 'projects.scss';
 @import 'contact.scss';
 @import 'footer.scss';
+@import 'buttons.scss';
+@import 'utils.scss';
+@import 'kube.scss';
 
 *,
 html {
@@ -13,76 +16,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/*Kube reset*/
 
-.tabs a {
-  color: $white;
-  font-size: 22px;
-  letter-spacing: 1.5px;
-}
-
-.tabs {
-  padding-top: 5px;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.tabs ul {
-  border-bottom: none;
-  float: right;
-  margin-top: 2rem;
-  margin-right: 2rem;
-}
-
-.tabs a:hover {
-  text-transform: none;
-  text-decoration: underline;
-  background-color: transparent;
-  color: $beige;
-  font-weight: 500;
-}
-
-.tabs li em,
-.tabs li.active {
-  border-bottom: none;
-  font-weight: 500;
-}
-
-.tabs li em,
-.tabs li.active a {
-  border: none;
-  color: $tan;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-button:hover,
-.button:hover {
-  background-color: $light;
-  color: $dark;
-}
-
-.message.error {
-  font-size: 18px;
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-.dropdown {
-  width: 240px;
-}
-
-.dropdown ul a {
-  display: block;
-  padding: 16px;
-  text-decoration: none;
-  color: $dark;
-  background: $beige;
-  font-size: 22px;
-}
-
-label {
-  font-size: 18px;
-}
 /*MAIN STYLES*/
 
 html,
@@ -117,14 +51,14 @@ h6 {
 h2 {
   font-size: 46px;
   font-weight: 500;
+  color: $forest;
 }
 
 blockquote {
-  padding-left: 1rem;
-  border-left: 3px solid $dark;
+  padding-left: 0;
+  border-left: none;
   font-style: normal;
   color: $dark;
-  font-size: 18px;
   margin: 1.5rem 0;
 }
 
@@ -150,7 +84,7 @@ p {
 }
 
 a:focus {
-  border: 1px solid $tan;
+  border: 1px solid $beige;
   box-sizing: border-box;
 }
 
@@ -167,7 +101,7 @@ a:focus {
   width: 1200px;
   margin: 0 auto;
   padding: 4rem 0;
-  @media only screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     display: block;
   }
 }
@@ -182,7 +116,7 @@ a:focus {
   padding: 2rem;
   height: 100%;
   margin-top: 2rem;
-  @media only screen and (max-width: 1200px) {
+  @media (max-width: 1200px) {
     text-align: center;
   }
 }
@@ -195,24 +129,36 @@ a:focus {
   flex-direction: column;
   text-align: center;
   padding: 4rem 0 6rem 0;
-  @media only screen and (max-width: 1200px) {
-    padding: 16px;
+  @media (max-width: 1200px) {
+    padding: 3rem 0;
     margin-top: 0;
   }
 }
 
-.top-text h1 {
+.top-text.main h1 {
   font-size: 120px;
-  color: $light;
-  @media only screen and (max-width: 768px) {
+  color: $lime;
+  @media (max-width: 992px) {
+    font-size: 72px;
+  }
+}
+
+.top-text h1 {
+  font-size: 72px;
+  color: $forest;
+  @media (max-width: 768px) {
     font-size: 46px;
   }
 }
 
 .top-text h2 {
   font-size: 32px;
-  color: $light;
+  color: $lime;
   padding-top: 2rem;
+  @media (max-width: 768px) {
+    font-size: 26px;
+    padding-top: 0;
+  }
 }
 
 .icon {
@@ -221,7 +167,7 @@ a:focus {
   top: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .speria-logo {
     max-width: 200px;
     left: 0;
@@ -247,14 +193,32 @@ a:focus {
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .inner-width-wide,
-  .inner-width {
-    padding: 16px;
+.pattern {
+  position: absolute;
+  right: 3px;
+  top: 86px;
+  width: 706px;
+  @media (max-width: 1232px) {
+    width: 603px;
+  }
+  @media (max-width: 828px) {
+    width: 400px;
+    top: 115px;
+  }
+
+  @media (max-width: 500px) {
+    top: 264px;
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media (max-width: 768px) {
+  .inner-width-wide,
+  .inner-width {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
   .header-om-meg,
   .header-design,
   .header-seo,
@@ -297,7 +261,7 @@ a:focus {
   font-weight: 500;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header-design h1,
   .header-seo h1,
   .header-hosting h1,
@@ -307,7 +271,7 @@ a:focus {
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media (max-width: 768px) {
   .header-design h1,
   .header-seo h1,
   .header-hosting h1,
@@ -329,7 +293,7 @@ a:focus {
   font-weight: 400;
 }
 
-@media only screen and (max-width: 560px) {
+@media (max-width: 560px) {
   .header-design h2,
   .header-seo h2,
   .header-hosting h2,
@@ -339,7 +303,7 @@ a:focus {
   }
 }
 
-@media only screen and (max-width: 560px) {
+@media (max-width: 560px) {
   .intro-ux-design h2,
   .intro-seo h2,
   .intro-hosting h2,
@@ -354,12 +318,12 @@ a:focus {
 .intro-seo h3,
 .intro-om-meg h3 {
   font-size: 30px;
-  margin-top: 2rem;
-  color: $dark;
+  margin-top: 3rem;
+  color: $forest;
   font-weight: 400;
 }
 
-@media only screen and (max-width: 560px) {
+@media (max-width: 560px) {
   .intro-ux-design h3,
   .intro-hosting h3,
   .intro-seo h3,
@@ -369,69 +333,17 @@ a:focus {
   }
 }
 
-.button.small {
-  text-decoration: none;
-  color: #af3f4f;
-  background-color: #fff;
-  border: 2px solid #af3f4f;
-  margin-top: 1rem;
-  font-size: 18px;
-  text-align: center;
-  font-weight: 500;
-  padding: 16px;
-}
-
-.button.small:hover {
-  text-decoration: underline;
-}
-
-@media only screen and (max-width: 550px) {
-  .button.small {
-    font-size: 16px;
-  }
-}
-
 .border-row {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid $light;
   max-width: 100%;
   padding-bottom: 2rem;
   margin: 0;
 }
 
-@media only screen and (max-width: 550px) {
+@media (max-width: 550px) {
   .border-row {
     padding-bottom: 0;
   }
-}
-
-.title-space {
-  padding-bottom: 1.5rem;
-}
-
-.w100,
-.button-style {
-  font-family: 'Raleway', sans-serif;
-  background-color: $tan;
-  border: 1px solid $tan;
-  color: $dark;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.dark-background {
-  background-color: $dark;
-}
-
-.tan-background {
-  background-color: $tan;
-}
-
-.light-background {
-  background-color: $beige;
-}
-
-.pale-background {
-  background-color: $white;
 }
 
 /* to top arrow*/
@@ -443,8 +355,8 @@ a:focus {
 
 .go-top img {
   text-decoration: none;
-  background-color: #f8f6f4;
-  border: 1px solid #eee;
+  background-color: $forest;
+  border: 1px solid $beige;
   border-bottom: 0;
   padding: 0.5em 0.7em;
   text-align: center;
@@ -454,13 +366,13 @@ a:focus {
 }
 
 .go-top img:hover {
-  border: 1px solid pink;
+  border: 1px solid $forest;
   border-bottom: 0;
 }
 
 .error-message {
   font-size: 11pt;
-  color: #f03c69;
+  color: $error;
   font-weight: 500;
 }
 
@@ -473,23 +385,4 @@ a:focus {
 .bekreftelse h1 {
   color: #425564;
   font-size: 46px;
-}
-
-/* Disabled button spinner  */
-.form-button img {
-  display: none;
-  height: 10px;
-}
-
-.form-button:disabled {
-  background-color: #888;
-  opacity: 0.5;
-}
-
-.form-button:disabled img {
-  display: inline;
-}
-
-.form-button:disabled span {
-  display: none;
 }

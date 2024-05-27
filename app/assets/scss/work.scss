@@ -1,3 +1,9 @@
+@media (max-width: 1266px) {
+  .how-i-work {
+    margin: 0 2rem !important;
+  }
+}
+
 .how-i-work ol {
   padding: 0;
   margin: 0;
@@ -8,12 +14,12 @@
 .how-i-work ol:before {
   content: '';
   display: block;
-  height: calc(75% - 50px);
+  height: calc(65% - 8px);
   width: 3px;
   background: $dark;
   position: absolute;
   left: 23px;
-  top: -9px;
+  top: -8px;
 }
 
 .how-i-work li.text {
@@ -21,33 +27,59 @@
 }
 
 .how-i-work h3 {
+  margin: 3rem 0;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.how-i-work h4 {
   font-size: 34px;
-  margin-left: 4rem;
+  margin-left: 5rem;
 }
 
 .text p {
-  padding-left: 4rem;
-  margin: 1rem 0;
+  padding-left: 5rem;
+  margin: 2rem 0;
 }
 
 .how-i-work li s span:last-child {
   border-bottom: none;
 }
 
-.how-i-work li:before {
-  content: counter(list-item);
+.how-i-work .first:before {
+  // content: counter(list-item);
+  content: url('/img/planlegging.svg');
   position: absolute;
   display: block;
   height: 50px;
   width: 50px;
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 50px;
-  background: $dark;
-  color: $light;
+  background: $neon;
+  border-radius: 50%;
+  box-shadow: 0 0 0 16px $neon;
+}
+
+.how-i-work .second:before {
+  // content: counter(list-item);
+  content: url('/img/design.svg');
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: $neon;
   border-radius: 50%;
   text-align: center;
-  margin-right: 32px;
-  box-shadow: 0 0 0 16px $light;
-  flex-shrink: 0;
+  box-shadow: 0 0 0 16px $neon;
+}
+
+.how-i-work .third:before {
+  // content: counter(list-item);
+  content: url('/img/utvikle.svg');
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: $neon;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 0 0 16px $neon;
 }

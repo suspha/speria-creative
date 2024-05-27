@@ -57,7 +57,7 @@ subjects_other: 'Other'
 #layout.erb
 #NAV
 nav1: 'Home'
-nav2: 'Our Services'
+nav2: 'Services'
 nav3: 'About me'
 nav4: 'Projects'
 nav5: 'Contact'
@@ -69,7 +69,7 @@ nav_tjenester4: 'Frontend development'
 
 # Root
 # INDEX
-index_undertittel_bilde: Create Webdesign, UX-design and frontend development with personality
+index_undertittel_bilde: Create Webdesign, UX-design and frontend <br/> development with personality
 
 index_om_meg_tittel: 'About me'
 index_om_meg1: 'Speria Creative was established in 2017 by Susana Pham.'
@@ -78,7 +78,7 @@ index_om_meg2: 'I am genuinely committed to deliver good solutions to my custome
 index_les_mer: 'Read more'
 
 index_tjenester_tittel: 'My Services'
-index_tjenester: 'Speria Creative delivers customized web design at affordable prices. <br> Check out what I have to offer and why you should choose me.'
+index_tjenester: 'Speria Creative delivers customized web design at affordable prices. <br> Check out what I have to offer and why you should choose my services.'
 
 index_design_tittel: 'UX-design'
 index_design: 'I am creative web designer who create unique designs from scratch.'
@@ -86,17 +86,15 @@ index_design: 'I am creative web designer who create unique designs from scratch
 index_dev_tittel: 'Frontend development'
 index_dev: ''
 
-how_i_work_tittel: 'Hvordan jeg jobber'
-how_i_work1: 'Jeg mener at å jobbe sammen betyr at vi deler samme visjon. Jeg tar bare på meg prosjekter som jeg er sikker på at jeg kan levere. Prosjekter lages i fire steg:'
-how_i_work_step1_header: 'Planlegging'
-how_i_work_step1: ''
-how_i_work_step2_header: 'Produsere'
-how_i_work_step2:
-how_i_work_step3_header: 'Levering'
-how_i_work_step3:
-how_i_work_step4_header: 'Oppfølging'
-how_i_work_step4:
-how_i_work_pricing:
+how_i_work_tittel: 'How I work'
+how_i_work1: 'I believe that working together means that we share the same vision. I only take on projects that I am sure I can deliver. Projects are created in 3 steps:'
+how_i_work_step1_header: 'Needs and planning'
+how_i_work_step1: 'During the discovery phase, I dive deep into understanding your business, target audience and project goals. The planning phase is free of charge for you.'
+how_i_work_step2_header: 'Exploration and Design'
+how_i_work_step2: 'Through the exploration phase I will with my work until together we find the right style for you.'
+how_i_work_step3_header: 'Produce and develop'
+how_i_work_step3: 'I bring the designs to life and transform them into functional and user-friendly websites or applications. I also want to ensure that everything that is delivered is responsive and has an optimal performance. I can post the website where you want it, or host it for you.'
+how_i_work_pricing: 'Price is agreed per project, either per hour or fixed.'
 
 # index_seo_tittel: 'Marketing &amp; SEO'
 # index_seo: 'We are marketing experts and help you become more visible online.'

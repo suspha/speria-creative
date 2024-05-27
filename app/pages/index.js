@@ -14,6 +14,7 @@ module.exports = async function ($) {
       <div class="top-text main">
         <h1>Speria Creative</h1>
         <h2>${$.t('index_undertittel_bilde')}</h2>
+         <img class="pattern" src="/img/pattern.svg" alt="pattern stoke">
       </div>
     </div>
 

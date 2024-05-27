@@ -3,7 +3,7 @@ module.exports = async function ($) {
   $.page.title = $.t('om-meg_title')
 
   return /* html */ `
-    <div class="top-wrapper pale-background">
+    <div class="top-wrapper light-background">
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image">
