@@ -119,10 +119,11 @@ module.exports = async function ($) {
         </div>
         ${$.page.content}
         <footer>
-          <span>
-          2024 Design and code by Speria Creative
-          </span>
-          <span><img class="speria-small" src="/img/speria-short-light.svg" width="30"alt="logo"></span>
+          <img class="speria-small" src="/img/speria-short-dark.svg" width="30"alt="logo">
+          <div>
+            2024 Design and code by Speria Creative
+          </div>
+          <span></span>
         </footer>
         <script>cookie('lang', '${$.lang}')</script>
       </body>

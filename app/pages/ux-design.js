@@ -3,7 +3,7 @@ module.exports = async function ($) {
   $.page.title = $.t('design_title')
 
   return /* html */ `
-    <div class="top-wrapper forest-background ">
+    <div class="top-wrapper beige-background ">
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image">
@@ -13,7 +13,7 @@ module.exports = async function ($) {
         <div class="top-column text">
           <div class="top-text">
             <h1>${$.t('design_tittel')}</h1>
-            <p>&ldquo; ${$.t('design_undertittel_bilde')} &rdquo;</p>
+            <h2>${$.t('design_undertittel_bilde')}</h2>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ module.exports = async function ($) {
         <p>${$.t('design_tekst7')}</p><br>
         <a href="${$.link(
           'index'
-        )}?subject=design#kontakt" class="button small" role="button">${$.t(
+        )}?subject=design#kontakt" class="button cta" role="button">${$.t(
     'design_tekst8'
   )}</a>
       </div>

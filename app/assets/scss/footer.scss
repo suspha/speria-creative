@@ -1,9 +1,13 @@
 footer {
-  background-color: $dark;
-  height: 90px;
-  color: $lime;
+  background-color: $lime;
+  padding: 1rem 0 3rem;
+  color: $forest;
   text-align: center;
   font-size: 16px;
+
+  div {
+    margin-top: 2rem;
+  }
 }
 
 footer p {

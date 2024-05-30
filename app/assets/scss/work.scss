@@ -1,6 +1,19 @@
-@media (max-width: 1266px) {
-  .how-i-work {
-    margin: 0 2rem !important;
+.how-i-work {
+  h4 {
+    font-size: 34px;
+    margin-left: 5rem;
+  }
+  h3 {
+    margin: 3rem 0;
+    font-size: 24px;
+  }
+  .text p {
+    padding-left: 5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    @media (max-width: 768px) {
+      padding-left: 3rem;
+    }
   }
 }
 
@@ -24,22 +37,6 @@
 
 .how-i-work li.text {
   flex-grow: 1;
-}
-
-.how-i-work h3 {
-  margin: 3rem 0;
-  font-size: 24px;
-  font-style: italic;
-}
-
-.how-i-work h4 {
-  font-size: 34px;
-  margin-left: 5rem;
-}
-
-.text p {
-  padding-left: 5rem;
-  margin: 2rem 0;
 }
 
 .how-i-work li s span:last-child {

@@ -3,6 +3,7 @@
 @import 'about.scss';
 @import 'work.scss';
 @import 'services.scss';
+@import 'customers.scss';
 @import 'projects.scss';
 @import 'contact.scss';
 @import 'footer.scss';
@@ -52,6 +53,9 @@ h2 {
   font-size: 46px;
   font-weight: 500;
   color: $forest;
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 
 blockquote {
@@ -80,7 +84,7 @@ p {
 .inner-width-wide {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 a:focus {
@@ -151,12 +155,24 @@ a:focus {
   }
 }
 
-.top-text h2 {
+.top-text.main h2 {
   font-size: 32px;
   color: $lime;
   padding-top: 2rem;
   @media (max-width: 768px) {
     font-size: 26px;
+    padding-top: 0;
+  }
+}
+
+.top-text h2 {
+  font-size: 32px;
+  color: $dark;
+  padding-top: 2rem;
+  line-height: 50px;
+  @media (max-width: 768px) {
+    font-size: 26px;
+    line-height: 34px;
     padding-top: 0;
   }
 }
@@ -171,10 +187,6 @@ a:focus {
   .speria-logo {
     max-width: 200px;
     left: 0;
-  }
-
-  .go-top img {
-    display: none;
   }
 
   .top-column {
@@ -197,7 +209,7 @@ a:focus {
   position: absolute;
   right: 3px;
   top: 86px;
-  width: 706px;
+  width: 745px;
   @media (max-width: 1232px) {
     width: 603px;
   }
@@ -334,9 +346,8 @@ a:focus {
 }
 
 .border-row {
-  border-bottom: 1px solid $light;
+  border-bottom: 1px solid $beige;
   max-width: 100%;
-  padding-bottom: 2rem;
   margin: 0;
 }
 
@@ -349,13 +360,16 @@ a:focus {
 /* to top arrow*/
 .go-top {
   float: right;
-  margin-top: -40px;
-  margin-right: 5em;
+  margin-top: -47px;
+  margin-right: 5rem;
+  @media (max-width: 768px) {
+    margin-right: 2rem;
+  }
 }
 
 .go-top img {
   text-decoration: none;
-  background-color: $forest;
+  background-color: $beige;
   border: 1px solid $beige;
   border-bottom: 0;
   padding: 0.5em 0.7em;
@@ -366,7 +380,7 @@ a:focus {
 }
 
 .go-top img:hover {
-  border: 1px solid $forest;
+  border: 1px solid $dark;
   border-bottom: 0;
 }
 

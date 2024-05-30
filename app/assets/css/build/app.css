@@ -1,5 +1,5 @@
 .speria-logo {
-  width: 30px;
+  width: 46px;
   margin: 2rem;
   position: absolute;
 }
@@ -114,11 +114,25 @@ a {
     margin-top: 0;
   }
 }
-@media (max-width: 1266px) {
-  .how-i-work {
-    margin: 0 2rem !important;
+.how-i-work h4 {
+  font-size: 34px;
+  margin-left: 5rem;
+}
+.how-i-work h3 {
+  margin: 3rem 0;
+  font-size: 24px;
+}
+.how-i-work .text p {
+  padding-left: 5rem;
+  margin: 2rem 0;
+  font-style: italic;
+}
+@media (max-width: 768px) {
+  .how-i-work .text p {
+    padding-left: 3rem;
   }
 }
+
 .how-i-work ol {
   padding: 0;
   margin: 0;
@@ -139,22 +153,6 @@ a {
 
 .how-i-work li.text {
   flex-grow: 1;
-}
-
-.how-i-work h3 {
-  margin: 3rem 0;
-  font-size: 24px;
-  font-style: italic;
-}
-
-.how-i-work h4 {
-  font-size: 34px;
-  margin-left: 5rem;
-}
-
-.text p {
-  padding-left: 5rem;
-  margin: 2rem 0;
 }
 
 .how-i-work li s span:last-child {
@@ -202,6 +200,11 @@ a {
   border-radius: 10px;
   color: #272829;
   border: 2px solid transparent;
+}
+@media (max-width: 768px) {
+  .service-card {
+    padding: 2rem 1rem;
+  }
 }
 
 .service-text,
@@ -274,12 +277,36 @@ a.service-card:hover {
 }
 
 .circle {
-  border: 1px solid #f0ebe3;
+  border: 1px solid #123735;
+  background: #123735;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin-bottom: 1em;
   display: inline-block;
+}
+
+.customers h2 {
+  color: #f0ebe3;
+}
+.customers .customer {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+.customers .customer span > img {
+  margin-right: 6rem;
+}
+@media (max-width: 768px) {
+  .customers .customer span > img {
+    margin: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .customers .customer {
+    display: block;
+    margin-bottom: 4rem;
+  }
 }
 
 /*Image slider*/
@@ -401,7 +428,7 @@ figure {
   }
 }
 .contact {
-  background: #4f6f52;
+  background: #123735;
   border-radius: 10px;
 }
 
@@ -415,11 +442,14 @@ form {
 }
 
 footer {
-  background-color: #272829;
-  height: 90px;
-  color: #fbfada;
+  background-color: #fbfada;
+  padding: 1rem 0 3rem;
+  color: #123735;
   text-align: center;
   font-size: 16px;
+}
+footer div {
+  margin-top: 2rem;
 }
 
 footer p {
@@ -474,7 +504,6 @@ button:hover,
   color: #e3ff95;
   background-color: #123735;
   border: 2px solid #123735;
-  margin-top: 1rem;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
@@ -522,9 +551,6 @@ button:hover,
 .hunt-background a {
   color: #faf8f5;
 }
-.hunt-background .circle {
-  background-color: #fbfada;
-}
 
 .beige-background {
   background-color: #f0ebe3;
@@ -542,9 +568,6 @@ button:hover,
 .lime-background p,
 .lime-background a {
   color: #123735;
-}
-.lime-background .circle {
-  background-color: #4f6f52;
 }
 
 /*Kube reset*/
@@ -596,7 +619,7 @@ button:hover,
 }
 
 .dropdown {
-  width: 200px;
+  width: 210px;
 }
 
 .dropdown ul a {
@@ -616,11 +639,6 @@ label {
   font-size: 18px;
 }
 
-@media (max-width: 768px) {
-  .row.gutters .col {
-    margin-bottom: 2rem !important;
-  }
-}
 *,
 html {
   box-sizing: border-box;
@@ -664,6 +682,11 @@ h2 {
   font-weight: 500;
   color: #123735;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+}
 
 blockquote {
   padding-left: 0;
@@ -691,7 +714,7 @@ p {
 .inner-width-wide {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 
 a:focus {
@@ -772,14 +795,28 @@ a:focus {
   }
 }
 
-.top-text h2 {
+.top-text.main h2 {
   font-size: 32px;
   color: #fbfada;
   padding-top: 2rem;
 }
 @media (max-width: 768px) {
+  .top-text.main h2 {
+    font-size: 26px;
+    padding-top: 0;
+  }
+}
+
+.top-text h2 {
+  font-size: 32px;
+  color: #272829;
+  padding-top: 2rem;
+  line-height: 50px;
+}
+@media (max-width: 768px) {
   .top-text h2 {
     font-size: 26px;
+    line-height: 34px;
     padding-top: 0;
   }
 }
@@ -794,9 +831,6 @@ a:focus {
   .speria-logo {
     max-width: 200px;
     left: 0;
-  }
-  .go-top img {
-    display: none;
   }
   .top-column {
     flex-basis: 100%;
@@ -815,7 +849,7 @@ a:focus {
   position: absolute;
   right: 3px;
   top: 86px;
-  width: 706px;
+  width: 745px;
 }
 @media (max-width: 1232px) {
   .pattern {
@@ -950,9 +984,8 @@ a:focus {
   }
 }
 .border-row {
-  border-bottom: 1px solid #faf8f5;
+  border-bottom: 1px solid #f0ebe3;
   max-width: 100%;
-  padding-bottom: 2rem;
   margin: 0;
 }
 
@@ -964,13 +997,18 @@ a:focus {
 /* to top arrow*/
 .go-top {
   float: right;
-  margin-top: -40px;
-  margin-right: 5em;
+  margin-top: -47px;
+  margin-right: 5rem;
+}
+@media (max-width: 768px) {
+  .go-top {
+    margin-right: 2rem;
+  }
 }
 
 .go-top img {
   text-decoration: none;
-  background-color: #123735;
+  background-color: #f0ebe3;
   border: 1px solid #f0ebe3;
   border-bottom: 0;
   padding: 0.5em 0.7em;
@@ -981,7 +1019,7 @@ a:focus {
 }
 
 .go-top img:hover {
-  border: 1px solid #123735;
+  border: 1px solid #272829;
   border-bottom: 0;
 }
 

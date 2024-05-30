@@ -3,16 +3,17 @@ module.exports = async function ($) {
   $.page.title = $.t('design_title')
 
   return /* html */ `
-    <div class="top-wrapper forest-background ">
+    <div class="top-wrapper beige-background ">
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image">
-            <img src="/img/speria-creative-design-development-opt.svg" alt="image">
+            <img src="/img/frontend.svg" alt="image">
           </div>
         </div>
         <div class="top-column text">
           <div class="top-text">
-            <h1>${$.t('index_dev_tittel')}
+            <h1>${$.t('index_dev_tittel')}</h1>
+            <h2></h2>
           </div>
         </div>
       </div>
@@ -22,7 +23,7 @@ module.exports = async function ($) {
         <h2>Kommer snart!</h2>
         <a href="${$.link(
           'index'
-        )}?subject=design#kontakt" class="button small" role="button">${$.t(
+        )}?subject=design#kontakt" class="button cta" role="button">${$.t(
     'design_tekst8'
   )}</a>
       </div>

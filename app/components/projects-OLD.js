@@ -1,6 +1,6 @@
 module.exports = async function ($) {
   return /* html */ `
-    <div class="full-width border-row light-background">
+    <div class="full-width border-row pale-background">
       <div class="inner-width-wide">
         <div class="portfolio">
           <h2 id="prosjekter">${$.t('index_prosjekter')}</h2>

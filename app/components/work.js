@@ -18,6 +18,7 @@ module.exports = async function ($) {
             <li class="text third">
               <h4>${$.t('how_i_work_step3_header')}</h4>
               <p>${$.t('how_i_work_step3')}</p>
+              <p>${$.t('how_i_work_pricing')}</p>
             </li>
           </ol>
         </div>

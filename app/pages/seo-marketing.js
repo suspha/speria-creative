@@ -35,7 +35,7 @@ module.exports = async function ($) {
         <p>${$.t('seo_tekst10')}</p><br>
         <a href="${$.link(
           'index'
-        )}?subject=marketing#kontakt" class="button small" role="button">${$.t(
+        )}?subject=marketing#kontakt" class="button cta" role="button">${$.t(
     'seo_tekst11'
   )}</a>
       </div>

@@ -47,7 +47,7 @@
   transition: all 0.3s ease;
 }
 .dropdown {
-  width: 200px;
+  width: 210px;
 }
 
 .dropdown ul a {
@@ -65,10 +65,4 @@
 
 label {
   font-size: 18px;
-}
-
-@media (max-width: 768px) {
-  .row.gutters .col {
-    margin-bottom: 2rem !important;
-  }
 }

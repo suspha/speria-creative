@@ -1,0 +1,20 @@
+.customers {
+  h2 {
+    color: $beige;
+  }
+  .customer {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    span > img {
+      margin-right: 6rem;
+      @media (max-width: 768px) {
+        margin: 2rem;
+      }
+    }
+    @media (max-width: 768px) {
+      display: block;
+      margin-bottom: 4rem;
+    }
+  }
+}
