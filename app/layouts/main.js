@@ -42,6 +42,9 @@ module.exports = async function ($) {
           <nav id="navi-mob">
             <a href="#" aria-label="menu" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
+             <a href="${$.link('index')}">
+            <img class="speria-logo-dark" src="/img/speria-short-dark.svg" alt="logo">
+          </a>
               <li><a href="${$.link('ux-design')}">${$.t(
     'nav_tjenester1'
   )}</a></li>
@@ -49,10 +52,7 @@ module.exports = async function ($) {
     'nav_tjenester4'
   )}</a></li>
               <li><a href="${$.link('om-meg')}">${$.t('nav3')}</a></li>
-              <li><a href="${$.link('index')}#prosjekter">${$.t(
-    'nav4'
-  )}</a></li>
-              <li><a href="${$.link('index')}#kontakt">${$.t('nav5')}</a></li>
+              <li><a href="${$.link('index')}#kontakt">${$.t('nav4')}</a></li>
             </ul>
           </nav>
 
@@ -86,11 +86,8 @@ module.exports = async function ($) {
               <li>
                 <a href="${$.link('om-meg')}">${$.t('nav3')}</a>
               </li>
-              <li><a id="prosjekt-link" href="${$.link(
-                'index'
-              )}#prosjekter">${$.t('nav4')}</a></li>
               <li><a id="kontakt-link" href="${$.link('index')}#kontakt">${$.t(
-    'nav5'
+    'nav4'
   )}</a></li>
   <li>
             <a class="langlink" href="${$.link(

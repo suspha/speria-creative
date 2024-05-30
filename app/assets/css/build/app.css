@@ -1,6 +1,6 @@
 .speria-logo {
   width: 46px;
-  margin: 2rem;
+  margin: 1rem 2rem;
   position: absolute;
 }
 
@@ -67,8 +67,8 @@ a {
 }
 
 #menu li {
-  padding: 8px 0;
-  font-size: 12pt;
+  padding: 16px 0;
+  font-size: 36px;
   white-space: nowrap;
 }
 
@@ -81,7 +81,6 @@ a {
   }
   .top-nav a {
     color: #272829;
-    font-size: 22px;
   }
 }
 .about-intro a {
@@ -121,6 +120,11 @@ a {
 .how-i-work h3 {
   margin: 3rem 0;
   font-size: 24px;
+}
+@media (max-width: 768px) {
+  .how-i-work h3 {
+    margin: 2rem 0 3rem;
+  }
 }
 .how-i-work .text p {
   padding-left: 5rem;
@@ -431,6 +435,11 @@ figure {
   background: #123735;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .contact {
+    margin-bottom: 3rem;
+  }
+}
 
 label {
   color: #faf8f5;
@@ -441,6 +450,13 @@ form {
   padding: 0 1rem;
 }
 
+@media (max-width: 768px) {
+  .contact-form,
+  .inner-width-wide,
+  .inner-width {
+    padding: 1rem !important;
+  }
+}
 footer {
   background-color: #fbfada;
   padding: 1rem 0 3rem;
@@ -530,7 +546,11 @@ button:hover,
   display: none;
 }
 
-.title-space {
+.p-t {
+  padding-top: 1.5rem;
+}
+
+.p-b {
   padding-bottom: 1.5rem;
 }
 
@@ -684,7 +704,8 @@ h2 {
 }
 @media (max-width: 768px) {
   h2 {
-    font-size: 40px;
+    font-size: 36px;
+    padding-top: 2rem;
   }
 }
 
@@ -774,6 +795,10 @@ a:focus {
     margin-top: 0;
   }
 }
+.top-text p {
+  padding-top: 1rem;
+  font-size: 32px;
+}
 
 .top-text.main h1 {
   font-size: 120px;
@@ -831,6 +856,11 @@ a:focus {
   .speria-logo {
     max-width: 200px;
     left: 0;
+    top: 10px;
+  }
+  .speria-logo-dark {
+    width: 46px;
+    margin-bottom: 1rem;
   }
   .top-column {
     flex-basis: 100%;
@@ -905,84 +935,6 @@ a:focus {
   background-image:
     -webkit-image-set(url("/img/hosting_web.jpg") 1x, url("/img/hosting_web@2x.jpg") 2x);
 } */
-.header-design h1,
-.header-seo h1,
-.header-hosting h1,
-.header-om-meg h1 {
-  padding-top: 2.8em;
-  color: #fff;
-  font-size: 56px;
-  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .header-design h1,
-  .header-seo h1,
-  .header-hosting h1,
-  .header-om-meg h1 {
-    padding-top: 3em;
-    font-size: 48px;
-  }
-}
-@media (max-width: 768px) {
-  .header-design h1,
-  .header-seo h1,
-  .header-hosting h1,
-  .header-om-meg h1 {
-    font-size: 30px;
-  }
-  .new-line {
-    display: block;
-  }
-}
-.header-design h2,
-.header-seo h2,
-.header-hosting h2,
-.header-om-meg h2 {
-  color: #fdfdfd;
-  font-size: 28px;
-  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.5);
-  font-weight: 400;
-}
-
-@media (max-width: 560px) {
-  .header-design h2,
-  .header-seo h2,
-  .header-hosting h2,
-  .header-om-meg h2 {
-    font-size: 20px;
-    font-weight: normal;
-  }
-}
-@media (max-width: 560px) {
-  .intro-ux-design h2,
-  .intro-seo h2,
-  .intro-hosting h2,
-  .intro-om-meg h2 {
-    font-size: 30px;
-    padding-bottom: 0;
-  }
-}
-.intro-ux-design h3,
-.intro-hosting h3,
-.intro-seo h3,
-.intro-om-meg h3 {
-  font-size: 30px;
-  margin-top: 3rem;
-  color: #123735;
-  font-weight: 400;
-}
-
-@media (max-width: 560px) {
-  .intro-ux-design h3,
-  .intro-hosting h3,
-  .intro-seo h3,
-  .intro-om-meg h3 {
-    font-size: 25px;
-    word-break: break-word;
-  }
-}
 .border-row {
   border-bottom: 1px solid #f0ebe3;
   max-width: 100%;

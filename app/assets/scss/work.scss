@@ -6,6 +6,9 @@
   h3 {
     margin: 3rem 0;
     font-size: 24px;
+    @media (max-width: 768px) {
+      margin: 2rem 0 3rem;
+    }
   }
   .text p {
     padding-left: 5rem;
