@@ -435,11 +435,6 @@ figure {
   background: #123735;
   border-radius: 10px;
 }
-@media (max-width: 768px) {
-  .contact {
-    margin-bottom: 3rem;
-  }
-}
 
 label {
   color: #faf8f5;
@@ -449,12 +444,21 @@ label {
 form {
   padding: 0 1rem;
 }
+@media (max-width: 768px) {
+  .form-item,
+  form {
+    padding: 0 8px;
+  }
+}
 
 @media (max-width: 768px) {
   .contact-form,
   .inner-width-wide,
   .inner-width {
     padding: 1rem !important;
+  }
+  .contact-form {
+    margin-bottom: 2rem !important;
   }
 }
 footer {

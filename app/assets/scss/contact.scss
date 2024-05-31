@@ -1,9 +1,6 @@
 .contact {
   background: $forest;
   border-radius: 10px;
-  @media (max-width: 768px) {
-    margin-bottom: 3rem;
-  }
 }
 
 label {
@@ -13,6 +10,9 @@ label {
 .form-item,
 form {
   padding: 0 1rem;
+  @media (max-width: 768px) {
+    padding: 0 8px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -20,5 +20,8 @@ form {
   .inner-width-wide,
   .inner-width {
     padding: 1rem !important;
+  }
+  .contact-form {
+    margin-bottom: 2rem !important;
   }
 }
