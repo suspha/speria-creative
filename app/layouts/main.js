@@ -42,9 +42,12 @@ module.exports = async function ($) {
           <nav id="navi-mob">
             <a href="#" aria-label="menu" onclick="toggleMenu(this); return false"><i class="kube-menu active"></i></a>
             <ul id="menu">
-             <a href="${$.link('index')}">
-            <img class="speria-logo-dark" src="/img/speria-short-dark.svg" alt="logo">
-          </a>
+              <a href="${$.link('index')}">
+                <img class="speria-logo-dark" width="40" height="40" src="/img/speria-short-dark.svg" alt="logo">
+              </a>
+              <a href="${$.link('index')}">
+                <img class="exit-icon float-right" width="40" height="40" src="/img/exit.svg" alt="exit">
+              </a>
               <li><a href="${$.link('ux-design')}">${$.t(
     'nav_tjenester1'
   )}</a></li>

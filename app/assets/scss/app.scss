@@ -135,7 +135,7 @@ a:focus {
   text-align: center;
   padding: 4rem 0 6rem 0;
   @media (max-width: 1200px) {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     margin-top: 0;
   }
   p {
@@ -192,10 +192,10 @@ a:focus {
   .speria-logo {
     max-width: 200px;
     left: 0;
-    top: 10px;
+    top: 5px;
   }
   .speria-logo-dark {
-    width: 46px;
+    width: 40px;
     margin-bottom: 1rem;
   }
 
@@ -236,7 +236,7 @@ a:focus {
 @media (max-width: 768px) {
   .inner-width-wide,
   .inner-width {
-    padding: 2rem;
+    padding: 2rem !important;
   }
 }
 

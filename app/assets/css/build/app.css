@@ -558,6 +558,22 @@ button:hover,
   padding-bottom: 1.5rem;
 }
 
+.m-t {
+  margin-top: 1.5rem;
+}
+
+.m-b {
+  margin-bottom: 1.5rem;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
 .dark-background {
   background-color: #272829;
 }
@@ -795,7 +811,7 @@ a:focus {
 }
 @media (max-width: 1200px) {
   .top-text {
-    padding: 3rem 0;
+    padding: 3rem 1rem;
     margin-top: 0;
   }
 }
@@ -860,10 +876,10 @@ a:focus {
   .speria-logo {
     max-width: 200px;
     left: 0;
-    top: 10px;
+    top: 5px;
   }
   .speria-logo-dark {
-    width: 46px;
+    width: 40px;
     margin-bottom: 1rem;
   }
   .top-column {
@@ -905,7 +921,7 @@ a:focus {
 @media (max-width: 768px) {
   .inner-width-wide,
   .inner-width {
-    padding: 2rem;
+    padding: 2rem !important;
   }
 }
 @media (max-width: 550px) {
