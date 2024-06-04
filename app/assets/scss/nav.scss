@@ -1,13 +1,13 @@
 .speria-logo {
-  width: 46px;
-  margin: 1rem 2rem;
+  width: 36px;
+  margin: 1.5rem;
   position: absolute;
 }
 
 a.langlink {
   color: $lime;
-  font-size: 20px;
-  margin: 0;
+  font-size: 18px !important;
+  margin-right: 8px;
   &:hover {
     text-decoration: none !important;
   }
@@ -15,10 +15,11 @@ a.langlink {
 
 .langlink a.active-link {
   text-decoration: none;
-  color: $dark;
+  color: $dark !important;
   font-weight: 600;
+  font-size: 18px !important;
   background: $lime;
-  padding: 2px 8px 5px;
+  padding: 8px 16px;
   border-radius: 6px;
   border-bottom: none;
 }

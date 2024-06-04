@@ -1,17 +1,31 @@
-.p-t {
-  padding-top: 1.5rem;
-}
-
-.p-b {
-  padding-bottom: 1.5rem;
-}
-
-.m-t {
+.m-t-24 {
   margin-top: 1.5rem;
 }
 
-.m-b {
+.m-b-24 {
   margin-bottom: 1.5rem;
+}
+
+.full-width {
+  max-width: 100%;
+}
+
+.inner-width {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.inner-width-wide {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.inner-width.fade {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 0;
 }
 
 .float-right {

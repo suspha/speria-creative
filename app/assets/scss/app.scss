@@ -59,12 +59,14 @@ h2 {
   }
 }
 
-blockquote {
-  padding-left: 0;
-  border-left: none;
-  font-style: normal;
-  color: $dark;
-  margin: 1.5rem 0;
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: $forest;
+  @media (max-width: 768px) {
+    font-size: 26px;
+    padding-top: 2rem;
+  }
 }
 
 p {
@@ -72,31 +74,9 @@ p {
   line-height: 32px;
 }
 
-.full-width {
-  max-width: 100%;
-}
-
-.inner-width {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 3rem;
-}
-
-.inner-width-wide {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5rem 0;
-}
-
 a:focus {
   border: 1px solid $beige;
   box-sizing: border-box;
-}
-
-.inner-width.fade {
-  max-width: 860px;
-  margin: 0 auto;
-  padding-top: 0;
 }
 
 .top-row {
@@ -173,7 +153,6 @@ a:focus {
 .top-text h2 {
   font-size: 32px;
   color: $dark;
-  padding-top: 2rem;
   line-height: 50px;
   @media (max-width: 768px) {
     font-size: 26px;

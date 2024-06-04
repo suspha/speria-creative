@@ -2,7 +2,7 @@ module.exports = async function ($) {
   $.page.description = $.t('om-meg_meta')
   $.page.title = $.t('om_meg_tittel')
 
-  return /* html */ `
+  return /* HTML */ `
   <div class="top-wrapper beige-background">
     <div class="top-row">
       <div class="top-column image">
@@ -31,7 +31,7 @@ module.exports = async function ($) {
       <p>${$.t('om_meg_tekst7')}</p>
       <p>${$.t('om_meg_tekst8')}</p>
       <p>${$.t('om_meg_tekst9')}</p>
-      <a class="button cta m-t" href="${$.link('index')}#kontakt"> ${$.t(
+      <a class="button cta m-t-24" href="${$.link('index')}#kontakt"> ${$.t(
     'om_meg_tekst10'
   )}</a>
     </div>

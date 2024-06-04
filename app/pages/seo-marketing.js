@@ -2,12 +2,12 @@ module.exports = async function ($) {
   $.page.description = $.t('seo_meta')
   $.page.title = $.t('om-meg_title')
 
-  return /* html */ `
+  return /* HTML */ `
     <div class="top-wrapper light-background">
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image">
-            <img src="/img/speria-creative-seo-marketing-opt.svg" alt="image">
+            <img src="/img/speria-creative-seo-marketing-opt.svg" alt="image" />
           </div>
         </div>
         <div class="top-column text">
@@ -32,12 +32,14 @@ module.exports = async function ($) {
         <p>${$.t('seo_tekst7')}</p>
         <p>${$.t('seo_tekst8')}</p>
         <p>${$.t('seo_tekst9')}</p>
-        <p>${$.t('seo_tekst10')}</p><br>
-        <a href="${$.link(
-          'index'
-        )}?subject=marketing#kontakt" class="button cta" role="button">${$.t(
-    'seo_tekst11'
-  )}</a>
+        <p>${$.t('seo_tekst10')}</p>
+        <br />
+        <a
+          href="${$.link('index')}?subject=marketing#kontakt"
+          class="button cta"
+          role="button"
+          >${$.t('seo_tekst11')}</a
+        >
       </div>
     </div>
   `

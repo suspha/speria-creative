@@ -9,19 +9,16 @@ module.exports = async function ($) {
   $.page.description = $.t('index_meta')
   $.page.title = $.t('index_title')
 
-  return /* html */ `
+  return /* HTML */ `
     <div class="top-wrapper dark-background">
       <div class="top-text main">
         <h1>Speria Creative</h1>
         <h2>${$.t('index_undertittel_bilde')}</h2>
-         <img class="pattern" src="/img/pattern.svg" alt="pattern stoke">
+        <img class="pattern" src="/img/pattern.svg" alt="pattern stoke" />
       </div>
     </div>
 
-    ${await about($)}
-    ${await work($)}
-    ${await services($)}
-    ${await customers($)}
-    ${await contact($)}
+    ${await about($)} ${await work($)} ${await services($)}
+    ${await customers($)} ${await contact($)}
   `
 }

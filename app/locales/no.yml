@@ -84,7 +84,6 @@ index_design_tittel: 'UX-design'
 index_design: 'Jeg er kreativ webdesigner som lager unike design fra scratch.'
 
 index_dev_tittel: 'Frontend utvikling'
-index_dev: ''
 
 how_i_work_tittel: 'Hvordan jeg jobber'
 how_i_work1: 'Jeg mener at å jobbe sammen betyr at vi deler samme visjon. Jeg tar bare på meg prosjekter som jeg er sikker på at jeg kan levere. Prosjekter lages i 3 steg:'
@@ -131,24 +130,24 @@ om_meg_tekst10: 'Ta kontakt for å bli bedre kjent med meg!'
 
 # DESIGN
 design_tittel_bilde: 'Hvorfor er et godt design viktig?'
-design_undertittel_bilde: 'Jeg lager profesjonelle websider tilpasset ditt behov'
+design_undertittel_bilde: 'Jeg designer profesjonelle websider <br> tilpasset ditt behov.'
 design_tittel: 'UX-design'
-design_tekst1: 'Når jeg utvikler et design har jeg hele tiden fokus på at det skal forbedre brukervennligheten og fremme innholdet.'
+design_tekst1: 'Når jeg lager et designkonsept har jeg hele tiden fokus på at det skal forbedre brukervennligheten og fremme innholdet.'
 design_tekst2: 'I motsetning til mange andre webdesignfirmaer lager jeg kreative og unike design fra scratch, og jeg vil aldri levere fra meg lik webdesign til flere kunder. Jeg er svært opptatt av høy kvalitet på det jeg leverer. En stor fordel er at jeg er erfaren og følger trenden i markedet, da vet jeg hva som må til for å lage god webdesign.'
 design_tekst3: 'Designere som ikke har kunnskap om brukervennlighet kan lage et nettside som ser bra ut, men designet er ikke optimalisert for web og nettsiden bli vanskelig å bruke. Jeg lager ryddig kode slik at hjemmesiden din fungerer i de mest brukte nettleserne, og i tillegg er optimalisert for maksimal hastighet og stabilitet.'
-design_tittel1: 'Responsivt Design'
-design_tekst4: 'Alle nettsider jeg lager er tilpasset alle skjermstørrelser. Det betyr at innholdet og designet på nettsiden din blir automatisk tilpasset etter din enhet, uansett skjermstørrelse.'
-design_tittel2: 'Webutvikling'
-design_tekst5: 'Jeg lager nettsiden din med standard HTML, CSS og Javascript som er et moderne, kjapt og fleksibelt språk som gjør det lett å gjøre siden din dynamisk.'
-design_tittel3: 'Testing'
-design_tekst6: 'Jeg leverer ikke produktet før det er ferdig testet. Jeg vil kjøre en grundig test på hjemmesiden din og teste den i de mest brukte nettleserne. Jeg garanterer at du som kunde vil få et feilfritt produkt som er av høyeste kvalitet. Finner du feil fikser jeg det umiddelbart.'
-design_tekst7: 'Vil du vite mer om hva jeg har å tilby innen design og utvikling?'
-design_tekst8: 'Ta kontakt så hjelper jeg deg'
-design_tittel4: 'Publiseringssystem'
-design_tekst9: 'Jeg har laget en publiseringsløsning som er lett å bruke. Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst. Jeg har utviklet et eget publiseringssystem (CMS), hvor du kan enkelt administrere innholdet selv. For å ikke skape mye krøll, har jeg lagt vekt på at du som administrator skal være trygg og at det skal være lekende lett. Det er ingen krav om tekniske forkunnskaper.'
+design_knapp8: 'Ta kontakt så hjelper jeg deg'
 
-# FRONTEND
-
+# FRONTEND PAGE
+frontend_undertittel_bilde: Jeg koder Javascript og <br> tilbyr Sanity CMS for innhold.
+frontend_tittel1: 'Responsivt Design'
+frontend_tekst4: 'Alle nettsider jeg lager er tilpasset alle skjermstørrelser. Det betyr at innholdet og designet på nettsiden din blir automatisk tilpasset etter din enhet, uansett skjermstørrelse.'
+frontend_tittel2: 'Webutvikling'
+frontend_tekst5: 'Jeg lager nettsiden din med standard HTML, CSS og Javascript som er et moderne, kjapt og fleksibelt språk som gjør det lett å gjøre siden din dynamisk.'
+frontend_tittel3: 'Testing'
+frontend_tekst6: 'Jeg leverer ikke produktet før det er ferdig testet. Jeg vil kjøre en grundig test på hjemmesiden din og teste den i de mest brukte nettleserne. Jeg garanterer at du som kunde vil få et feilfritt produkt som er av høyeste kvalitet. Finner du feil fikser jeg det umiddelbart.'
+frontend_tekst7: 'Vil du vite mer om hva jeg har å tilby innen design og utvikling?'
+frontend_tittel4: 'Publiseringssystem'
+frontend_tekst9: 'Jeg bruker Sanity publiseringsløsning (CMS), hvor du kan enkelt administrere innholdet selv. Jeg har lagt vekt på at du som administrator skal være trygg, og Sanity gir brukerne muligheten til å tilpasse løsningen til deres spesifikke behov. Det er ingen krav om tekniske forkunnskaper. Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst.'
 # SEO OG MARKEDSFØRING
 # seo_tekst_bilde: 'Vi hjelper deg med å bli mer synlig på nettet!'
 # seo_undertittel_bilde: 'Vi har sterkt fokus på søkemotoroptimalisering'

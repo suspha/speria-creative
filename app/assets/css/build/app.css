@@ -1,13 +1,13 @@
 .speria-logo {
-  width: 46px;
-  margin: 1rem 2rem;
+  width: 36px;
+  margin: 1.5rem;
   position: absolute;
 }
 
 a.langlink {
   color: #fbfada;
-  font-size: 20px;
-  margin: 0;
+  font-size: 18px !important;
+  margin-right: 8px;
 }
 a.langlink:hover {
   text-decoration: none !important;
@@ -15,10 +15,11 @@ a.langlink:hover {
 
 .langlink a.active-link {
   text-decoration: none;
-  color: #272829;
+  color: #272829 !important;
   font-weight: 600;
+  font-size: 18px !important;
   background: #fbfada;
-  padding: 2px 8px 5px;
+  padding: 8px 16px;
   border-radius: 6px;
   border-bottom: none;
 }
@@ -550,20 +551,34 @@ button:hover,
   display: none;
 }
 
-.p-t {
-  padding-top: 1.5rem;
-}
-
-.p-b {
-  padding-bottom: 1.5rem;
-}
-
-.m-t {
+.m-t-24 {
   margin-top: 1.5rem;
 }
 
-.m-b {
+.m-b-24 {
   margin-bottom: 1.5rem;
+}
+
+.full-width {
+  max-width: 100%;
+}
+
+.inner-width {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.inner-width-wide {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.inner-width.fade {
+  max-width: 860px;
+  margin: 0 auto;
+  padding-top: 0;
 }
 
 .float-right {
@@ -729,12 +744,16 @@ h2 {
   }
 }
 
-blockquote {
-  padding-left: 0;
-  border-left: none;
-  font-style: normal;
-  color: #272829;
-  margin: 1.5rem 0;
+h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #123735;
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 26px;
+    padding-top: 2rem;
+  }
 }
 
 p {
@@ -742,31 +761,9 @@ p {
   line-height: 32px;
 }
 
-.full-width {
-  max-width: 100%;
-}
-
-.inner-width {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 3rem;
-}
-
-.inner-width-wide {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5rem 0;
-}
-
 a:focus {
   border: 1px solid #f0ebe3;
   box-sizing: border-box;
-}
-
-.inner-width.fade {
-  max-width: 860px;
-  margin: 0 auto;
-  padding-top: 0;
 }
 
 .top-row {
@@ -855,7 +852,6 @@ a:focus {
 .top-text h2 {
   font-size: 32px;
   color: #272829;
-  padding-top: 2rem;
   line-height: 50px;
 }
 @media (max-width: 768px) {

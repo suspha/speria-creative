@@ -103,6 +103,58 @@ how_i_work_pricing: 'Price is agreed per project, either per hour or fixed.'
 
 index_prosjekter: 'Projects'
 
+index_prosjekter_tittel: 'Customers I have worked with'
+
+# OM OSS
+om_meg_undertittel_bilde: 'My Vision'
+om_meg_tittel: 'About Me'
+om_meg_tekst1: 'Speria Creative was established in 2017 by Susana Pham.'
+om_meg_tekst2: 'I am genuinely committed to deliver good solutions to my customers, and I specialize in small, medium
+and startup businesses. All the websites I build are user-friendly, responsive and search engine optimized (SEO).'
+om_meg_tekst3: 'There are many out there that do the same as me, but I want you to work with me based on who I am and
+what I can deliver in result. Through hard work I can offer so much more than just a nice website to look at.'
+om_meg_tittel1: 'Why should you choose me?'
+om_meg_tekst4: "My focus is to set my high standard on marketing. Driving traffic to your site is the most important
+of all. It does not help with a nice page if no one finds it. If you choose us, it's an investment where our goal is
+to increase your income."
+om_meg_tekst5: "I'm a freelancer, and therefore I'll manage to work very closely with my customers. I don't say yes to
+every projects because I want each of my customer to be 100% prioritized."
+om_meg_tekst6: "I don't set up multiple meetings to preach about things, because I don't want to waste your time.
+You'll meet the person who do the job for you and who actually know your needs."
+om_meg_tekst7: 'My prices are more reasonable compare to many of our competitors. I offer both hourly rate and package
+price which are very reasonable. Newly established companies will also receive a 10% discount.'
+om_meg_tekst8: 'I have quick response time and short work processes. Therefore, the results are faster. As a small
+supplier, I depend that you as a customer succeed, otherwise I do not do it well myself.'
+om_meg_tekst9: "<b>My vision is simple:</b> I'm passionate about creating good results. On the way there I will show
+that you can get good marketing while delivering a good web design without having to pay a lot of money."
+om_meg_tekst10: 'Feel free to contact me if you want to learn more about me!'
+
+# DESIGN
+design_tittel_bilde: 'Why is good design important?'
+design_undertittel_bilde: 'I make professional websites based on your needs'
+design_tittel: 'UX-design'
+design_tekst1: 'When I create a design concept, I always focus on improving user-friendliness and promoting the content.'
+design_tekst2: "Unlike many other web design companies, I create creative and unique designs from scratch, and I'll never deliver from
+myself similar web design for multiple clients. I'm very concerned about the high quality of what I deliver. A big advantage is that I'm
+experienced and I also follow the trend in the market. I know what it takes to create good web design."
+design_tekst3: 'Designers who have no knowledge of usability can create a website that looks good, but the design is not optimized for
+web and the website become difficult to use. I create tidy code so that your website works in the most used browsers, and in addition is
+optimized for maximum speed and stability.'
+design_knapp8: "Get in touch and I'll help you"
+
+# FRONTEND PAGE
+frontend_undertittel_bilde: 'I code Javascript and <br> offers Sanity CMS for content.'
+frontend_tittel1: 'Responsive Design'
+frontend_tekst4: 'All websites I create are adapted to all screen sizes. This means that the content and design of
+your website is automatically adapted to your device, regardless of screen size.'
+frontend_tittel2: 'Web development'
+frontend_tekst5: 'I create your website with standard HTML, CSS and Javascript, which is a modern, fast and flexible language that makes it easy to make your page dynamic.'
+frontend_tittel3: 'Test'
+frontend_tekst6: 'I do not deliver the product until it has been tested. I will run a thorough test on the homepage and test it in the most used browsers. I guarantee that you as a customer will receive a flawless product that is of the highest quality. If you find a mistake, I will fix it immediately.'
+frontend_tekst7: 'Would you like to know more about what I have to offer for design and development?'
+frontend_tittel4: 'Publishing system (CMS)'
+frontend_tekst9: 'I use the Sanity publishing solution (CMS), where you can easily manage the content yourself. I have emphasized that you as an administrator should be safe, and Sanity gives users the opportunity to adapt the solution to their specific needs. There are no requirements for prior technical knowledge. Save costs by performing simple tasks yourself such as replacing images or changing text.'
+
 index_kontakt_tittel: 'Contact Me'
 index_kontakt1: 'Fill in the contact form, and I will respond as soon as possible.'
 index_nor: 'Norway'
@@ -112,39 +164,6 @@ index_kontakt_form3: 'Email'
 index_kontakt_form4: 'Subject'
 index_kontakt_form5: 'Message'
 index_kontakt_form_write: Write message here
-
-# OM OSS
-om_meg_undertittel_bilde: 'My Vision'
-om_meg_tittel: 'About Me'
-om_meg_tekst1: 'Speria Creative was established in 2017 by Susana Pham.'
-om_meg_tekst2: 'I am genuinely committed to deliver good solutions to my customers, and I specialize in small, medium and startup businesses. All the websites I build are user-friendly, responsive and search engine optimized (SEO).'
-om_meg_tekst3: 'There are many out there that do the same as me, but I want you to work with me based on who I am and what I can deliver in result. Through hard work I can offer so much more than just a nice website to look at.'
-om_meg_tittel1: 'Why should you choose me?'
-om_meg_tekst4: "My focus is to set my high standard on marketing. Driving traffic to your site is the most important of all. It does not help with a nice page if no one finds it. If you choose us, it's an investment where our goal is to increase your income."
-om_meg_tekst5: "We are a small company, and therefore we manage to work very closely with our customers. We don't say yes to every projects because we want each of our customer to be 100% prioritized."
-om_meg_tekst6: "We don't set up multiple meetings to preach about things, because we don't want to waste your time. You'll meet the people who do the job for you and who actually know your needs."
-om_meg_tekst7: 'Our prices are more reasonable compare to many of our competitors. We offer both hourly rate and package price which are very reasonable. Newly established companies will also receive a 10% discount.'
-om_meg_tekst8: 'We have quick response time and short work processes. Therefore, the results are faster. As a small supplier, we depend that you as a customer succeed, otherwise we do not do it well ourselves.'
-om_meg_tekst9: 'Our vision is simple: We are passionate about creating good results. On the way there we will show that you can get good marketing while delivering a good web design without having to pay a lot of money. '
-om_meg_tekst10: 'Feel free to contact us if you want to learn more about us!'
-
-# DESIGN
-design_tittel_bilde: 'Why is good design important?'
-design_undertittel_bilde: 'We make professional websites based on your needs'
-design_tittel: 'UX-design'
-design_tekst1: 'When we develop a design, we constantly focus on user-friendly and promotional content for your website.'
-design_tekst2: 'Unlike many other web design companies, we create creative and unique design from scratch, and we will never deliver the same design to our customers. We are very engaged to deliver a high quality websites. One big advantage is that we are experienced developers and follow the trend in the market,  we know what it takes to create good web design.'
-design_tekst3: 'Designers who have no knowledge of how to make a user- friendly interface can create a website that looks good, but the design is not optimized for web and the website becomes difficult to use. We make neat codes so your website works in the most widely used browsers and is also optimized for maximum speed and stability.'
-design_tittel1: 'Responsive Design'
-design_tekst4: 'All our web pages are customized for all screen sizes. This means that the content and design of your website will be automatically customized by your device, regardless of the screen size.'
-design_tittel2: 'Web Development'
-design_tekst5: 'We make your website with standard HTML, CSS and Javascript which is a modern, quick and flexible language that makes it easy to make your site dynamic.'
-design_tittel3: 'Testing'
-design_tekst6: 'We will not deliver the product until it has been tested. We will run thorough test on your website and test it in the most widely used browsers. We can guarantee that you as a customer will receive a flawless product that is of the highest quality. If you find an error, we will fix it immediately for free.'
-design_tekst7: 'Do you want to learn about what we have to offer in design and development?'
-design_tekst8: 'Contact us'
-design_tittel4: 'Publication solution'
-design_tekst9: 'We have created a publishing solution that is easy to use. Save costs by performing simple tasks yourself, such as swapping images or changing text. We have developed our own publishing system (CMS), where you can easily manage the content yourself. There is no requirement for technical prior knowledge.'
 
 # SEO OG MARKEDSFØRING
 # seo_tekst_bilde: 'We help you become more visible online!'

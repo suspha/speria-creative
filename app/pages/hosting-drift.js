@@ -2,12 +2,15 @@ module.exports = async function ($) {
   $.page.description = $.t('host_meta')
   $.page.title = $.t('host_title')
 
-  return /* html */ `
+  return /* HTML */ `
     <div class="top-wrapper light-background">
       <div class="top-row">
         <div class="top-column image">
           <div class="top-image">
-            <img src="/img/speria-creative-hosting-support-opt.svg" alt="image">
+            <img
+              src="/img/speria-creative-hosting-support-opt.svg"
+              alt="image"
+            />
           </div>
         </div>
         <div class="top-column text">
@@ -25,13 +28,16 @@ module.exports = async function ($) {
         <h3>${$.t('hosting_tittel1')}</h3>
         <p>${$.t('hosting_tekst2')}</p>
         <h3>${$.t('hosting_tittel2')}</h3>
-        <p>${$.t('hosting_tekst3')}</p><br>
-        <p>${$.t('hosting_tekst4')}</p><br>
-        <a href="${$.link(
-          'index'
-        )}?subject=hosting#kontakt" class="button cta" role="button">${$.t(
-    'hosting_tekst5'
-  )}</a>
+        <p>${$.t('hosting_tekst3')}</p>
+        <br />
+        <p>${$.t('hosting_tekst4')}</p>
+        <br />
+        <a
+          href="${$.link('index')}?subject=hosting#kontakt"
+          class="button cta"
+          role="button"
+          >${$.t('hosting_tekst5')}</a
+        >
       </div>
     </div>
   `
