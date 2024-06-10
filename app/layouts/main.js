@@ -144,7 +144,7 @@ module.exports = async function ($) {
               </li>
               <li>
                 <a
-                  class="langlink"
+                  class="langlink m-l-24"
                   href="${$.link(`en@${$.page.name}`)}"
                   onclick="window.cookie('lang', 'en')"
                   >EN</a

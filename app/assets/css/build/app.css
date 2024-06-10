@@ -6,22 +6,28 @@
 
 a.langlink {
   color: #fbfada;
-  font-size: 18px !important;
+  font-size: 16px !important;
   margin-right: 8px;
 }
 a.langlink:hover {
   text-decoration: none !important;
 }
 
-.langlink a.active-link {
+a.langlink.active-link {
   text-decoration: none;
   color: #272829 !important;
-  font-weight: 600;
-  font-size: 18px !important;
-  background: #fbfada;
-  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 16px !important;
+  background: #e3ff95;
+  padding: 8px 12px;
   border-radius: 6px;
   border-bottom: none;
+}
+a.langlink.active-link:hover {
+  text-decoration: none !important;
+  background: transparent;
+  color: #fbfada !important;
+  border: 1px solid #e3ff95;
 }
 
 .top-nav {
@@ -557,6 +563,14 @@ button:hover,
 
 .m-b-24 {
   margin-bottom: 1.5rem;
+}
+
+.m-r-24 {
+  margin-right: 1.5rem;
+}
+
+.m-l-24 {
+  margin-left: 1.5rem;
 }
 
 .full-width {

@@ -114,20 +114,18 @@ and startup businesses. All the websites I build are user-friendly, responsive a
 om_meg_tekst3: 'There are many out there that do the same as me, but I want you to work with me based on who I am and
 what I can deliver in result. Through hard work I can offer so much more than just a nice website to look at.'
 om_meg_tittel1: 'Why should you choose me?'
-om_meg_tekst4: "My focus is to set my high standard on marketing. Driving traffic to your site is the most important
-of all. It does not help with a nice page if no one finds it. If you choose us, it's an investment where our goal is
-to increase your income."
+om_meg_tekst4: "My focus is on user experience, and to gain traffic to your site. It's not just about a beautiful page to look at, if no one finds it. It's an investment where my goal is to increase your income."
 om_meg_tekst5: "I'm a freelancer, and therefore I'll manage to work very closely with my customers. I don't say yes to
 every projects because I want each of my customer to be 100% prioritized."
 om_meg_tekst6: "I don't set up multiple meetings to preach about things, because I don't want to waste your time.
 You'll meet the person who do the job for you and who actually know your needs."
 om_meg_tekst7: 'My prices are more reasonable compare to many of our competitors. I offer both hourly rate and package
 price which are very reasonable. Newly established companies will also receive a 10% discount.'
-om_meg_tekst8: 'I have quick response time and short work processes. Therefore, the results are faster. As a small
-supplier, I depend that you as a customer succeed, otherwise I do not do it well myself.'
+om_meg_tekst8: 'I have quick response times and work efficiently. Therefore, I deliver faster. As a small
+supplier, I depend that you as a customer succeed, otherwise I will not succceed myself.'
 om_meg_tekst9: "<b>My vision is simple:</b> I'm passionate about creating good results. On the way there I will show
-that you can get good marketing while delivering a good web design without having to pay a lot of money."
-om_meg_tekst10: 'Feel free to contact me if you want to learn more about me!'
+that you can get good results while delivering a good web design without having to pay a lot of money."
+om_meg_tekst10: 'Get in touch'
 
 # DESIGN
 design_tittel_bilde: 'Why is good design important?'
@@ -140,7 +138,7 @@ experienced and I also follow the trend in the market. I know what it takes to c
 design_tekst3: 'Designers who have no knowledge of usability can create a website that looks good, but the design is not optimized for
 web and the website become difficult to use. I create tidy code so that your website works in the most used browsers, and in addition is
 optimized for maximum speed and stability.'
-design_knapp8: "Get in touch and I'll help you"
+design_knapp8: 'Get in touch'
 
 # FRONTEND PAGE
 frontend_undertittel_bilde: 'I code Javascript and <br> offers Sanity CMS for content.'
@@ -150,10 +148,11 @@ your website is automatically adapted to your device, regardless of screen size.
 frontend_tittel2: 'Web development'
 frontend_tekst5: 'I create your website with standard HTML, CSS and Javascript, which is a modern, fast and flexible language that makes it easy to make your page dynamic.'
 frontend_tittel3: 'Test'
-frontend_tekst6: 'I do not deliver the product until it has been tested. I will run a thorough test on the homepage and test it in the most used browsers. I guarantee that you as a customer will receive a flawless product that is of the highest quality. If you find a mistake, I will fix it immediately.'
+frontend_tekst6: "I wont deliver the product until it has been tested. I will run a thorough test on the homepage and test it in the most used browsers. I guarantee that you as a customer will receive a flawless product that is of the highest quality. If you find any bugs, I will fix it immediately."
 frontend_tekst7: 'Would you like to know more about what I have to offer for design and development?'
 frontend_tittel4: 'Publishing system (CMS)'
-frontend_tekst9: 'I use the Sanity publishing solution (CMS), where you can easily manage the content yourself. I have emphasized that you as an administrator should be safe, and Sanity gives users the opportunity to adapt the solution to their specific needs. There are no requirements for prior technical knowledge. Save costs by performing simple tasks yourself such as replacing images or changing text.'
+frontend_tekst9: 'I use Sanity publishing solution (CMS), where you can easily manage the content yourself. My focus is that you as an administrator should feel safe, and Sanity gives users the opportunity to adapt the solution to their specific needs. There are no requirements for prior technical knowledge.'
+frontend_text10: 'Save costs by performing simple tasks yourself such as replacing images or changing text.'
 
 index_kontakt_tittel: 'Contact Me'
 index_kontakt1: 'Fill in the contact form, and I will respond as soon as possible.'

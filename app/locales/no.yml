@@ -125,7 +125,7 @@ om_meg_tekst5: 'Jeg er opptatt av å jobbe tett med kundene mine. Jeg sier ikke 
 om_meg_tekst6: 'Jeg prater deg ikke trill rundt og sitter ikke i flere møter for å preike om ditt og datt. Jeg kaster ikke bort tiden din og går heller rett på sak. Du møter faktisk meg som gjør jobben for deg, og som faktisk kjenner til behovene dine.'
 om_meg_tekst7: 'Mine priser er mye rimeligere enn hos mange av mine konkurrenter. Jeg tilbyr både timepris og pakkepris som er svært gunstige. Nyetablerte firmaer får dessuten 10% rabatt.'
 om_meg_tekst8: 'Jeg har lynkjapp responstid og korte arbeidsprosesser. Derfor kommer resultatene raskere. Som en liten leverandør er jeg avhengig av at du som kunde lykkes, ellers gjør jeg ikke det bra selv.'
-om_meg_tekst9: '<b>Min visjon er enkel:</b> Jeg er lidenskapelig opptatt av å skape gode resultater. På veien dit skal jeg vise at det går an å få til god markedsføring, og samtidig levere et godt webdesign uten at du må betale mye penger.'
+om_meg_tekst9: '<b>Min visjon er enkel:</b> Jeg er lidenskapelig opptatt av å skape gode resultater. På veien dit skal jeg vise at det går an å få til gode resultater, og samtidig levere et godt webdesign uten at du må betale mye penger.'
 om_meg_tekst10: 'Ta kontakt for å bli bedre kjent med meg!'
 
 # DESIGN
@@ -147,7 +147,9 @@ frontend_tittel3: 'Testing'
 frontend_tekst6: 'Jeg leverer ikke produktet før det er ferdig testet. Jeg vil kjøre en grundig test på hjemmesiden din og teste den i de mest brukte nettleserne. Jeg garanterer at du som kunde vil få et feilfritt produkt som er av høyeste kvalitet. Finner du feil fikser jeg det umiddelbart.'
 frontend_tekst7: 'Vil du vite mer om hva jeg har å tilby innen design og utvikling?'
 frontend_tittel4: 'Publiseringssystem'
-frontend_tekst9: 'Jeg bruker Sanity publiseringsløsning (CMS), hvor du kan enkelt administrere innholdet selv. Jeg har lagt vekt på at du som administrator skal være trygg, og Sanity gir brukerne muligheten til å tilpasse løsningen til deres spesifikke behov. Det er ingen krav om tekniske forkunnskaper. Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst.'
+frontend_tekst9: 'Jeg bruker Sanity publiseringsløsning (CMS), hvor du kan enkelt administrere innholdet selv. Jeg har lagt vekt på at du som administrator skal være trygg, og Sanity gir brukerne muligheten til å tilpasse løsningen til deres spesifikke behov. Det er ingen krav om tekniske forkunnskaper..'
+frontend_text10: ' Spar kostnader ved å utføre enkle oppgaver selv, som å bytte ut bilder eller endre tekst'
+
 # SEO OG MARKEDSFØRING
 # seo_tekst_bilde: 'Vi hjelper deg med å bli mer synlig på nettet!'
 # seo_undertittel_bilde: 'Vi har sterkt fokus på søkemotoroptimalisering'

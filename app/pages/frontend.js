@@ -32,7 +32,7 @@ module.exports = async function ($) {
 
         <h3>${$.t('frontend_tittel3')}</h3>
         <p>${$.t('frontend_tekst6')}</p>
-        <br />
+        <p>${$.t('frontend_text10')}</p>
 
         <p>${$.t('frontend_tekst7')}</p>
         <br />
