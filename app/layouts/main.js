@@ -61,6 +61,21 @@ module.exports = async function ($) {
           </a>
 
           <nav id="navi-mob">
+            <div class="langlink-mob">
+              <a
+                class="langlink m-l-24"
+                href="${$.link(`en@${$.page.name}`)}"
+                onclick="window.cookie('lang', 'en')"
+                >EN</a
+              >
+              <a
+                class="langlink"
+                style="color:#fbfada;"
+                href="${$.link(`no@${$.page.name}`)}"
+                onclick="window.cookie('lang', 'no')"
+                >NO</a
+              >
+            </div>
             <a
               href="#"
               aria-label="menu"
@@ -68,24 +83,28 @@ module.exports = async function ($) {
               ><i class="kube-menu active"></i
             ></a>
             <ul id="menu">
-              <a href="${$.link('index')}">
-                <img
-                  class="speria-logo-dark"
-                  width="40"
-                  height="40"
-                  src="/img/speria-short-dark.svg"
-                  alt="logo"
-                />
-              </a>
-              <a href="${$.link('index')}">
-                <img
-                  class="exit-icon float-right"
-                  width="40"
-                  height="40"
-                  src="/img/exit.svg"
-                  alt="exit"
-                />
-              </a>
+              <li>
+                <a href="${$.link('index')}">
+                  <img
+                    class="speria-logo-dark"
+                    width="34"
+                    height="34"
+                    src="/img/speria-short-dark.svg"
+                    alt="logo"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="${$.link('index')}">
+                  <img
+                    class="exit-icon float-right"
+                    width="40"
+                    height="40"
+                    src="/img/exit.svg"
+                    alt="exit"
+                  />
+                </a>
+              </li>
               <li>
                 <a href="${$.link('ux-design')}">${$.t('nav_tjenester1')}</a>
               </li>
@@ -96,7 +115,6 @@ module.exports = async function ($) {
               <li><a href="${$.link('index')}#kontakt">${$.t('nav4')}</a></li>
             </ul>
           </nav>
-
           <script>
             function toggleMenu(a) {
               var menu = $('#menu'),
@@ -142,7 +160,9 @@ module.exports = async function ($) {
                   >${$.t('nav4')}</a
                 >
               </li>
-              <li>
+              <li
+                style="display:flex;align-items:center;justify-content: center;"
+              >
                 <a
                   class="langlink m-l-24"
                   href="${$.link(`en@${$.page.name}`)}"
@@ -150,7 +170,9 @@ module.exports = async function ($) {
                   >EN</a
                 >
               </li>
-              <li>
+              <li
+                style="display:flex;align-items:center;justify-content:center;"
+              >
                 <a
                   class="langlink"
                   href="${$.link(`no@${$.page.name}`)}"
@@ -160,21 +182,22 @@ module.exports = async function ($) {
               </li>
             </ul>
           </nav>
-          <script>
-            ${init}
-            init()
-          </script>
-          <div class="dropdown hide" id="dropdown-fixed">
-            <ul>
-              <li>
-                <a href="${$.link('ux-design')}">${$.t('nav_tjenester1')}</a>
-              </li>
-              <li>
-                <a href="${$.link('frontend')}">${$.t('nav_tjenester4')}</a>
-              </li>
-            </ul>
-          </div>
         </div>
+        <script>
+          ${init}
+          init()
+        </script>
+        <div class="dropdown hide" id="dropdown-fixed">
+          <ul>
+            <li>
+              <a href="${$.link('ux-design')}">${$.t('nav_tjenester1')}</a>
+            </li>
+            <li>
+              <a href="${$.link('frontend')}">${$.t('nav_tjenester4')}</a>
+            </li>
+          </ul>
+        </div>
+
         ${$.page.content}
         <footer>
           <img

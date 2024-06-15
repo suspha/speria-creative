@@ -168,16 +168,6 @@ a:focus {
 }
 
 @media (max-width: 768px) {
-  .speria-logo {
-    max-width: 200px;
-    left: 0;
-    top: 5px;
-  }
-  .speria-logo-dark {
-    width: 40px;
-    margin-bottom: 1rem;
-  }
-
   .top-column {
     flex-basis: 100%;
   }
@@ -215,7 +205,7 @@ a:focus {
 @media (max-width: 768px) {
   .inner-width-wide,
   .inner-width {
-    padding: 2rem !important;
+    padding: 1rem !important;
   }
 }
 

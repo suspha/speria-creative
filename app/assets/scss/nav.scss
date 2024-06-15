@@ -36,6 +36,9 @@ a.langlink.active-link {
   background: $dark;
   a {
     color: $lime;
+    @media (max-width: 992px) {
+      color: $dark;
+    }
   }
 }
 
@@ -48,6 +51,14 @@ a {
 
 #navi-mob {
   display: none;
+  .langlink-mob {
+    position: absolute;
+    right: 80px;
+    top: 38px;
+    .langlink {
+      color: $lime;
+    }
+  }
 }
 
 #navi-mob i {
@@ -87,8 +98,9 @@ a {
   #navi-mob {
     display: initial;
   }
+}
 
-  .top-nav a {
-    color: $dark;
-  }
+.exit-icon {
+  position: relative;
+  bottom: 88px;
 }
