@@ -2,7 +2,7 @@ module.exports = async function ($) {
   const host =
     process.env.NODE_ENV == 'production'
       ? 'https://speria.no/api'
-      : 'http://localhost:5711'
+      : 'http://speria.test'
 
   function init() {
     var links = document.querySelectorAll('a.langlink')

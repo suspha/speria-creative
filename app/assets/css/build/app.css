@@ -727,6 +727,21 @@ label {
   font-size: 18px;
 }
 
+input,
+select,
+textarea {
+  font-size: 20px;
+  color: #272829;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #123735;
+}
+
 *,
 html {
   box-sizing: border-box;
@@ -740,6 +755,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding: 0;
+  background: #fbfada;
 }
 
 *,
@@ -901,6 +917,12 @@ a:focus {
   top: 10px;
 }
 
+.icon-email {
+  margin-right: 1rem;
+  position: relative;
+  top: 6px;
+}
+
 @media (max-width: 768px) {
   .top-column {
     flex-basis: 100%;
@@ -1016,9 +1038,12 @@ a:focus {
 }
 
 .error-message {
-  font-size: 11pt;
-  color: #af3f4f;
+  display: none;
+  font-size: 16px;
+  color: #faf8f5;
   font-weight: 500;
+  background: #af3f4f;
+  padding: 4px 12px;
 }
 
 .bekreftelse {
@@ -1030,6 +1055,25 @@ a:focus {
 .bekreftelse h1 {
   color: #425564;
   font-size: 46px;
+}
+
+.tag {
+  background: #4f6f52;
+  line-height: 3.5;
+  padding: 16px 26px;
+  border: 2px solid #4f6f52;
+  color: #faf8f5;
+  border-radius: 36px;
+  margin: 0 0.2rem;
+}
+@media (max-width: 768px) {
+  .tag {
+    margin: 1px;
+    padding: 7px;
+    font-size: 80%;
+    line-height: 2.6;
+    white-space: nowrap;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

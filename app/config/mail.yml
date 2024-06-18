@@ -1,2 +1,5 @@
-key: secret_key
-domain: speria.no
+host: secure.emailsrvr.com
+port: 587
+auth:
+  user: post@speria.no
+  pass: n72FPQrs

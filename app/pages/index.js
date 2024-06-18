@@ -1,4 +1,5 @@
 const contact = require('../components/contact.js')
+const tags = require('../components/tags.js')
 // const projects = require('../components/projects.js')
 const customers = require('../components/customers.js')
 const services = require('../components/services.js')
@@ -19,6 +20,6 @@ module.exports = async function ($) {
     </div>
 
     ${await about($)} ${await work($)} ${await services($)}
-    ${await customers($)} ${await contact($)}
+    ${await customers($)} ${await tags($)} ${await contact($)}
   `
 }

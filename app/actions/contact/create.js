@@ -2,20 +2,23 @@ module.exports = {
   validate: {
     values: {
       name: {
+        required: true,
         minlength: 2
       },
       email: {
+        required: true,
         is: '$email'
       },
       subject: {
-        in: ['price', 'questions', 'marketing', 'design', 'hosting', 'other']
+        required: true,
+        in: ['price', 'questions', 'design', 'development', 'other']
       },
       message: {
         minlength: 5
       }
     }
   },
-  main: async function($) {
+  main: async function ($) {
     // Gather parameters sent from the client
     const { name, phone, email, subject, message } = $.params.values
 
@@ -23,6 +26,6 @@ module.exports = {
     const options = { subject, from: email }
 
     // Send the email and return the result
-    return await $.app.mailer.send('contact', $, options, data)
+    return await $.mailer.send('contact', $, options, data)
   }
 }

@@ -15,6 +15,10 @@ design_title: UX-design | Speria Creative - Brukervennlig, mobilvennlig og høy 
 frontend_meta: 'Jeg lager kreative, mobil responsiv og brukervennlige hjemmesider med høy kvalitet og maksimal hastighet og stabilitet.'
 frontend_title: Frontend Utvikling | Speria Creative - Brukervennlig, mobilvennlig og høy hastighet
 
+#TAGS
+tag_title: Verktøy
+tags_intro: 'Dette noen av de tingene jeg er god på:'
+
 # SEO & MARKEDSFØRING
 # seo_meta: Vi er eksperter på søkemotoroptimalisering, lenkebygging inn til siden din, sosiale medier, innovasjonsmetoder og vi kan hjelpe deg med å skrive gode tekster.
 # seo_title: Søkemotoroptimalisering, SEO &amp; Markedsføring | Speria Creative - Billige og flinke tekstforfattere og markedsførere for din nettside
@@ -84,6 +88,7 @@ index_design_tittel: 'UX-design'
 index_design: 'Jeg er kreativ webdesigner som lager unike design fra scratch.'
 
 index_dev_tittel: 'Frontend utvikling'
+index_dev_frontend: 'Jeg koder Javascript og node.js, og har erfaring med Sanity CMS'
 
 how_i_work_tittel: 'Hvordan jeg jobber'
 how_i_work1: 'Jeg mener at å jobbe sammen betyr at vi deler samme visjon. Jeg tar bare på meg prosjekter som jeg er sikker på at jeg kan levere. Prosjekter lages i 3 steg:'
@@ -97,7 +102,6 @@ how_i_work_pricing: 'Pris avtales per prosjekt, enten per time eller fast.'
 
 # index_seo_tittel: 'Markedsføring &amp; SEO'
 # index_seo: 'Vi er eksperter på markedsføring, og hjelper deg med å bli synlig på nettet.'
-
 # index_hosting_tittel: Hosting &amp; Drift
 # index_hosting: 'Vi har oppfølgingsgaranti og hjelper deg med hosting.'
 
@@ -126,7 +130,7 @@ om_meg_tekst6: 'Jeg prater deg ikke trill rundt og sitter ikke i flere møter fo
 om_meg_tekst7: 'Mine priser er mye rimeligere enn hos mange av mine konkurrenter. Jeg tilbyr både timepris og pakkepris som er svært gunstige. Nyetablerte firmaer får dessuten 10% rabatt.'
 om_meg_tekst8: 'Jeg har lynkjapp responstid og korte arbeidsprosesser. Derfor kommer resultatene raskere. Som en liten leverandør er jeg avhengig av at du som kunde lykkes, ellers gjør jeg ikke det bra selv.'
 om_meg_tekst9: '<b>Min visjon er enkel:</b> Jeg er lidenskapelig opptatt av å skape gode resultater. På veien dit skal jeg vise at det går an å få til gode resultater, og samtidig levere et godt webdesign uten at du må betale mye penger.'
-om_meg_tekst10: 'Ta kontakt for å bli bedre kjent med meg!'
+om_meg_tekst10: 'Ta kontakt for å bli bedre kjent med meg'
 
 # DESIGN
 design_tittel_bilde: 'Hvorfor er et godt design viktig?'
@@ -184,26 +188,6 @@ frontend_text10: ' Spar kostnader ved å utføre enkle oppgaver selv, som å byt
 validation:
   error: Validering feilet
   required: er påkrevd
-  # eq: must be equal to %s
-  # ne: must not be equal to %s
-  # gt: must be greater than %s
-  # lt: must be less than %s
-  # gte: must be greater than or equal to %s
-  # lte: must be less than or equal to %s
   in: Velg et alternativ
-  # nin: must not be one of %s
-  # length: length must be %s
   minlength: Minimum lengde er %s
-  # maxlength: maximum length is %s
-  # $boolean: must be true or false
-  # $string: must be a string
-  # $number: must be a number
-  # $integer: must be an integer
-  # $decimal: must be a decimal
-  # $date: must be a date
-  # $id: must be an id
-  # $object: must be an object
-  # $array: must be an array
   $email: Ugyldig epost
-  # $url: must be a URL
-  # match: must match '%s'

@@ -66,3 +66,18 @@
 label {
   font-size: 18px;
 }
+
+input,
+select,
+textarea {
+  font-size: 20px;
+  color: $dark;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $forest;
+}

@@ -25,6 +25,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   padding: 0;
+  background: $lime;
 }
 
 *,
@@ -165,6 +166,12 @@ a:focus {
   margin-right: 8px;
   position: relative;
   top: 10px;
+}
+
+.icon-email {
+  margin-right: 1rem;
+  position: relative;
+  top: 6px;
 }
 
 @media (max-width: 768px) {
@@ -364,9 +371,12 @@ a:focus {
 }
 
 .error-message {
-  font-size: 11pt;
-  color: $error;
+  display: none;
+  font-size: 16px;
+  color: $light;
   font-weight: 500;
+  background: $error;
+  padding: 4px 12px;
 }
 
 .bekreftelse {
@@ -378,4 +388,21 @@ a:focus {
 .bekreftelse h1 {
   color: #425564;
   font-size: 46px;
+}
+
+.tag {
+  background: $hunt;
+  line-height: 3.5;
+  padding: 16px 26px;
+  border: 2px solid $hunt;
+  color: $light;
+  border-radius: 36px;
+  margin: 0 0.2rem;
+  @media (max-width: 768px) {
+    margin: 1px;
+    padding: 7px;
+    font-size: 80%;
+    line-height: 2.6;
+    white-space: nowrap;
+  }
 }

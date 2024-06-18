@@ -1,12 +1,5 @@
-const mailer = require('wmail')
+const wmailer = require('waveorb-mailer')
 
-// Default options
-const options = {
-  subject: 'Henvendelse',
-  reply: 'post@speria.no',
-  to: 'post@speria.no'
-}
-
-module.exports = async function(app) {
-  app.mailer = mailer({ ...app.config.mail, options })
+module.exports = function (app) {
+  return wmailer(app.config.mail)
 }

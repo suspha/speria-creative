@@ -41,7 +41,7 @@ module.exports = async function ($) {
             </div>
             <div class="service-text dark">
               <h3>${$.t('index_dev_tittel')}</h3>
-              <p>${$.t('index_frontend')}</p>
+              <p>${$.t('index_dev_frontend')}</p>
               <span>${$.t('index_les_mer')}</span>
             </div>
           </a>

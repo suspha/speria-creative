@@ -22,9 +22,9 @@
   "author": "Susana Pham",
   "license": "MIT",
   "dependencies": {
-    "sass": "^1.75.0",
-    "waveorb": "^0.42.4",
-    "wmail": "^0.11.2"
+    "sass": "^1.77.5",
+    "waveorb": "^0.43.0",
+    "waveorb-mailer": "^0.2.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
