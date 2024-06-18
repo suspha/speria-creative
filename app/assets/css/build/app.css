@@ -734,10 +734,6 @@ textarea {
   color: #272829;
 }
 
-a {
-  text-decoration: underline;
-}
-
 a:hover {
   color: #123735;
 }
@@ -1038,12 +1034,9 @@ a:focus {
 }
 
 .error-message {
-  display: none;
   font-size: 16px;
-  color: #faf8f5;
+  color: #f03c69;
   font-weight: 500;
-  background: #af3f4f;
-  padding: 4px 12px;
 }
 
 .bekreftelse {
@@ -1053,7 +1046,7 @@ a:focus {
 }
 
 .bekreftelse h1 {
-  color: #425564;
+  color: #272829;
   font-size: 46px;
 }
 

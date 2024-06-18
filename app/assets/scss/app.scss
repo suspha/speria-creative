@@ -371,12 +371,9 @@ a:focus {
 }
 
 .error-message {
-  display: none;
   font-size: 16px;
-  color: $light;
+  color: $error;
   font-weight: 500;
-  background: $error;
-  padding: 4px 12px;
 }
 
 .bekreftelse {
@@ -386,7 +383,7 @@ a:focus {
 }
 
 .bekreftelse h1 {
-  color: #425564;
+  color: $dark;
   font-size: 46px;
 }
 

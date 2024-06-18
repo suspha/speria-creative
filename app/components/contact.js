@@ -50,15 +50,16 @@ module.exports = async function ($) {
           <div class="col col-4 ta-kontakt" id="kontakt">
             <h2>${$.t('index_kontakt_tittel')}</h2>
             <p>${$.t('index_kontakt1')}</p>
-            <img
-              class="icon-email"
-              src="/img/envelope.svg"
-              width="30"
-              alt="Email icon"
-            /><a class="email-link" href="mailto:post@speria.no"
-              >post@speria.no</a
-            >
-
+            <p style="margin-top:2rem">
+              <img
+                class="icon-email"
+                src="/img/envelope.svg"
+                width="30"
+                alt="Email icon"
+              /><a class="email-link" href="mailto:post@speria.no"
+                >post@speria.no</a
+              >
+            </p>
             ${
               '' /*
 
