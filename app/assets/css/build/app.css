@@ -738,6 +738,17 @@ a:hover {
   color: #123735;
 }
 
+.message.error {
+  background: #f03c69;
+  color: #272829;
+  font-family: "Raleway", sans-serif;
+}
+
+::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
 *,
 html {
   box-sizing: border-box;
@@ -1067,6 +1078,10 @@ a:focus {
     line-height: 2.6;
     white-space: nowrap;
   }
+}
+
+.email-link {
+  border-bottom: 1px solid #123735;
 }
 
 /*# sourceMappingURL=app.css.map */

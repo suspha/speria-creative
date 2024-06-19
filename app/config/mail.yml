@@ -1,5 +1,5 @@
 host: secure.emailsrvr.com
-port: 587
+port: 465
 auth:
   user: post@speria.no
   pass: n72FPQrs

@@ -189,5 +189,5 @@ validation:
   error: Validering feilet
   required: er påkrevd
   in: Velg et alternativ
-  minlength: Minimum lengde er %s
+  min: Minimum lengde er %s
   $email: Ugyldig epost

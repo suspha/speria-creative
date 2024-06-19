@@ -77,3 +77,14 @@ textarea {
 a:hover {
   color: $forest;
 }
+
+.message.error {
+  background: $error;
+  color: $dark;
+  font-family: 'Raleway', sans-serif;
+}
+
+::placeholder {
+  color: #aaa;
+  opacity: 1;
+}

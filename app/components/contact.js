@@ -14,7 +14,11 @@ module.exports = async function ($) {
     // Sleep:
     await new Promise((r) => setTimeout(r, 500))
     var values = serialize(form)
-    const result = await api({ action: 'contact/create', values })
+    console.log(values)
+
+    var result = await api('/contact/create', { values })
+
+    console.log(result)
 
     if (result.error) {
       css('.message.error', 'opacity: 1')
@@ -159,7 +163,11 @@ module.exports = async function ($) {
                 </div>
               </div>
               <div class="form-item">
-                <label for="input-message">${$.t('index_kontakt_form5')}</label>
+                <label for="input-message"
+                  >${$.t('index_kontakt_form5')}<span class="req"
+                    >*</span
+                  ></label
+                >
                 <textarea
                   id="input-message"
                   rows="6"
