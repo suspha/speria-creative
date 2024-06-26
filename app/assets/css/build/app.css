@@ -105,6 +105,13 @@ a {
   bottom: 88px;
 }
 
+.burger {
+  float: right;
+  position: relative;
+  top: 42px;
+  right: 22px;
+}
+
 .about-intro a {
   color: #272829;
   text-decoration: underline;

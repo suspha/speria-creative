@@ -80,8 +80,11 @@ module.exports = async function ($) {
               href="#"
               aria-label="menu"
               onclick="toggleMenu(this); return false"
-              ><i class="kube-menu active"></i
-            ></a>
+              ><img
+                class="burger active"
+                src="/img/burger.svg"
+                alt="burger menu"
+            /></a>
             <ul id="menu">
               <li>
                 <a href="${$.link('index')}">
@@ -149,7 +152,7 @@ module.exports = async function ($) {
                   data-target="#dropdown-fixed"
                 >
                   ${$.t('nav2')}
-                  <span class="caret down"></span>
+                  <img class="arrow-icon" src="/img/arrow.svg" alt="toggle" />
                 </a>
               </li>
               <li>
