@@ -1088,7 +1088,8 @@ a:focus {
 }
 
 .email-link {
-  border-bottom: 1px solid #123735;
+  border-bottom: 1px solid #4f6f52;
+  color: #f03c69;
 }
 
 /*# sourceMappingURL=app.css.map */
