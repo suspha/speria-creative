@@ -3,7 +3,7 @@ module.exports = async function ($) {
     <div class="full-width border-row beige-background">
       <div class="tjenester inner-width-wide">
         <div class="row">
-          <div class="col col-12 title-space">
+          <div class="col col-12">
             <h2>${$.t('index_tjenester_tittel')}</h2>
             <p>${$.t('index_tjenester')}</p>
           </div>
