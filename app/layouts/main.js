@@ -26,7 +26,30 @@ module.exports = async function ($) {
         />
         <title>${$.page.title || 'Speria Creative'}</title>
         ${$.style('/bundle.css')}
-        <link href="/img/favicon.png" rel="shortcut icon" />
+        <link
+          href="/img/favicon16.png"
+          sizes="16x16"
+          rel="icon"
+          type="image/png"
+        />
+        <link
+          href="/img/favicon32.png"
+          sizes="32x32"
+          rel="icon"
+          type="image/png"
+        />
+        <link
+          href="/img/favicon96.png"
+          sizes="96x96"
+          rel="icon"
+          type="image/png"
+        />
+        <link
+          href="/img/favicon192.png"
+          sizes="192x192"
+          rel="icon"
+          type="image/png"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link

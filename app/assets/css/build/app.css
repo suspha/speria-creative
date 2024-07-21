@@ -152,7 +152,8 @@ a {
 }
 @media (max-width: 768px) {
   .how-i-work h3 {
-    margin: 2rem 0 3rem;
+    margin: 0 0 3rem;
+    padding-top: 0;
   }
 }
 .how-i-work .text p {
@@ -237,6 +238,7 @@ a {
   border-radius: 10px;
   color: #272829;
   border: 2px solid transparent;
+  margin-top: 2rem;
 }
 @media (max-width: 768px) {
   .service-card {
@@ -488,7 +490,7 @@ form {
   .contact-form,
   .inner-width-wide,
   .inner-width {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
   .contact-form {
     margin-bottom: 2rem !important;
@@ -977,7 +979,7 @@ a:focus {
 @media (max-width: 768px) {
   .inner-width-wide,
   .inner-width {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
 }
 @media (max-width: 550px) {
