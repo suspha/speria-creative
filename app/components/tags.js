@@ -13,7 +13,6 @@ module.exports = async function ($) {
         <span class="tag">CSS</span>
         <span class="tag">HTML5</span>
         <span class="tag">UX-design</span>
-        <span class="tag">Figma</span>
     </div>
   </div>
   `
