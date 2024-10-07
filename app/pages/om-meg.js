@@ -27,10 +27,10 @@ module.exports = async function ($) {
       <h3>${$.t('om_meg_tittel1')}</h3>
       <p>${$.t('om_meg_tekst4')}</p>
       <p>${$.t('om_meg_tekst5')}</p>
-      <p>${$.t('om_meg_tekst6')}</p>
       <p>${$.t('om_meg_tekst7')}</p>
       <p>${$.t('om_meg_tekst8')}</p>
       <p>${$.t('om_meg_tekst9')}</p>
+      <p><a class="" href="/" >Sjekk min CV</a></p>
       <a class="button cta m-t-24" href="${$.link('index')}#kontakt"> ${$.t(
     'om_meg_tekst10'
   )}</a>

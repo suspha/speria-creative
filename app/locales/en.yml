@@ -59,19 +59,17 @@ why you should choose my services.'
 index_design_tittel: 'UX-design'
 index_design: 'I am creative web designer who create unique designs from scratch.'
 index_dev_tittel: 'Frontend development'
-index_dev_frontend: 'I code Javascript and node.js, and have experience with Sanity CMS'
+index_dev_frontend: 'I code Javascript and Node.js, and is an expert on Sanity CMS.'
 how_i_work_tittel: 'How I work'
 how_i_work1: 'I believe that working together means that we share the same vision. I only take on projects that I am sure I
 can deliver. Projects are created in 3 steps:'
-how_i_work_step1_header: 'Needs and planning'
+how_i_work_step1_header: 'Needs and Planning'
 how_i_work_step1: 'During the discovery phase, I dive deep into understanding your business, target audience and project
 goals. The planning phase is free of charge for you.'
 how_i_work_step2_header: 'Exploration and Design'
-how_i_work_step2: 'Through the exploration phase I will with my work until together we find the right style for you.'
-how_i_work_step3_header: 'Produce and develop'
-how_i_work_step3: 'I bring the designs to life and transform them into functional and user-friendly websites or applications.
-I also want to ensure that everything that is delivered is responsive and has an optimal performance. I can post the website
-where you want it, or host it for you.'
+how_i_work_step2: 'In the exploration phase, we work closely together until we have found the right style for you.'
+how_i_work_step3_header: 'Development and Delivery'
+how_i_work_step3: 'After we have agreed, I will transform the design into functional and user-friendly websites. Everything delivered works on all surfaces and has optimal performance. I can post the website where you want it, or host it for you.'
 how_i_work_pricing: 'Price is agreed per project, either per hour or fixed.'
 index_prosjekter: 'Projects'
 index_prosjekter_tittel: 'Customers I have worked with'
@@ -88,10 +86,8 @@ om_meg_tekst4: "My focus is on user experience, and to gain traffic to your site
 at, if no one finds it. It's an investment where my goal is to increase your income."
 om_meg_tekst5: "I'm a freelancer, and therefore I'll manage to work very closely with my customers. I don't say yes to
 every projects because I want each of my customer to be 100% prioritized."
-om_meg_tekst6: "I don't set up multiple meetings to preach about things, because I don't want to waste your time.
-You'll meet the person who do the job for you and who actually know your needs."
-om_meg_tekst7: 'My prices are more reasonable compare to many of our competitors. I offer both hourly rate and package
-price which are very reasonable. Newly established companies will also receive a 10% discount.'
+# om_meg_tekst6: "I don't set up multiple meetings to preach about things, because I don't want to waste your time. You'll meet the person who do the job for you and who actually know your needs."
+om_meg_tekst7: ' I offer both hourly rate and package price which are very reasonable. Newly established companies will also receive a 10% discount.'
 om_meg_tekst8: 'I have quick response times and work efficiently. Therefore, I deliver faster. As a small
 supplier, I depend that you as a customer succeed, otherwise I will not succceed myself.'
 om_meg_tekst9: "<b>My vision is simple:</b> I'm passionate about creating good results. On the way there I will show
