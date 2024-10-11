@@ -7,9 +7,10 @@ module.exports = async function ($) {
           <div class="customer">
             <span
               ><img
-                src="/img/eldoy-logo-light.svg"
-                width="200"
-                alt="Eldøy projects"
+                style="position:relative;top:10px;"
+                src="/img/eldoy-tech.svg"
+                width="146"
+                alt="Eldøy Tech"
             /></span>
             <span
               ><img
