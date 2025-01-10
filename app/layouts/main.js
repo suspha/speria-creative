@@ -232,7 +232,7 @@ module.exports = async function ($) {
             width="30"
             alt="logo"
           />
-          <div>2024 Design and code by Speria Creative</div>
+          <div>2025 Design and code by Speria Creative</div>
           <span></span>
         </footer>
         <script>
